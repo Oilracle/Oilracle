@@ -1,0 +1,10 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "train_end": "2023-08-31",
+  "validation_start": "2023-09-01",
+  "validation_end": "2026-09-30",
+  "sampler": {
+    "T": 1.0,
+    "top_p": 1.0
+  }
+}

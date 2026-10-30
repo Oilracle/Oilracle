@@ -1,0 +1,30 @@
+[
+  {
+    "horizon": 1,
+    "n_long_history": 3423,
+    "n_member_history": 757,
+    "latest_label_release": "2026-09-24",
+    "earliest_long_origin": "2012-10-01"
+  },
+  {
+    "horizon": 5,
+    "n_long_history": 3419,
+    "n_member_history": 753,
+    "latest_label_release": "2026-09-24",
+    "earliest_long_origin": "2012-10-01"
+  },
+  {
+    "horizon": 20,
+    "n_long_history": 3404,
+    "n_member_history": 738,
+    "latest_label_release": "2026-09-24",
+    "earliest_long_origin": "2012-10-01"
+  },
+  {
+    "horizon": 60,
+    "n_long_history": 3364,
+    "n_member_history": 698,
+    "latest_label_release": "2026-09-24",
+    "earliest_long_origin": "2012-10-01"
+  }
+]

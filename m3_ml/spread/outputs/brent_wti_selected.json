@@ -1,0 +1,146 @@
+{
+  "drift/h1": {
+    "params": {},
+    "score": 1.00026
+  },
+  "drift/h20": {
+    "params": {},
+    "score": 1.01543
+  },
+  "drift/h5": {
+    "params": {},
+    "score": 1.00282
+  },
+  "drift/h60": {
+    "params": {},
+    "score": 1.07164
+  },
+  "enet/h1": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "features": "spread",
+      "l1_ratio": 0.9
+    },
+    "score": 0.94009
+  },
+  "enet/h20": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "features": "spread",
+      "l1_ratio": 0.1
+    },
+    "score": 0.94772
+  },
+  "enet/h5": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "features": "spread",
+      "l1_ratio": 0.1
+    },
+    "score": 0.96218
+  },
+  "enet/h60": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "features": "spread",
+      "l1_ratio": 0.1
+    },
+    "score": 0.94129
+  },
+  "lgbm/h1": {
+    "params": {
+      "features": "spread_eia",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.94779
+  },
+  "lgbm/h20": {
+    "params": {
+      "features": "spread_eia",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.00641
+  },
+  "lgbm/h5": {
+    "params": {
+      "features": "spread",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.98279
+  },
+  "lgbm/h60": {
+    "params": {
+      "features": "spread",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.0061
+  },
+  "ma_dev/h1": {
+    "params": {
+      "k": 20
+    },
+    "score": 0.96912
+  },
+  "ma_dev/h20": {
+    "params": {
+      "k": 120
+    },
+    "score": 0.91873
+  },
+  "ma_dev/h5": {
+    "params": {
+      "k": 120
+    },
+    "score": 0.96403
+  },
+  "ma_dev/h60": {
+    "params": {
+      "k": 60
+    },
+    "score": 0.88056
+  },
+  "ou/h1": {
+    "params": {
+      "window": 1500
+    },
+    "score": 0.98832
+  },
+  "ou/h20": {
+    "params": {
+      "window": 1500
+    },
+    "score": 0.96804
+  },
+  "ou/h5": {
+    "params": {
+      "window": 1500
+    },
+    "score": 0.97849
+  },
+  "ou/h60": {
+    "params": {
+      "window": 1500
+    },
+    "score": 0.9515
+  },
+  "rw/h1": {
+    "params": {},
+    "score": 1.0
+  },
+  "rw/h20": {
+    "params": {},
+    "score": 1.0
+  },
+  "rw/h5": {
+    "params": {},
+    "score": 1.0
+  },
+  "rw/h60": {
+    "params": {},
+    "score": 1.0
+  }
+}

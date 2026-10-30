@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "selected_sha256": "ff2f527014bea685cede195ba71f765a2204ad8c0ac84fca0d245114f12bb031",
+  "rows": 68,
+  "forecast_mode": "daily_update",
+  "quantiles_monotone": true,
+  "median_preserved": true,
+  "october_used_for_fitting": false,
+  "actual_counts": [
+    {
+      "horizon": 1,
+      "n": 17
+    },
+    {
+      "horizon": 5,
+      "n": 13
+    },
+    {
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "horizon": 60,
+      "n": 0
+    }
+  ]
+}

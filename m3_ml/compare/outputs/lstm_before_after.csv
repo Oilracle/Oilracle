@@ -1,0 +1,13 @@
+method,label,horizon,as_submitted_pct,common_basis_pct
+lstm,LSTM,1,-0.246,-1.259
+lstm,LSTM,5,0.621,-4.732
+lstm,LSTM,20,2.839,-14.358
+lstm,LSTM,60,8.14,-24.578
+lstm_wti_only,LSTM (WTI only),1,0.461,0.066
+lstm_wti_only,LSTM (WTI only),5,0.85,0.33
+lstm_wti_only,LSTM (WTI only),20,1.886,0.686
+lstm_wti_only,LSTM (WTI only),60,4.482,2.278
+lstm_ridge,Ridge (LSTM study),1,-1.023,-0.64
+lstm_ridge,Ridge (LSTM study),5,0.44,-3.24
+lstm_ridge,Ridge (LSTM study),20,5.105,-4.794
+lstm_ridge,Ridge (LSTM study),60,10.316,-21.507

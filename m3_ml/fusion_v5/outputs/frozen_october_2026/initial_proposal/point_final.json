@@ -1,0 +1,34 @@
+{
+  "1": {
+    "candidate": "p000",
+    "n": 252,
+    "latest_label_release": "2026-09-24",
+    "best": "p000",
+    "best_mse_vs_incumbent": 1.0,
+    "selected_mse_vs_incumbent": 1.0
+  },
+  "5": {
+    "candidate": "p001",
+    "n": 252,
+    "latest_label_release": "2026-09-24",
+    "best": "p001",
+    "best_mse_vs_incumbent": 0.979665840554147,
+    "selected_mse_vs_incumbent": 0.979665840554147
+  },
+  "20": {
+    "candidate": "p060",
+    "n": 252,
+    "latest_label_release": "2026-09-24",
+    "best": "p060",
+    "best_mse_vs_incumbent": 0.9573139669346388,
+    "selected_mse_vs_incumbent": 0.9573139669346388
+  },
+  "60": {
+    "candidate": "p010",
+    "n": 252,
+    "latest_label_release": "2026-09-24",
+    "best": "p010",
+    "best_mse_vs_incumbent": 0.8220490443872426,
+    "selected_mse_vs_incumbent": 0.8220490443872426
+  }
+}

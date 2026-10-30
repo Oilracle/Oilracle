@@ -1,0 +1,279 @@
+{
+  "version": "rolling_long_history_v4",
+  "name": "Integrated WTI Forecast",
+  "fit_end": "2026-09-30",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "forecast_mode": "daily_update",
+  "new_training_start": "2012-10-01",
+  "candidate_start": "2023-09-01",
+  "meta_start": "2024-09-01",
+  "rule_lock_date": "2025-09-01",
+  "new_candidates": [
+    {
+      "id": "l00",
+      "kind": "basis",
+      "basis": "basis20"
+    },
+    {
+      "id": "l01",
+      "kind": "basis",
+      "basis": "basis60"
+    },
+    {
+      "id": "l02",
+      "kind": "basis",
+      "basis": "basis250"
+    },
+    {
+      "id": "l03",
+      "kind": "mean",
+      "window": 252
+    },
+    {
+      "id": "l04",
+      "kind": "mean",
+      "window": 1260
+    },
+    {
+      "id": "l05",
+      "kind": "mean",
+      "window": 0
+    },
+    {
+      "id": "l06",
+      "kind": "ridge",
+      "window": 1260,
+      "feature": "small",
+      "alpha": 100.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l07",
+      "kind": "ridge",
+      "window": 1260,
+      "feature": "small",
+      "alpha": 1000.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l08",
+      "kind": "ridge",
+      "window": 1260,
+      "feature": "full",
+      "alpha": 100.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l09",
+      "kind": "ridge",
+      "window": 1260,
+      "feature": "full",
+      "alpha": 1000.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l10",
+      "kind": "ridge",
+      "window": 0,
+      "feature": "small",
+      "alpha": 100.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l11",
+      "kind": "ridge",
+      "window": 0,
+      "feature": "small",
+      "alpha": 1000.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l12",
+      "kind": "ridge",
+      "window": 0,
+      "feature": "full",
+      "alpha": 100.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l13",
+      "kind": "ridge",
+      "window": 0,
+      "feature": "full",
+      "alpha": 1000.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l14",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.3,
+      "target": "dollar"
+    },
+    {
+      "id": "l15",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.1,
+      "target": "dollar"
+    },
+    {
+      "id": "l16",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.03,
+      "target": "dollar"
+    },
+    {
+      "id": "l17",
+      "kind": "lightgbm",
+      "window": 0,
+      "feature": "full",
+      "leaves": 4,
+      "target": "dollar"
+    },
+    {
+      "id": "l18",
+      "kind": "lightgbm",
+      "window": 0,
+      "feature": "full",
+      "leaves": 8,
+      "target": "dollar"
+    },
+    {
+      "id": "l19",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.3,
+      "target": "scaled"
+    },
+    {
+      "id": "l20",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.1,
+      "target": "scaled"
+    },
+    {
+      "id": "l21",
+      "kind": "elastic_net",
+      "window": 0,
+      "feature": "full",
+      "alpha_ratio": 0.03,
+      "target": "scaled"
+    },
+    {
+      "id": "l22",
+      "kind": "lightgbm",
+      "window": 0,
+      "feature": "full",
+      "leaves": 4,
+      "target": "scaled"
+    },
+    {
+      "id": "l23",
+      "kind": "lightgbm",
+      "window": 0,
+      "feature": "full",
+      "leaves": 8,
+      "target": "scaled"
+    },
+    {
+      "id": "l24",
+      "kind": "huber",
+      "window": 1260,
+      "feature": "small",
+      "alpha": 10.0,
+      "target": "dollar"
+    },
+    {
+      "id": "l25",
+      "kind": "huber",
+      "window": 0,
+      "feature": "small",
+      "alpha": 10.0,
+      "target": "dollar"
+    }
+  ],
+  "family_pool": [
+    "futures",
+    "basis",
+    "m1",
+    "m2",
+    "lstm",
+    "ml",
+    "v3",
+    "long_ridge",
+    "long_en",
+    "long_tree",
+    "long_huber",
+    "long_mean"
+  ],
+  "blend_windows": [
+    126,
+    252,
+    0
+  ],
+  "blend_penalties": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "blend_options": [
+    "futures",
+    "best",
+    "convex"
+  ],
+  "update_schedule": "Quarterly historical fits; coefficients and meta weights frozen after final pre-October fitting.",
+  "references": [
+    "published_spot_rw",
+    "lagged_futures_carry",
+    "v3"
+  ],
+  "primary": "Equal-horizon average normalized USD MSE over h1,5,20,60 on common late historical origins; report every horizon and stronger futures benchmark.",
+  "promotion": "Later-history aggregate must improve over v3, and no horizon may degrade by more than 2%; no October ranking.",
+  "risk_sources": [
+    "hs",
+    "a_ridge",
+    "a_lightgbm",
+    "b_linear",
+    "b_lightgbm",
+    "b_forest",
+    "futures_vol",
+    "implied_vol",
+    "hybrid_vol"
+  ],
+  "risk_windows": [
+    126,
+    252,
+    0
+  ],
+  "risk_mixtures": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "risk_widths": [
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "risk_start": "2025-09-01",
+  "risk_outer_start": "2026-03-01",
+  "inference": "Paired origin-level block bootstrap, blocks 20 and 60; conditional exploratory historical evidence.",
+  "october": "Previously inspected outcomes are not a fresh blind test; they cannot select candidates, parameters, upgrades or fallbacks.",
+  "source_limits": "Same two-federal-business-day futures lag and current-vintage/publication assumptions as v3; base specifications condition the historical evaluation."
+}

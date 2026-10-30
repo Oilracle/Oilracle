@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "selected_sha256": "fb5dede1373a6c63e488ddab6c7e1704dd41f0d0f6eaa725f8917207343b6dff",
+  "rows": 87,
+  "median_preserved": true,
+  "quantiles_monotone": true,
+  "first_origins_equal": true,
+  "actual_counts": [
+    {
+      "mode": "daily_update",
+      "horizon": 1,
+      "n": 17
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 5,
+      "n": 13
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 60,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 1,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 2,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 3,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 4,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 5,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 6,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 7,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 8,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 9,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 10,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 11,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 12,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 13,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 14,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 15,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 16,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 17,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 60,
+      "n": 0
+    }
+  ],
+  "fixed_path_metrics": {
+    "n": 17,
+    "rmse_usd": 6.234913112763788,
+    "rw_rmse_usd": 5.357545531084833,
+    "rmse_vs_rw": 1.163762972538154,
+    "coverage90": 1.0,
+    "interpretation": "17 correlated targets from one origin; descriptive evaluation only"
+  }
+}

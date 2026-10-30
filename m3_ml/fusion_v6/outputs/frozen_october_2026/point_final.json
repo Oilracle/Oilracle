@@ -1,0 +1,18 @@
+{
+  "1": {
+    "candidate": "p000",
+    "selection": {
+      "n": 126,
+      "last_release": "2026-09-24",
+      "mse_ratio": 0.9377389121732983
+    }
+  },
+  "5": {
+    "candidate": "p000",
+    "selection": {
+      "n": 126,
+      "last_release": "2026-09-24",
+      "mse_ratio": 0.9672622607427198
+    }
+  }
+}

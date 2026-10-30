@@ -1,0 +1,25 @@
+{
+  "development_amendment": true,
+  "reason": "Initial nested policy failed h1 degradation gate; test protection against states outside mature training experience.",
+  "features": [
+    "state_vol",
+    "state_basis",
+    "state_age",
+    "state_trend",
+    "state_dispersion"
+  ],
+  "support_quantiles": [
+    0.01,
+    0.99
+  ],
+  "spread": "training IQR with floor 0.1",
+  "decays": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "rule": "Trust=exp(-decay*maximum normalized distance outside training support). Blend toward incumbent, using no outcomes at the prediction origin.",
+  "validation": "Same nested selector and unchanged promotion thresholds.",
+  "october_used": false,
+  "initial_proposal_sha256": "f9ad6af896fe41e76b06cf542f6aef2b567780ab42b3262120aa538b0d50c3a6"
+}

@@ -1,0 +1,15 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "train_end": "2023-08-31",
+  "validation_start": "2023-09-01",
+  "validation_end": "2026-09-30",
+  "fit_end": "2026-09-30",
+  "selected_vecm": "WTI_All4_K3_R3",
+  "fit_origin_row": 3785,
+  "parameter_history_end": "2026-09-18",
+  "simulations": 5000,
+  "seed": 20261025,
+  "coefficient_refits_in_test": 0,
+  "availability_limitation": "WTI evidence plus explicitly assumed weekly releases for unmatched quotes; multivariate spot uses common WTI schedule assumption; retrospective current-vintage comparison",
+  "garch_estimation": "two-step ARIMA mean then GARCH(1,1)-t; not joint R estimation"
+}

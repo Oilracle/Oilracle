@@ -1,0 +1,17 @@
+protocol_id,mode,horizon,method,n,total_pnl,ann_sharpe,max_drawdown,win_rate,trades,avg_holding_days,profit_per_trade,days_in_market,inference
+qf5210-frozen-october-2026,fixed_origin,20,enet,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,lgbm,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,ma_dev,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,ou,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,5,enet,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,5,lgbm,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,5,ma_dev,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,5,ou,1,3.12,,0.0,1.0,1,1.0,3.12,1,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,enet,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,lgbm,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,ma_dev,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,ou,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,5,enet,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,5,lgbm,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,5,ma_dev,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,5,ou,17,144.42,13.6009,6.84,0.7647,1,17.0,144.42,17,descriptive_short_window

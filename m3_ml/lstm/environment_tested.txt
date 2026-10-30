@@ -1,0 +1,9 @@
+Python 3.14.7
+numpy==2.5.2
+pandas==3.0.5
+torch==2.14.1+cpu
+matplotlib==3.11.1
+nbformat==5.11.1
+
+CPU run; two torch threads; deterministic algorithms requested.
+Cross-version/hardware results may differ slightly.

@@ -1,0 +1,264 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "fit_end": "2026-09-30",
+  "m1_method": "WTI_Brent_Gasoline_K3_R2",
+  "m2_method": "stl_monthly_daily_bridge",
+  "ml": {
+    "1": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.06801417118793147,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "2": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.07293468974317917,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "3": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.0763874478358985,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "4": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.07919773094736897,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "5": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08185778841170507,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "6": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08461873034180957,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "7": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08713892952790195,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "8": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08917897286525993,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "9": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09153450492211782,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "10": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09371809210332013,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "11": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09620692852584659,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "12": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09921580502162788,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "13": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10233302312644627,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "14": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10532586290993887,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "15": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10815007969737306,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "16": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.11116026984204752,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "17": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.11420428178875056,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "20": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.12108808164373548,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "60": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.19148239316955756,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    }
+  },
+  "lstm": {
+    "config": {
+      "lookback": 60,
+      "hidden": 32,
+      "dropout": 0.2,
+      "lr": 0.001
+    },
+    "epochs": 15,
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "base_selection_limitation": "Base specifications use the full historical development window. Meta forecasts are coefficient-cross-fitted conditional on these specifications, not a fully nested unbiased historical test.",
+  "october_status": "Retrospective held-out evaluation; October was inspected in prior module work. No October observations or scores select fusion parameters.",
+  "version": "horizon_rw_v2",
+  "name": "Integrated WTI Forecast",
+  "channels": [
+    "rw",
+    "m1",
+    "m2",
+    "lstm",
+    "ml"
+  ],
+  "minimum_member_weight": 0.0,
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    60
+  ],
+  "ridge_candidates": [
+    0.0,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "base_refit_origins": 63,
+  "point_candidate_start": "2024-03-01",
+  "point_validation_start": "2024-09-01",
+  "risk_validation_start": "2025-09-01",
+  "risk_outer_start": "2026-03-01",
+  "fold_months": 3,
+  "risk_methods": [
+    "hs",
+    "a_ridge",
+    "a_lightgbm",
+    "b_linear",
+    "b_lightgbm",
+    "b_forest"
+  ],
+  "risk_mixture_candidates": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "risk_width_candidates": [
+    0.75,
+    1.0,
+    1.25
+  ],
+  "point_criterion": "Per-horizon USD price RMSE, convex arithmetic-price blend; L2 shrinkage to RW; penalty chosen from earlier mature cross-fitted predictions.",
+  "risk_criterion": "Per-horizon CRPS on earlier mature cross-fitted predictions; preserve the selected price median; calibrate shape and width only.",
+  "tie_break": "Point: lower loss, then stronger RW shrinkage. Risk: lower loss, then identity width, smaller empirical mixture, method name.",
+  "development_policy": "First-stage train/test are development data. All model/strategy fitting and selection labels must be published by 2026-09-30. October is evaluated only after selected.json is sealed.",
+  "base_fit_policy": "All members refit every 63 historical origins, with fixed historically selected specifications; final members refit once on 2026-09-30.",
+  "membership_policy": "All four point modules enter the unrestricted candidate blend; zero weight is permitted. ML distribution supplies risk forecasts. No artificial minimum contribution.",
+  "point_meaning": "Price median; arithmetic convex combination of member price forecasts including RW, preserved by risk calibration."
+}

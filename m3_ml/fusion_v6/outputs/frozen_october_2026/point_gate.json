@@ -1,0 +1,14 @@
+{
+  "1": {
+    "passed": false,
+    "rmse_ratio": 1.3259283498376744,
+    "mae_ratio": 1.1804231187864596,
+    "improved_quarters": 2
+  },
+  "5": {
+    "passed": false,
+    "rmse_ratio": 1.515409466622782,
+    "mae_ratio": 1.3398910866392468,
+    "improved_quarters": 1
+  }
+}

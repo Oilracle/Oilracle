@@ -1,0 +1,58 @@
+[
+  {
+    "layer": "meta",
+    "horizon": 1,
+    "n_train": 508,
+    "candidate": "p000",
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "meta",
+    "horizon": 5,
+    "n_train": 126,
+    "candidate": "p001",
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "meta",
+    "horizon": 20,
+    "n_train": 489,
+    "candidate": "p060",
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "meta",
+    "horizon": 60,
+    "n_train": 252,
+    "candidate": "p010",
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "expert",
+    "horizon": 1,
+    "n_long_eligible": 3423,
+    "n_member_eligible": 757,
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "expert",
+    "horizon": 5,
+    "n_long_eligible": 3419,
+    "n_member_eligible": 753,
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "expert",
+    "horizon": 20,
+    "n_long_eligible": 3404,
+    "n_member_eligible": 738,
+    "latest_label_release": "2026-09-24"
+  },
+  {
+    "layer": "expert",
+    "horizon": 60,
+    "n_long_eligible": 3364,
+    "n_member_eligible": 698,
+    "latest_label_release": "2026-09-24"
+  }
+]

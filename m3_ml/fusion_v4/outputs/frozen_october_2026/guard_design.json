@@ -1,0 +1,15 @@
+{
+  "reason": "The unguarded proposal failed the predeclared 2% per-horizon degradation gate at h1.",
+  "procedure": "Ridge-shrink the new-minus-incumbent forecast difference toward zero; coefficients in [0,1], no minimum weight.",
+  "penalties": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "history_window": 252,
+  "default_penalty": 1.0,
+  "penalty_selection_start": "2026-03-01",
+  "eligible_penalty_scores": "Only public outcomes of forecasts issued after both point policies locked on 2025-09-01.",
+  "development_amendment": true,
+  "october_used": false
+}

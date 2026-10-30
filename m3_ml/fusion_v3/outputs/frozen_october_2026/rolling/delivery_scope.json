@@ -1,0 +1,14 @@
+{
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "scope_requested_on": "2026-10-30",
+  "parameter_policy": "Model coefficients, weights, calibration and preprocessing remain frozen as of 2026-09-30.",
+  "input_policy": "At each daily origin, update only observations already available under the publication rules.",
+  "scope_change": "User narrowed the delivery scope after reviewing October; this is not a new independent test or a new model selection.",
+  "archived_evaluation": "m3_ml/fusion_v3/outputs/frozen_october_2026/test_audit.json"
+}

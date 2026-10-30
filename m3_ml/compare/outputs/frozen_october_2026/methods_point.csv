@@ -1,0 +1,32 @@
+method,label,family,source
+rw,Random walk,Benchmark,m3_ml/tabular
+tab_hist_mean,Historical mean,Benchmark,m3_ml/tabular
+tab_elastic_net,Elastic Net,ML direct,m3_ml/tabular
+tab_random_forest,Random Forest,ML direct,m3_ml/tabular
+tab_lightgbm,LightGBM,ML direct,m3_ml/tabular
+p1_arima,"Python ARIMA(0,1,1), fixed specification",Python classical study,m3_ml/compare/part1.py
+p1_arimax,"Python ARIMAX(0,1,1), fixed specification",Python classical study,m3_ml/compare/part1.py
+p1_vecm,"Python VECM, independently selected",Python classical study,m3_ml/compare/part1.py
+lstm,LSTM,Sequence,m3_ml/lstm
+m1_ARIMA211,M1 R: ARIMA211,Actual R selected time series,m1_time_series/outputs/frozen_october_2026/forecasts_2026-10-01_2026-10-23_asof_2026-10-23.csv
+m1_GARCH_ARIMA111,M1 R: GARCH_ARIMA111,Actual R selected time series,m1_time_series/outputs/frozen_october_2026/forecasts_2026-10-01_2026-10-23_asof_2026-10-23.csv
+m1_RW,M1 R: RW,Actual R selected time series,m1_time_series/outputs/frozen_october_2026/forecasts_2026-10-01_2026-10-23_asof_2026-10-23.csv
+m1_SP500_OVX_ARIMA011,M1 R: SP500_OVX_ARIMA011,Actual R selected time series,m1_time_series/outputs/frozen_october_2026/forecasts_2026-10-01_2026-10-23_asof_2026-10-23.csv
+m1_WTI_Brent_Gasoline_K3_R2,M1 R: WTI_Brent_Gasoline_K3_R2,Actual R selected time series,m1_time_series/outputs/frozen_october_2026/forecasts_2026-10-01_2026-10-23_asof_2026-10-23.csv
+m2_calendar_mean_3iqr,M2 R: calendar_mean_3iqr,Actual R seasonality,m2_seasonality/outputs/frozen_october_2026/final_predictions.csv
+m2_calendar_mean_original,M2 R: calendar_mean_original,Actual R seasonality,m2_seasonality/outputs/frozen_october_2026/final_predictions.csv
+m2_random_walk,M2 R: random_walk,Actual R seasonality,m2_seasonality/outputs/frozen_october_2026/final_predictions.csv
+m2_stl_monthly_daily_bridge,M2 R: stl_monthly_daily_bridge,Actual R seasonality,m2_seasonality/outputs/frozen_october_2026/final_predictions.csv
+m2_stl_weekly_daily_bridge,M2 R: stl_weekly_daily_bridge,Actual R seasonality,m2_seasonality/outputs/frozen_october_2026/final_predictions.csv
+dist_hs,Historical simulation (median),Distribution median,m3_ml/distribution
+dist_ewma,EWMA (median),Distribution median,m3_ml/distribution
+dist_garch,GARCH (median),Distribution median,m3_ml/distribution
+dist_garch_evt,GARCH-EVT (median),Distribution median,m3_ml/distribution
+dist_a_ridge,Ridge volatility (median),Distribution median,m3_ml/distribution
+dist_a_lightgbm,LightGBM volatility (median),Distribution median,m3_ml/distribution
+dist_a_evt,EVT tails (median),Distribution median,m3_ml/distribution
+dist_b_linear,Linear quantile regression (median),Distribution median,m3_ml/distribution
+dist_b_lightgbm,LightGBM quantile regression (median),Distribution median,m3_ml/distribution
+dist_b_forest,Quantile forest (median),Distribution median,m3_ml/distribution
+dist_ensemble,Quantile ensemble (median),Distribution median,m3_ml/distribution
+dist_c_mixture,Variance mixture (retrospective) (median),Distribution median,m3_ml/distribution

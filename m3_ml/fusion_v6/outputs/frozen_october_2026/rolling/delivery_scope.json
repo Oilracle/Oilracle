@@ -1,0 +1,14 @@
+{
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "parameter_policy": "Frozen as of September 30; only published daily inputs update.",
+  "change": "All v5 point forecasts and h1/h20/h60 distributions retained. Only h5 tail recalibration adopted.",
+  "selection_policy": "Previously observed October is retrospective evaluation only, never tuning or promotion selection. All models and calibration are frozen using September 30 available information.",
+  "risk_history_start": "2026-06-01",
+  "development_amendment": "width_amendment.json"
+}

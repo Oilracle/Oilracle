@@ -1,0 +1,14 @@
+{
+  "reason": "Historical symmetric residual calibration improves CRPS but still undercovers; investigate directional bias without moving point forecasts.",
+  "calibration_modes": [
+    "centered",
+    "asymmetric"
+  ],
+  "tail_anchor_quantiles": [
+    0.05,
+    0.95
+  ],
+  "minimum_standardized_tail": 0.05,
+  "selection": "Same past-only CRPS grid and forward-selection schedule; no October inputs.",
+  "development_amendment": true
+}

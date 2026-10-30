@@ -1,0 +1,184 @@
+[
+  {
+    "fold": 0,
+    "cutoff": "2023-09-01",
+    "stop": "2023-12-04",
+    "start_row": 3020,
+    "end_row": 3082,
+    "n_train": 2897,
+    "latest_label_release": "2023-08-31",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 1,
+    "cutoff": "2023-12-05",
+    "stop": "2024-03-06",
+    "start_row": 3083,
+    "end_row": 3145,
+    "n_train": 2958,
+    "latest_label_release": "2023-11-30",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 2,
+    "cutoff": "2024-03-07",
+    "stop": "2024-06-05",
+    "start_row": 3146,
+    "end_row": 3208,
+    "n_train": 3024,
+    "latest_label_release": "2024-03-07",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 3,
+    "cutoff": "2024-06-06",
+    "stop": "2024-09-05",
+    "start_row": 3209,
+    "end_row": 3271,
+    "n_train": 3086,
+    "latest_label_release": "2024-06-06",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 4,
+    "cutoff": "2024-09-06",
+    "stop": "2024-12-06",
+    "start_row": 3272,
+    "end_row": 3334,
+    "n_train": 3150,
+    "latest_label_release": "2024-09-06",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 5,
+    "cutoff": "2024-12-09",
+    "stop": "2025-03-12",
+    "start_row": 3335,
+    "end_row": 3397,
+    "n_train": 3211,
+    "latest_label_release": "2024-12-05",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 6,
+    "cutoff": "2025-03-13",
+    "stop": "2025-06-11",
+    "start_row": 3398,
+    "end_row": 3460,
+    "n_train": 3276,
+    "latest_label_release": "2025-03-13",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 7,
+    "cutoff": "2025-06-12",
+    "stop": "2025-09-11",
+    "start_row": 3461,
+    "end_row": 3523,
+    "n_train": 3339,
+    "latest_label_release": "2025-06-12",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 8,
+    "cutoff": "2025-09-12",
+    "stop": "2025-12-12",
+    "start_row": 3524,
+    "end_row": 3586,
+    "n_train": 3401,
+    "latest_label_release": "2025-09-11",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 9,
+    "cutoff": "2025-12-15",
+    "stop": "2026-03-17",
+    "start_row": 3587,
+    "end_row": 3649,
+    "n_train": 3463,
+    "latest_label_release": "2025-12-11",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 10,
+    "cutoff": "2026-03-18",
+    "stop": "2026-06-16",
+    "start_row": 3650,
+    "end_row": 3712,
+    "n_train": 3524,
+    "latest_label_release": "2026-03-12",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 11,
+    "cutoff": "2026-06-17",
+    "stop": "2026-09-16",
+    "start_row": 3713,
+    "end_row": 3775,
+    "n_train": 3587,
+    "latest_label_release": "2026-06-11",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "fold": 12,
+    "cutoff": "2026-09-17",
+    "stop": "2026-09-30",
+    "start_row": 3776,
+    "end_row": 3785,
+    "n_train": 3654,
+    "latest_label_release": "2026-09-17",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  }
+]

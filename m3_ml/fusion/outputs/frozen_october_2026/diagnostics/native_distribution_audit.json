@@ -1,0 +1,22 @@
+{
+  "1": {
+    "native_replay_max_difference": 9.71445146547012e-17,
+    "hidden_target_and_future_feature_mutation_difference": 0.0
+  },
+  "5": {
+    "native_replay_max_difference": 8.326672684688674e-17,
+    "hidden_target_and_future_feature_mutation_difference": 0.0
+  },
+  "17": {
+    "native_replay_max_difference": 8.847089727481716e-17,
+    "hidden_target_and_future_feature_mutation_difference": 0.0
+  },
+  "20": {
+    "native_replay_max_difference": 8.326672684688674e-17,
+    "hidden_target_and_future_feature_mutation_difference": 0.0
+  },
+  "60": {
+    "native_replay_max_difference": 2.220446049250313e-16,
+    "hidden_target_and_future_feature_mutation_difference": 0.0
+  }
+}

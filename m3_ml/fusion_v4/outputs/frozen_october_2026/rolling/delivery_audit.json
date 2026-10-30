@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "selected_sha256": "4499a098f93ab7a727ce6c6b33f2302d22ac2b5ae2b5f943e0faa310a37e4272",
+  "rolling_forecast_sha256": "03543f9db2d7255c62d40c7f5459b9c68758ba3ac97792b64be5386a80faf053",
+  "canonical_manifest": true,
+  "forecast_mode": "daily_update",
+  "rows": 68,
+  "metrics_recomputed": true,
+  "historical_metrics_recomputed": true,
+  "all_consumed_futures_quotes_verified": true,
+  "member_inputs_verified": true,
+  "video_data_verified": true,
+  "point_training_cutoff": "2026-09-30",
+  "previous_v3_preserved": true,
+  "no_october_parameter_changes": true,
+  "conditional_historical_evidence": true
+}

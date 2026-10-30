@@ -1,0 +1,154 @@
+{
+  "fit_end": "2026-09-30",
+  "path_parameter_policy": "next_larger_key_horizon_validation_parameters",
+  "protocol_id": "qf5210-frozen-october-2026",
+  "publication_policy": "dated_archive_else_assumed_weekly_release",
+  "selected": {
+    "elastic_net/h1": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.07035357643318212
+    },
+    "elastic_net/h20": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.12874177086502292
+    },
+    "elastic_net/h5": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.08586304404361306
+    },
+    "elastic_net/h60": {
+      "params": {
+        "alpha_ratio": 0.3,
+        "l1_ratio": 0.9
+      },
+      "validation_rmse": 0.1922123345261627
+    },
+    "ewma/h1": {
+      "params": {
+        "lam": 0.97,
+        "shape": "normal"
+      },
+      "validation_pinball": 0.015649068304510263
+    },
+    "ewma/h20": {
+      "params": {
+        "lam": 0.99,
+        "shape": "normal"
+      },
+      "validation_pinball": 0.028192250268788323
+    },
+    "ewma/h5": {
+      "params": {
+        "lam": 0.99,
+        "shape": "normal"
+      },
+      "validation_pinball": 0.018812584153133777
+    },
+    "ewma/h60": {
+      "params": {
+        "lam": 0.99,
+        "shape": "normal"
+      },
+      "validation_pinball": 0.046279149144936915
+    },
+    "lightgbm/h1": {
+      "params": {
+        "n_estimators": 100,
+        "num_leaves": 4
+      },
+      "validation_rmse": 0.07160667110154986
+    },
+    "lightgbm/h20": {
+      "params": {
+        "n_estimators": 100,
+        "num_leaves": 4
+      },
+      "validation_rmse": 0.1316690222906662
+    },
+    "lightgbm/h5": {
+      "params": {
+        "n_estimators": 100,
+        "num_leaves": 4
+      },
+      "validation_rmse": 0.08838694765635517
+    },
+    "lightgbm/h60": {
+      "params": {
+        "n_estimators": 300,
+        "num_leaves": 8
+      },
+      "validation_rmse": 0.19636389005827845
+    },
+    "random_forest/h1": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.07050389656896641
+    },
+    "random_forest/h20": {
+      "params": {
+        "max_depth": 6,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.12969712061134786
+    },
+    "random_forest/h5": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.08648958458623525
+    },
+    "random_forest/h60": {
+      "params": {
+        "max_depth": 6,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.20037466020113318
+    },
+    "scale/h1": {
+      "params": {
+        "alpha_ratio": 0.1,
+        "l1_ratio": 0.5
+      },
+      "validation_rmse": 0.045083034768480176
+    },
+    "scale/h20": {
+      "params": {
+        "alpha_ratio": 0.1,
+        "l1_ratio": 0.9
+      },
+      "validation_rmse": 0.09434414539958995
+    },
+    "scale/h5": {
+      "params": {
+        "alpha_ratio": 0.1,
+        "l1_ratio": 0.9
+      },
+      "validation_rmse": 0.05862962864197019
+    },
+    "scale/h60": {
+      "params": {
+        "alpha_ratio": 0.01,
+        "l1_ratio": 0.9
+      },
+      "validation_rmse": 0.13551007286169442
+    }
+  },
+  "test_end": "2026-10-23",
+  "test_start": "2026-10-01",
+  "train_end": "2023-08-31",
+  "validation_end": "2026-09-30",
+  "validation_start": "2023-09-01",
+  "vintage_status": "retrospective_current_vintage"
+}

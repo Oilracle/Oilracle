@@ -1,0 +1,900 @@
+{
+  "fits": [
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2024-11-29"
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": null
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.06068825793139363,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.008753441924600711,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0009158582544523314,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.03293648034647812,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.004934696312264215,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0005193458513277525,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.88672067970981,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.19301706890174425,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.02187596460043917,
+      "latest_label_release": "2025-02-27"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.19894001985896093,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.027492078161085624,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0028583772433970287,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.16856405745122396,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.020334964141795774,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.002076344732576169,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.3459478678868456,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.04472451483943919,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.00460735997124201,
+      "latest_label_release": "2025-05-30"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.3505435406592593,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.04817175550504576,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.005004442682934576,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.27512047452193794,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.03842612300700144,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.004001346385648981,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.5231101364794545,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.09059776031015318,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.00977523109568655,
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.464107873577561,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.06297059904225535,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.006530058625611804,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.31832589649401866,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.049766594571556154,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.005273776116108983,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.6142581716503772,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.14619084649834116,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.01695941172894703,
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.43010188894213625,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.05802042204808644,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.006011851303710918,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.405354307220257,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.06641033961827461,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.0070938547196817865,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.635981205972482,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.20317865654359787,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.026030949355822505,
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.0,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.0,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.3483681113397356,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.041732750076876254,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.00425755317724667,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 20,
+      "penalty": 0.1,
+      "weight": 0.3314771883054617,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 20,
+      "penalty": 1.0,
+      "weight": 0.036051851347944745,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 20,
+      "penalty": 10.0,
+      "weight": 0.0036370499977123635,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 60,
+      "penalty": 0.1,
+      "weight": 0.940262696602954,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 60,
+      "penalty": 1.0,
+      "weight": 0.133952285015237,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 60,
+      "penalty": 10.0,
+      "weight": 0.013989248616413881,
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 1,
+      "penalty": 0.1,
+      "weight": 0.010105492432050637,
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 1,
+      "penalty": 1.0,
+      "weight": 0.0014385419490865136,
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 1,
+      "penalty": 10.0,
+      "weight": 0.0001502162251719912,
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 5,
+      "penalty": 0.1,
+      "weight": 0.25184213784550347,
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 5,
+      "penalty": 1.0,
+      "weight": 0.03310415423481166,
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 5,
+      "penalty": 10.0,
+      "weight": 0.003417901717469877,
+      "latest_label_release": "2026-08-27"
+    }
+  ],
+  "selections": [
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-09-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2024-12-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-03-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-06-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-09-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 1,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 5,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 20,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2025-12-01",
+      "horizon": 60,
+      "penalty": 1.0
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 1,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 5,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 20,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 60,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 1,
+      "penalty": 10.0
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 5,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 20,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 60,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 1,
+      "penalty": 10.0
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 5,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 20,
+      "penalty": 0.1
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 60,
+      "penalty": 0.1
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 1,
+    "candidate": "p001",
+    "n": 120,
+    "latest_label_release": "2025-08-28",
+    "best": "p001",
+    "best_mse_vs_incumbent": 0.9464544225106439,
+    "selected_mse_vs_incumbent": 0.9464544225106439
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 5,
+    "candidate": "p038_support2",
+    "n": 116,
+    "latest_label_release": "2025-08-28",
+    "best": "p038_support2",
+    "best_mse_vs_incumbent": 0.9365210484751906,
+    "selected_mse_vs_incumbent": 0.9365210484751906
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 20,
+    "candidate": "p006_support2",
+    "n": 101,
+    "latest_label_release": "2025-08-28",
+    "best": "p006_support2",
+    "best_mse_vs_incumbent": 0.9495984568502154,
+    "selected_mse_vs_incumbent": 0.9495984568502154
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 60,
+    "candidate": "p002",
+    "n": 61,
+    "latest_label_release": "2025-08-28",
+    "best": "p002",
+    "best_mse_vs_incumbent": 0.5503668202821784,
+    "selected_mse_vs_incumbent": 0.5503668202821784
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 1,
+    "candidate": "p001",
+    "n": 182,
+    "latest_label_release": "2025-11-28",
+    "best": "p001",
+    "best_mse_vs_incumbent": 0.9517379789085293,
+    "selected_mse_vs_incumbent": 0.9517379789085293
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 5,
+    "candidate": "p038_support2",
+    "n": 178,
+    "latest_label_release": "2025-11-28",
+    "best": "p038_support2",
+    "best_mse_vs_incumbent": 0.9439110428840868,
+    "selected_mse_vs_incumbent": 0.9439110428840868
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 20,
+    "candidate": "p006_support2",
+    "n": 163,
+    "latest_label_release": "2025-11-28",
+    "best": "p006_support2",
+    "best_mse_vs_incumbent": 0.9604244601400874,
+    "selected_mse_vs_incumbent": 0.9604244601400874
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 60,
+    "candidate": "p002",
+    "n": 123,
+    "latest_label_release": "2025-11-28",
+    "best": "p002",
+    "best_mse_vs_incumbent": 0.5097935636193385,
+    "selected_mse_vs_incumbent": 0.5097935636193385
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 1,
+    "candidate": "p001",
+    "n": 242,
+    "latest_label_release": "2026-02-26",
+    "best": "p001",
+    "best_mse_vs_incumbent": 0.9599090495494099,
+    "selected_mse_vs_incumbent": 0.9599090495494099
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 5,
+    "candidate": "p050_support2",
+    "n": 238,
+    "latest_label_release": "2026-02-26",
+    "best": "p050_support2",
+    "best_mse_vs_incumbent": 0.9421056230704798,
+    "selected_mse_vs_incumbent": 0.9421056230704798
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 20,
+    "candidate": "p006_support2",
+    "n": 223,
+    "latest_label_release": "2026-02-26",
+    "best": "p006_support2",
+    "best_mse_vs_incumbent": 0.961962201419959,
+    "selected_mse_vs_incumbent": 0.961962201419959
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 60,
+    "candidate": "p002",
+    "n": 183,
+    "latest_label_release": "2026-02-26",
+    "best": "p002",
+    "best_mse_vs_incumbent": 0.4820537592952153,
+    "selected_mse_vs_incumbent": 0.4820537592952153
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 1,
+    "candidate": "p000",
+    "n": 252,
+    "latest_label_release": "2026-05-29",
+    "best": "p040",
+    "best_mse_vs_incumbent": 0.9930863418980511,
+    "selected_mse_vs_incumbent": 1.0
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 5,
+    "candidate": "p003",
+    "n": 252,
+    "latest_label_release": "2026-05-29",
+    "best": "p003",
+    "best_mse_vs_incumbent": 0.9578745971544231,
+    "selected_mse_vs_incumbent": 0.9578745971544231
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 20,
+    "candidate": "p060",
+    "n": 252,
+    "latest_label_release": "2026-05-29",
+    "best": "p060",
+    "best_mse_vs_incumbent": 0.9461667605884329,
+    "selected_mse_vs_incumbent": 0.9461667605884329
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 60,
+    "candidate": "p010",
+    "n": 247,
+    "latest_label_release": "2026-05-29",
+    "best": "p010",
+    "best_mse_vs_incumbent": 0.8186667015714449,
+    "selected_mse_vs_incumbent": 0.8186667015714449
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 1,
+    "candidate": "p000",
+    "n": 252,
+    "latest_label_release": "2026-08-27",
+    "best": "p028_support2",
+    "best_mse_vs_incumbent": 0.9968221047715472,
+    "selected_mse_vs_incumbent": 1.0
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 5,
+    "candidate": "p001",
+    "n": 252,
+    "latest_label_release": "2026-08-27",
+    "best": "p001",
+    "best_mse_vs_incumbent": 0.9847040551577587,
+    "selected_mse_vs_incumbent": 0.9847040551577587
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 20,
+    "candidate": "p060",
+    "n": 252,
+    "latest_label_release": "2026-08-27",
+    "best": "p060",
+    "best_mse_vs_incumbent": 0.9656496541741464,
+    "selected_mse_vs_incumbent": 0.9656496541741464
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 60,
+    "candidate": "p010",
+    "n": 252,
+    "latest_label_release": "2026-08-27",
+    "best": "p010",
+    "best_mse_vs_incumbent": 0.8023687792707929,
+    "selected_mse_vs_incumbent": 0.8023687792707929
+  }
+]

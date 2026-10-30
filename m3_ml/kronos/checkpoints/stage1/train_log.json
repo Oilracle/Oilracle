@@ -1,0 +1,172 @@
+[
+  {
+    "stage": 1,
+    "train_end": "2023-08-31",
+    "val_end": "2026-09-30",
+    "corpus_cutoff": "2026-09-30",
+    "train_tickers": 559,
+    "protocol_id": "qf5210-frozen-october-2026",
+    "reuse_tokenizer": false,
+    "tokenizer_best_val_mse": 0.014653007208835334,
+    "predictor_best_val_ce": 2.128941923379898
+  },
+  {
+    "part": "tokenizer",
+    "step": 1000,
+    "train_loss": -0.021959811449050903,
+    "val_loss": 0.062237748643383384,
+    "minutes": 4.08
+  },
+  {
+    "part": "tokenizer",
+    "step": 2000,
+    "train_loss": -0.027657724916934967,
+    "val_loss": 0.036802399437874556,
+    "minutes": 8.2
+  },
+  {
+    "part": "tokenizer",
+    "step": 3000,
+    "train_loss": -0.03026321530342102,
+    "val_loss": 0.030985275865532458,
+    "minutes": 12.32
+  },
+  {
+    "part": "tokenizer",
+    "step": 4000,
+    "train_loss": -0.031237691640853882,
+    "val_loss": 0.02931337768677622,
+    "minutes": 16.71
+  },
+  {
+    "part": "tokenizer",
+    "step": 5000,
+    "train_loss": -0.031002145260572433,
+    "val_loss": 0.03202292020432651,
+    "minutes": 21.14
+  },
+  {
+    "part": "tokenizer",
+    "step": 6000,
+    "train_loss": -0.03231378644704819,
+    "val_loss": 0.018263057863805443,
+    "minutes": 25.47
+  },
+  {
+    "part": "tokenizer",
+    "step": 7000,
+    "train_loss": -0.0319906584918499,
+    "val_loss": 0.016495749936439097,
+    "minutes": 29.8
+  },
+  {
+    "part": "tokenizer",
+    "step": 8000,
+    "train_loss": -0.032409630715847015,
+    "val_loss": 0.017920676269568503,
+    "minutes": 34.31
+  },
+  {
+    "part": "tokenizer",
+    "step": 9000,
+    "train_loss": -0.03261953219771385,
+    "val_loss": 0.01587929541710764,
+    "minutes": 38.72
+  },
+  {
+    "part": "tokenizer",
+    "step": 10000,
+    "train_loss": -0.03182672709226608,
+    "val_loss": 0.014653007208835334,
+    "minutes": 43.15
+  },
+  {
+    "part": "tokenizer",
+    "step": 11000,
+    "train_loss": -0.032579220831394196,
+    "val_loss": 0.01667127851396799,
+    "minutes": 47.56
+  },
+  {
+    "part": "tokenizer",
+    "step": 12000,
+    "train_loss": -0.032972436398267746,
+    "val_loss": 0.02576262893853709,
+    "minutes": 51.89
+  },
+  {
+    "part": "tokenizer",
+    "step": 13000,
+    "train_loss": -0.03334426507353783,
+    "val_loss": 0.018304184486623853,
+    "minutes": 56.26
+  },
+  {
+    "part": "tokenizer",
+    "step": 14000,
+    "train_loss": -0.03336869552731514,
+    "val_loss": 0.01630688348086551,
+    "minutes": 60.63
+  },
+  {
+    "part": "tokenizer",
+    "step": 15000,
+    "train_loss": -0.033466238528490067,
+    "val_loss": 0.01596685528056696,
+    "minutes": 64.98
+  },
+  {
+    "part": "predictor",
+    "step": 2000,
+    "train_loss": 1.8689053058624268,
+    "val_loss": 2.128941923379898,
+    "val_ce_s1": 2.831111818552017,
+    "val_ce_s2": 1.426772080361843,
+    "minutes": 4.77
+  },
+  {
+    "part": "predictor",
+    "step": 4000,
+    "train_loss": 1.9106791019439697,
+    "val_loss": 2.1987973004579544,
+    "val_ce_s1": 2.906680688261986,
+    "val_ce_s2": 1.4909139275550842,
+    "minutes": 9.35
+  },
+  {
+    "part": "predictor",
+    "step": 6000,
+    "train_loss": 1.8248704671859741,
+    "val_loss": 2.2597895562648773,
+    "val_ce_s1": 2.99345400929451,
+    "val_ce_s2": 1.526125080883503,
+    "minutes": 13.94
+  },
+  {
+    "part": "predictor",
+    "step": 8000,
+    "train_loss": 1.6244080066680908,
+    "val_loss": 2.3411471098661423,
+    "val_ce_s1": 3.0986105501651764,
+    "val_ce_s2": 1.5836836248636246,
+    "minutes": 18.53
+  },
+  {
+    "part": "predictor",
+    "step": 10000,
+    "train_loss": 1.590949296951294,
+    "val_loss": 2.4210213869810104,
+    "val_ce_s1": 3.1994170248508453,
+    "val_ce_s2": 1.6426257714629173,
+    "minutes": 23.22
+  },
+  {
+    "part": "predictor",
+    "step": 12000,
+    "train_loss": 1.4008153676986694,
+    "val_loss": 2.393929183483124,
+    "val_ce_s1": 3.1777070611715317,
+    "val_ce_s2": 1.6101513281464577,
+    "minutes": 27.8
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "specialized_tests": 6,
+  "forecast_rows": 87,
+  "all_members_active": true,
+  "past_only_meta_fits": true,
+  "full_quantile_grid_monotone": true,
+  "selection_seal_verified": true,
+  "metadata_fix_changes_predictions": false,
+  "files_sha256": {
+    "selected.json": "72f7cf8302ed1b9afbe22c72bb8f7b8729cf274c7e8e8581bc9b3620236b97de",
+    "test_forecasts.csv": "bbbe159d959ae300ac77724e10fa81d2687f7d198ac4e77863956334662ad290",
+    "test_metrics.csv": "25799a729b2bca8eb2662ddc7affc56e85a3cdaeb52d068e72075bc88504045a",
+    "validation_metrics.csv": "ea2a5ae0f8c0cd253e5c5dec7c8c31930ab356505e22fccd539235f15d803af0",
+    "ablation.csv": "0b8f854d04d85907d1ae95e475c122375ed6a4b620ded52f0b6eb8525f0b6f5c",
+    "presentation_data.json": "4d5035f7641dd9db53a748daadd73fff63bd2bfbfd2543a6385a4103def21d14"
+  }
+}

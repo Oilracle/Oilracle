@@ -1,0 +1,11 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "fit_end": "2026-09-30",
+  "mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ]
+}

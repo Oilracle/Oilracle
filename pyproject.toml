@@ -1,0 +1,38 @@
+[project]
+name = "group-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "arch>=8.0.0",
+    "einops>=0.8.2",
+    "huggingface-hub>=2.2.0",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "python-dotenv>=1.2.4",
+    "python-pptx>=1.0.2",
+    "quantile-forest>=1.4.2",
+    "requests>=2.34.2",
+    "safetensors>=0.8.0",
+    "scikit-learn>=1.9.1",
+    "statsmodels>=0.15.0",
+    "torch>=2.11.0",
+    "xgboost>=3.4.1",
+    "xlrd>=2.0.2",
+    "yfinance>=1.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+# CUDA 12.8 PyTorch (needed for RTX 50-series GPUs) on Windows/Linux; macOS uses PyPI's build.
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'win32' or sys_platform == 'linux'" }]

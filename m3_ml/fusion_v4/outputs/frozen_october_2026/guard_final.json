@@ -1,0 +1,26 @@
+{
+  "1": {
+    "penalty": 10.0,
+    "upgrade_weight": 0.00022368597004851227,
+    "n_train": 252,
+    "latest_label_release": "2026-09-24"
+  },
+  "5": {
+    "penalty": 0.1,
+    "upgrade_weight": 0.2687707906991734,
+    "n_train": 252,
+    "latest_label_release": "2026-09-24"
+  },
+  "20": {
+    "penalty": 0.1,
+    "upgrade_weight": 0.2106553107743544,
+    "n_train": 252,
+    "latest_label_release": "2026-09-24"
+  },
+  "60": {
+    "penalty": 0.1,
+    "upgrade_weight": 0.7933364735867778,
+    "n_train": 252,
+    "latest_label_release": "2026-09-24"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "point_passed": true,
+  "risk_passed": false,
+  "risk_stable": false,
+  "mean_coverage_gap_improvement": -0.013400113242739181,
+  "mean_crps_vs_v4": 0.9849476073974485,
+  "thresholds": {
+    "min_mean_coverage_gap_improvement": 0.02,
+    "max_horizon_gap_degradation": 0.02,
+    "max_mean_crps_ratio": 1.05,
+    "max_horizon_crps_ratio": 1.1,
+    "max_horizon_width_ratio": 1.75
+  },
+  "october_used": false
+}

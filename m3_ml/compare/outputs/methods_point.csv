@@ -1,0 +1,19 @@
+method,label,family,source,aligned_how
+rw,Random walk,Benchmark,ml/tabular,none
+tab_hist_mean,Historical mean,Benchmark,ml/tabular,none
+p1_arima,"ARIMA(0,1,1)",Part 1 time series,m1_time_series/classical.R,re-run in Python; test from 2023
+p1_arimax,ARIMAX (S&P 500),Part 1 time series,m1_time_series/classical.R,re-run in Python; test from 2023
+p1_vecm,VECM,Part 1 time series,m1_time_series/classical.R,re-run in Python; re-selected on 2020-2022
+tab_elastic_net,Elastic Net,ML direct,ml/tabular,none
+tab_random_forest,Random Forest,ML direct,ml/tabular,none
+tab_lightgbm,LightGBM,ML direct,ml/tabular,none
+lstm,LSTM,LSTM,ml/lstm,"code unchanged; after-close clock, group split"
+lstm_wti_only,LSTM (WTI only),LSTM,ml/lstm,"code unchanged; after-close clock, group split"
+lstm_ridge,Ridge (LSTM study),LSTM,ml/lstm,"code unchanged; after-close clock, group split"
+dist_hs,Historical sim. (median),Distribution median,ml/distribution,none
+dist_garch,GARCH (median),Distribution median,ml/distribution,none
+dist_a_ridge,A: Ridge vol (median),Distribution median,ml/distribution,none
+dist_b_linear,B: linear QR (median),Distribution median,ml/distribution,none
+dist_b_lightgbm,B: LightGBM QR (median),Distribution median,ml/distribution,none
+dist_b_forest,B: quantile forest (median),Distribution median,ml/distribution,none
+dist_ensemble,Ensemble (median),Distribution median,ml/distribution,none

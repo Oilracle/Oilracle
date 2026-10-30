@@ -1,0 +1,30 @@
+{
+  "kronos/h1": {
+    "params": {
+      "T": 1.0,
+      "top_p": 1.0
+    },
+    "score": 1.06119
+  },
+  "kronos/h5": {
+    "params": {
+      "T": 1.0,
+      "top_p": 1.0
+    },
+    "score": 1.07484
+  },
+  "kronos/h20": {
+    "params": {
+      "T": 1.0,
+      "top_p": 1.0
+    },
+    "score": 1.25105
+  },
+  "kronos/h60": {
+    "params": {
+      "T": 1.0,
+      "top_p": 1.0
+    },
+    "score": 1.48181
+  }
+}

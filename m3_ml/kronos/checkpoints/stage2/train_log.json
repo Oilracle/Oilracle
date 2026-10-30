@@ -1,0 +1,13 @@
+[
+  {
+    "stage": 2,
+    "train_end": "2026-09-30",
+    "val_end": "2026-09-30",
+    "corpus_cutoff": "2026-09-30",
+    "train_tickers": 524,
+    "protocol_id": "qf5210-frozen-october-2026",
+    "reuse_tokenizer": false,
+    "tokenizer_best_val_mse": null,
+    "predictor_best_val_ce": null
+  }
+]

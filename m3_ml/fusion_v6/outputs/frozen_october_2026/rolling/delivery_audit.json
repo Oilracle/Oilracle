@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "selected_sha256": "5ddaa794e5b640689bfbd9b7e9842ab43e35d7c5cea798f5afac9b95d88f8fde",
+  "forecast_sha256": "b0c71e3cd31112bf30a490738e86fae95488e6bb1817084f99507a0cd6a4dc1c",
+  "rows": 68,
+  "point_forecasts_unchanged": true,
+  "only_h5_intervals_changed": true,
+  "metrics_recomputed": true,
+  "matched_historical_windows": true,
+  "cap_verified": true,
+  "predecessor_preserved": true,
+  "video_data_verified": true,
+  "october_tuning": false
+}

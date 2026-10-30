@@ -1,0 +1,20 @@
+{
+  "1": {
+    "enabled": false,
+    "calibration": {
+      "left": 1.3105028123234357,
+      "right": 1.799507424620936,
+      "n": 126,
+      "last_release": "2026-09-24"
+    }
+  },
+  "5": {
+    "enabled": true,
+    "calibration": {
+      "left": 1.7438177376663189,
+      "right": 1.430831500434412,
+      "n": 126,
+      "last_release": "2026-09-24"
+    }
+  }
+}

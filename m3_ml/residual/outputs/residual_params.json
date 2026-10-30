@@ -1,0 +1,114 @@
+{
+  "elastic_net/h1": {
+    "params": {
+      "alpha_ratio": 1.0,
+      "l1_ratio": 0.1
+    },
+    "validation_rmse": 0.045587985925834726
+  },
+  "random_forest/h1": {
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 100
+    },
+    "validation_rmse": 0.04561910188109432
+  },
+  "lightgbm/h1": {
+    "params": {
+      "num_leaves": 4,
+      "n_estimators": 100
+    },
+    "validation_rmse": 0.04577999466260962
+  },
+  "scale/h1": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "l1_ratio": 0.9
+    },
+    "validation_mae": 0.033213346483849514
+  },
+  "elastic_net/h5": {
+    "params": {
+      "alpha_ratio": 1.0,
+      "l1_ratio": 0.1
+    },
+    "validation_rmse": 0.10294415468906529
+  },
+  "random_forest/h5": {
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 100
+    },
+    "validation_rmse": 0.10353565853850644
+  },
+  "lightgbm/h5": {
+    "params": {
+      "num_leaves": 4,
+      "n_estimators": 100
+    },
+    "validation_rmse": 0.1059646569827012
+  },
+  "scale/h5": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "l1_ratio": 0.9
+    },
+    "validation_mae": 0.07405065764544823
+  },
+  "elastic_net/h20": {
+    "params": {
+      "alpha_ratio": 1.0,
+      "l1_ratio": 0.1
+    },
+    "validation_rmse": 0.2124937111138873
+  },
+  "random_forest/h20": {
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 100
+    },
+    "validation_rmse": 0.2189618764553768
+  },
+  "lightgbm/h20": {
+    "params": {
+      "num_leaves": 4,
+      "n_estimators": 100
+    },
+    "validation_rmse": 0.24368124498171537
+  },
+  "scale/h20": {
+    "params": {
+      "alpha_ratio": 0.1,
+      "l1_ratio": 0.1
+    },
+    "validation_mae": 0.16826331202627864
+  },
+  "elastic_net/h60": {
+    "params": {
+      "alpha_ratio": 0.3,
+      "l1_ratio": 0.1
+    },
+    "validation_rmse": 0.3521746421669013
+  },
+  "random_forest/h60": {
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 100
+    },
+    "validation_rmse": 0.3749070861106376
+  },
+  "lightgbm/h60": {
+    "params": {
+      "num_leaves": 4,
+      "n_estimators": 300
+    },
+    "validation_rmse": 0.38267160906261166
+  },
+  "scale/h60": {
+    "params": {
+      "alpha_ratio": 1.0,
+      "l1_ratio": 0.1
+    },
+    "validation_mae": 0.284532072682579
+  }
+}

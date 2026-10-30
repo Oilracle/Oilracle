@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "no_october_evaluation": true,
+  "sealed_v2_unchanged": true,
+  "future_error_mutation_invariant": true,
+  "future_selection_loss_mutation_invariant": true,
+  "max_label_release": "2026-09-24",
+  "candidates_per_member_horizon": 49,
+  "protected_sha256": {
+    "m3_ml\\fusion_v2\\outputs\\frozen_october_2026\\selected.json": "fb5dede1373a6c63e488ddab6c7e1704dd41f0d0f6eaa725f8917207343b6dff",
+    "m3_ml\\fusion_v2\\outputs\\frozen_october_2026\\test_forecasts.csv": "38f40fc56f1bd4c1c3f07160edfd1e93d6144482b6b3851355f118a7fbf6c454",
+    "m4_reports\\final_strategy_manifest.json": "fa80924876dd01a30c30d62a9fa3108dd206f395ef65b967b92e9650e4d72ce1"
+  },
+  "task_count": 136
+}

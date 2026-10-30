@@ -1,0 +1,17 @@
+"target_type","horizon","method","n","RMSE"
+"absolute_daily_change",1,"calendar_abs_original",758,1.61510603350906
+"monthly_average",1,"monthly_stl_adjusted_rw",745,8.02375876162284
+"price",1,"stl_monthly_daily_bridge",758,5.56550723000522
+"weekly_average",1,"weekly_average_rw",757,6.6826939676148
+"absolute_daily_change",5,"calendar_abs_original",754,1.61890477439448
+"monthly_average",5,"monthly_stl_adjusted_rw",741,8.7242355753289
+"price",5,"stl_monthly_daily_bridge",754,6.65010525017074
+"weekly_average",5,"weekly_average_rw",754,7.64982845393728
+"absolute_daily_change",20,"calendar_abs_original",739,1.63193012323395
+"monthly_average",20,"monthly_stl_adjusted_rw",726,10.8425468593958
+"price",20,"stl_monthly_daily_bridge",739,9.55602838007861
+"weekly_average",20,"weekly_stl_adjusted_rw",739,10.2456646310708
+"absolute_daily_change",60,"calendar_abs_original",699,1.64333966162421
+"monthly_average",60,"monthly_stl_adjusted_rw",686,13.0555817224997
+"price",60,"stl_monthly_daily_bridge",699,14.1228068291614
+"weekly_average",60,"weekly_stl_adjusted_rw",699,13.82938856775

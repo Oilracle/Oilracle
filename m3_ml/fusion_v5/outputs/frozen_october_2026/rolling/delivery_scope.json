@@ -1,0 +1,18 @@
+{
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "parameter_policy": "All fitted functions, preprocessing and risk calibration frozen as of September 30.",
+  "input_policy": "Previously published input states can change each day and generate different weights through the frozen reliability function.",
+  "selection_policy": "Nested time selection for the added layer, then historical promotion gates; October only evaluates.",
+  "research_amendments": [
+    "support_design.json",
+    "damping_design.json",
+    "risk_safety_design.json"
+  ],
+  "evidence_status": "Previously inspected October outcomes are retrospective evaluation only; no candidate, parameter or promotion selection from October."
+}

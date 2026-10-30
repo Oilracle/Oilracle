@@ -1,0 +1,94 @@
+{
+  "1": {
+    "id": "r043",
+    "method": "a_ridge",
+    "window": 0,
+    "target": 0.9,
+    "sides": "asymmetric",
+    "calibration": {
+      "left": 0.4886748342665453,
+      "right": 0.7239867736140315,
+      "n_train": 508,
+      "latest_label_release": "2026-09-24"
+    },
+    "selection": {
+      "constraints_satisfied": true,
+      "n": 252,
+      "coverage": 0.9047619047619048,
+      "crps": 0.027476140061018943,
+      "width_ratio": 0.9348363805079507,
+      "lower_miss": 0.031746031746031744,
+      "upper_miss": 0.06349206349206349,
+      "latest_label_release": "2026-09-24"
+    }
+  },
+  "5": {
+    "id": "r045",
+    "method": "a_ridge",
+    "window": 0,
+    "target": 0.95,
+    "sides": "asymmetric",
+    "calibration": {
+      "left": 0.8775448777944985,
+      "right": 1.5024756381638649,
+      "n_train": 504,
+      "latest_label_release": "2026-09-24"
+    },
+    "selection": {
+      "constraints_satisfied": true,
+      "n": 252,
+      "coverage": 0.9246031746031746,
+      "crps": 0.04382916039303876,
+      "width_ratio": 1.3707142760776185,
+      "lower_miss": 0.027777777777777776,
+      "upper_miss": 0.047619047619047616,
+      "latest_label_release": "2026-09-24"
+    }
+  },
+  "20": {
+    "id": "r190",
+    "method": "implied_vol",
+    "window": 0,
+    "target": 0.975,
+    "sides": "symmetric",
+    "calibration": {
+      "left": 1.4259869986955187,
+      "right": 1.4259869986955187,
+      "n_train": 489,
+      "latest_label_release": "2026-09-24"
+    },
+    "selection": {
+      "constraints_satisfied": false,
+      "n": 242,
+      "coverage": 0.9008264462809917,
+      "crps": 0.08182157914877201,
+      "width_ratio": 1.6877116003122032,
+      "lower_miss": 0.004132231404958678,
+      "upper_miss": 0.09504132231404959,
+      "latest_label_release": "2026-09-24"
+    }
+  },
+  "60": {
+    "id": "r076",
+    "method": "b_linear",
+    "window": 63,
+    "target": 0.975,
+    "sides": "symmetric",
+    "calibration": {
+      "left": 40.19505341399167,
+      "right": 40.19505341399167,
+      "n_train": 63,
+      "latest_label_release": "2026-09-24"
+    },
+    "selection": {
+      "constraints_satisfied": false,
+      "n": 202,
+      "coverage": 0.7722772277227723,
+      "crps": 0.14475901320891768,
+      "width_ratio": 1.8664429664432232,
+      "lower_miss": 0.20297029702970298,
+      "upper_miss": 0.024752475247524754,
+      "latest_label_release": "2026-09-24"
+    }
+  }
+}

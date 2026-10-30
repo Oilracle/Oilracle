@@ -1,0 +1,83 @@
+# Python and JavaScript environments and caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+coverage.xml
+htmlcov/
+
+# Credentials and private environment settings
+.env*
+!.env.example
+.Renviron
+.Renviron.*
+credentials.json
+secrets.json
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# Editor, R session and operating-system state
+.idea/
+.vscode/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Local archives, audit runs and temporary work
+/.local/
+/.chart-data-*/
+/.cache/
+/work/
+/scratch/
+/tmp/
+/notebooks/personal/
+/outputs/
+*.log
+*.tmp
+*.bak
+
+# Keep source snapshots, data/rebuild support, corpus, frozen models and metrics.
+# Only the four approved shared tables belong in data/processed.
+/data/processed/**
+!/data/processed/wti_daily.parquet
+!/data/processed/wti_daily.csv
+!/data/processed/features.csv
+!/data/processed/wti_publication.csv
+
+# Generated data releases belong in .local, not beside the approved tables.
+/data/interim/
+/data/.*_rebuild/
+
+# Presentation/video render caches; source assets and model figures are retained.
+**/previews/
+/m4_reports/video/media/
+/m4_reports/video/build/
+
+# Course presentation and personal rehearsal material stay private.
+/m4_reports/deliverables/
+/m4_reports/brand/
+/m4_reports/slides/
+/m4_reports/video/
+/m4_reports/team.json
+/m4_reports/final_speaker_plan.json
+/m4_reports/slide_reading_notes.json
+*.pptx
+*.docx
+
+# Personal module rehearsal material.
+/m3_ml/lstm/presentation_script_and_QA.md

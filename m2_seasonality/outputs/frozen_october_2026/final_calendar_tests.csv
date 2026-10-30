@@ -1,0 +1,17 @@
+"phase","fit_end","variant","test","p_value"
+"final",2026-09-30,"original","month mean_OLS",0.962667290632106
+"final",2026-09-30,"original","month Levene",8.95806867633272e-10
+"final",2026-09-30,"original","weekday mean_OLS",0.419345126084124
+"final",2026-09-30,"original","weekday Levene",0.0426308593302457
+"final",2026-09-30,"original","month mean HAC",0.75112831998703
+"final",2026-09-30,"original","weekday mean HAC",0.486769129604145
+"final",2026-09-30,"original","month abs HAC",0.0258384799484055
+"final",2026-09-30,"original","weekday abs HAC",0.00385504826156904
+"final",2026-09-30,"3iqr","month mean_OLS",0.47550369141718
+"final",2026-09-30,"3iqr","month Levene",0.00386562597295389
+"final",2026-09-30,"3iqr","weekday mean_OLS",0.942510468978863
+"final",2026-09-30,"3iqr","weekday Levene",0.00313715093791512
+"final",2026-09-30,"3iqr","month mean HAC",0.418263840467688
+"final",2026-09-30,"3iqr","weekday mean HAC",0.918918196874198
+"final",2026-09-30,"3iqr","month abs HAC",0.323264887934646
+"final",2026-09-30,"3iqr","weekday abs HAC",0.00167632054991691

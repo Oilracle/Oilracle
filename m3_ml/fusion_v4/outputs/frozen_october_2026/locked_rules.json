@@ -1,0 +1,34 @@
+{
+  "1": {
+    "id": "s01",
+    "kind": "best",
+    "window": 126,
+    "penalty": 0.0,
+    "early_loss": 6.806090146127689,
+    "n": 241
+  },
+  "5": {
+    "id": "s02",
+    "kind": "convex",
+    "window": 126,
+    "penalty": 0.01,
+    "early_loss": 13.684743547505821,
+    "n": 237
+  },
+  "20": {
+    "id": "s03",
+    "kind": "convex",
+    "window": 126,
+    "penalty": 0.1,
+    "early_loss": 23.35644387641539,
+    "n": 222
+  },
+  "60": {
+    "id": "s01",
+    "kind": "best",
+    "window": 126,
+    "penalty": 0.0,
+    "early_loss": 29.378250801855568,
+    "n": 182
+  }
+}

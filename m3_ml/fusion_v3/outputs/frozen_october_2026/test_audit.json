@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "selected_sha256": "12d803737e1804b2e69312aede92113535b38f9f7fee743c9b903ecc409c209a",
+  "rows": 87,
+  "median_preserved": true,
+  "quantiles_monotone": true,
+  "first_origins_equal": true,
+  "actual_counts": [
+    {
+      "mode": "daily_update",
+      "horizon": 1,
+      "n": 17
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 5,
+      "n": 13
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 60,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 1,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 2,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 3,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 4,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 5,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 6,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 7,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 8,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 9,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 10,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 11,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 12,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 13,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 14,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 15,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 16,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 17,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 60,
+      "n": 0
+    }
+  ],
+  "fixed_path_metrics": {
+    "n": 17,
+    "rmse_usd": 8.531407554388506,
+    "rw_rmse_usd": 5.357545531084831,
+    "futures_rmse_usd": 9.980506993422873,
+    "rmse_vs_rw": 1.5924097153983516,
+    "rmse_vs_futures": 0.8548070313472733,
+    "coverage90": 1.0,
+    "interpretation": "17 correlated targets from one origin; descriptive evaluation only"
+  },
+  "futures_timing": "Every consumed quote is at least two US federal business days old at its forecast origin",
+  "october_used_for_fitting": false
+}

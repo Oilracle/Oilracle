@@ -1,0 +1,12 @@
+{
+  "source_snapshot": "data/raw/futures/wti_nearby_futures_corpus_snapshot.csv",
+  "source_sha256": "51543394c801039b2906b69212e85f39338109a8c31825aacb665107d45fbf7e",
+  "original_cache": ".local/kronos/corpus/CL_F.parquet",
+  "original_cache_sha256": "ff42d31d4bdcf3581a68cff042766cd7bb04a7cc15cacd52ce01f07f66e27ac6",
+  "eia_overlap_rows": 3174,
+  "maximum_difference": 0.010001220703131253,
+  "median_difference": 1.2207031261368684e-06,
+  "availability": "Session quote + 2 US federal business days; never same-day OHLCV.",
+  "limitation": "Current-vintage unadjusted Close; verified overlap through EIA historical endpoint, not a complete point-in-time vendor archive.",
+  "exchange_source": "https://www.cmegroup.com/trading/energy/files/NYMEX_Energy_Futures_Daily_Settlement_Procedure.pdf"
+}

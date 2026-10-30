@@ -1,0 +1,15 @@
+method,label,family,source
+hs,Historical simulation,Benchmark,m3_ml/distribution
+ewma,EWMA,Volatility,m3_ml/distribution
+garch,GARCH,Volatility,m3_ml/distribution
+garch_evt,GARCH-EVT,Volatility,m3_ml/distribution
+a_ridge,Ridge volatility,ML distribution,m3_ml/distribution
+a_lightgbm,LightGBM volatility,ML distribution,m3_ml/distribution
+a_evt,EVT tails,ML distribution,m3_ml/distribution
+b_linear,Linear quantile regression,ML distribution,m3_ml/distribution
+b_lightgbm,LightGBM quantile regression,ML distribution,m3_ml/distribution
+b_forest,Quantile forest,ML distribution,m3_ml/distribution
+ensemble,Quantile ensemble,ML distribution,m3_ml/distribution
+c_mixture,Variance mixture (retrospective),ML distribution,m3_ml/distribution
+p1_arima,"Python ARIMA Gaussian, fixed specification",Python classical study,m3_ml/compare/part1.py
+p1_arima_garch,Python two-step ARIMA-GARCH approximation,Python classical study,m3_ml/compare/part1.py

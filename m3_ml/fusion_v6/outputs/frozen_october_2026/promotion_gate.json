@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "point": {
+    "1": {
+      "passed": false,
+      "rmse_ratio": 1.3259283498376744,
+      "mae_ratio": 1.1804231187864596,
+      "improved_quarters": 2
+    },
+    "5": {
+      "passed": false,
+      "rmse_ratio": 1.515409466622782,
+      "mae_ratio": 1.3398910866392468,
+      "improved_quarters": 1
+    }
+  },
+  "risk": {
+    "1": {
+      "passed": false,
+      "coverage_gap_gain": -0.02631578947368418,
+      "crps_ratio": 1.0559438840513142,
+      "width_ratio": 1.3499999999992516
+    },
+    "5": {
+      "passed": true,
+      "coverage_gap_gain": 0.13888888888888884,
+      "crps_ratio": 0.991333031802665,
+      "width_ratio": 1.3499999999987995
+    }
+  },
+  "october_used": false
+}

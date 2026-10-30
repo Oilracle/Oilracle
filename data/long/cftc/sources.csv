@@ -1,0 +1,13 @@
+file,url,downloaded,stored_at,bytes,sha256,wti_rows
+deacot1986_2016.zip,https://www.cftc.gov/files/dea/history/deacot1986_2016.zip,2026-10-25,.local/long/cftc/deacot1986_2016.zip,22917634,e9221f0f2c819f63c1f611e72f21fca31ee9142316127f9d1d69978d2c684791,1426
+deacot2017.zip,https://www.cftc.gov/files/dea/history/deacot2017.zip,2026-10-25,.local/long/cftc/deacot2017.zip,1711091,5e910b93b5af5e1c8f4006eaeee10109754ee5dd2c7f9d04520bd9770c8ece2b,52
+deacot2018.zip,https://www.cftc.gov/files/dea/history/deacot2018.zip,2026-10-25,.local/long/cftc/deacot2018.zip,1900546,adaecbfadf54f117308cc8a135cd9ba827deac3eb1489a5febc642c403728527,53
+deacot2019.zip,https://www.cftc.gov/files/dea/history/deacot2019.zip,2026-10-25,.local/long/cftc/deacot2019.zip,1904592,3f2707b5fcab1491329684c82cc03759ab66899839f533e09ff0a5dcf517b0c5,52
+deacot2020.zip,https://www.cftc.gov/files/dea/history/deacot2020.zip,2026-10-25,.local/long/cftc/deacot2020.zip,1838852,8c83c820e5f6fd193a0923aa02cfe520d20dbe74bba571a576c92baf7a186317,52
+deacot2021.zip,https://www.cftc.gov/files/dea/history/deacot2021.zip,2026-10-25,.local/long/cftc/deacot2021.zip,1882568,423d20412ec3fb629500fcbfbaa7b6973c5868965000d13963e9b63700c90952,52
+deacot2022.zip,https://www.cftc.gov/files/dea/history/deacot2022.zip,2026-10-25,.local/long/cftc/deacot2022.zip,1983765,206364f467eb0013b0a5f8e9526426cc6fcfc5bad4e4f91b25e00311a0184cfa,52
+deacot2023.zip,https://www.cftc.gov/files/dea/history/deacot2023.zip,2026-10-25,.local/long/cftc/deacot2023.zip,2116244,fd17a44cb7c9acb068515380f5c9ff450052d4a89f45d6b97f0d71ca2d69425c,52
+deacot2024.zip,https://www.cftc.gov/files/dea/history/deacot2024.zip,2026-10-25,.local/long/cftc/deacot2024.zip,2302771,3a33564a5677a4dad90b2513b07a81d8d55308318f9dcd6c8e80690a25c6b768,53
+deacot2025.zip,https://www.cftc.gov/files/dea/history/deacot2025.zip,2026-10-25,.local/long/cftc/deacot2025.zip,2392119,e5ae323dadda5ebbf69b6989af0d912fb1a4aebd954372f999eccb3a692352f9,52
+deacot2026.zip,https://www.cftc.gov/files/dea/history/deacot2026.zip,2026-10-25,.local/long/cftc/deacot2026.zip,2079490,83069743bb63acbaf115c4c89fa0b1965cc30d146725dbf2f181fba9ef923c0a,42
+wti_legacy_futures_only_weekly.csv,extracted: CFTC code 067651,2026-10-25,data/long/cftc/wti_legacy_futures_only_weekly.csv,2264794,a0b5a6dc4c9a01e8cf25edb608e127d32333c0dd36c80d7ae2f91f8a8c0d3ba1,1938

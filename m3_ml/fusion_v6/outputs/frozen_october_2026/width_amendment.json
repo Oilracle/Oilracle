@@ -1,0 +1,7 @@
+{
+  "development_amendment": true,
+  "reason": "The initial 1.5 expansion exceeded the predeclared 1.4 mean-width gate, despite improving h5 coverage.",
+  "price_width_cap": 1.35,
+  "policy": "One tighter expansion cap with margin below the unchanged width gate; no cap grid, no October selection.",
+  "october_used": false
+}

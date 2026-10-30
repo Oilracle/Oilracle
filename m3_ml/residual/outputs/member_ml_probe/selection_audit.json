@@ -1,0 +1,478 @@
+[
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2024-12-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2025-03-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2025-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2025-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2025-12-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2026-03-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2026-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 1,
+    "cutoff": "2026-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-08-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2024-12-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2025-03-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2025-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2025-12-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2026-03-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2026-06-01",
+    "candidate": "calendar/lightgbm/n_estimators=100,num_leaves=8/w=0.5",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 5,
+    "cutoff": "2026-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-08-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2024-12-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2025-03-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2025-06-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2025-12-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2026-03-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m1",
+    "horizon": 20,
+    "cutoff": "2026-06-01",
+    "candidate": "calendar/lightgbm/n_estimators=100,num_leaves=4/w=0.25",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2024-12-01",
+    "candidate": "calendar/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2025-03-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2025-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2025-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2025-12-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2026-03-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m1",
+    "horizon": 60,
+    "cutoff": "2026-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2024-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2025-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2025-06-01",
+    "candidate": "state/lightgbm/n_estimators=100,num_leaves=8/w=0.5",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2025-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2026-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2026-06-01",
+    "candidate": "state/lightgbm/n_estimators=100,num_leaves=8/w=0.5",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 1,
+    "cutoff": "2026-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-08-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2024-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2024-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2025-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2025-06-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2025-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2026-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2026-06-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 5,
+    "cutoff": "2026-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-08-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar/lightgbm/n_estimators=100,num_leaves=4/w=0.5",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2024-12-01",
+    "candidate": "none/mean_bias//w=0.5",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2025-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2025-06-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2025-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.3,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2026-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m2",
+    "horizon": 20,
+    "cutoff": "2026-06-01",
+    "candidate": "none/none/0",
+    "latest_selection_release": "2026-05-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2024-09-01",
+    "candidate": "calendar_state/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2024-08-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2024-12-01",
+    "candidate": "calendar/elastic_net/alpha_ratio=0.1,l1_ratio=0.5/w=1",
+    "latest_selection_release": "2024-11-29"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2025-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2025-02-27"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2025-06-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-05-30"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2025-09-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-08-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2025-12-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2025-11-28"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2026-03-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.5",
+    "latest_selection_release": "2026-02-26"
+  },
+  {
+    "member": "m2",
+    "horizon": 60,
+    "cutoff": "2026-06-01",
+    "candidate": "state/elastic_net/alpha_ratio=0.03,l1_ratio=0.5/w=0.25",
+    "latest_selection_release": "2026-05-29"
+  }
+]

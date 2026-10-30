@@ -1,0 +1,8 @@
+{
+  "m1_native_frozen_vecm_reproduces_60_steps": true,
+  "m1_hidden_observation_mutation_invariant": true,
+  "m2_native_final_stl_reproduces_17_steps": true,
+  "frozen_objects_unchanged": true,
+  "effective_quote_date": "2026-09-18",
+  "fixed_anchor": 101.44
+}

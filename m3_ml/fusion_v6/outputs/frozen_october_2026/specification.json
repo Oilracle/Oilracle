@@ -1,0 +1,575 @@
+{
+  "name": "Integrated WTI Forecast",
+  "version": "short_bias_v6",
+  "fit_end": "2026-09-30",
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "candidates": [
+    {
+      "id": "p000",
+      "kind": "none",
+      "window": 0,
+      "target": "dollar",
+      "fraction": 0.0
+    },
+    {
+      "id": "p001",
+      "kind": "mean",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p002",
+      "kind": "mean",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p003",
+      "kind": "mean",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p004",
+      "kind": "mean",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p005",
+      "kind": "mean",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p006",
+      "kind": "mean",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p007",
+      "kind": "median",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p008",
+      "kind": "median",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p009",
+      "kind": "median",
+      "window": 20,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p010",
+      "kind": "median",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p011",
+      "kind": "median",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p012",
+      "kind": "median",
+      "window": 20,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p013",
+      "kind": "mean",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p014",
+      "kind": "mean",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p015",
+      "kind": "mean",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p016",
+      "kind": "mean",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p017",
+      "kind": "mean",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p018",
+      "kind": "mean",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p019",
+      "kind": "median",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p020",
+      "kind": "median",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p021",
+      "kind": "median",
+      "window": 63,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p022",
+      "kind": "median",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p023",
+      "kind": "median",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p024",
+      "kind": "median",
+      "window": 63,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p025",
+      "kind": "mean",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p026",
+      "kind": "mean",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p027",
+      "kind": "mean",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p028",
+      "kind": "mean",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p029",
+      "kind": "mean",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p030",
+      "kind": "mean",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p031",
+      "kind": "median",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p032",
+      "kind": "median",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p033",
+      "kind": "median",
+      "window": 126,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p034",
+      "kind": "median",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p035",
+      "kind": "median",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p036",
+      "kind": "median",
+      "window": 126,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p037",
+      "kind": "mean",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p038",
+      "kind": "mean",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p039",
+      "kind": "mean",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p040",
+      "kind": "mean",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p041",
+      "kind": "mean",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p042",
+      "kind": "mean",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p043",
+      "kind": "median",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 0.25
+    },
+    {
+      "id": "p044",
+      "kind": "median",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p045",
+      "kind": "median",
+      "window": 252,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p046",
+      "kind": "median",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 0.25
+    },
+    {
+      "id": "p047",
+      "kind": "median",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p048",
+      "kind": "median",
+      "window": 252,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p049",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 100.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p050",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 100.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p051",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 100.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p052",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 100.0,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p053",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 1000.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p054",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 1000.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p055",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 1000.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p056",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 1000.0,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p057",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 10000.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p058",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 10000.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p059",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 10000.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p060",
+      "kind": "ridge",
+      "window": 126,
+      "alpha": 10000.0,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p061",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 100.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p062",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 100.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p063",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 100.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p064",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 100.0,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p065",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 1000.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p066",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 1000.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p067",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 1000.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p068",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 1000.0,
+      "target": "scaled",
+      "fraction": 1.0
+    },
+    {
+      "id": "p069",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 10000.0,
+      "target": "dollar",
+      "fraction": 0.5
+    },
+    {
+      "id": "p070",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 10000.0,
+      "target": "dollar",
+      "fraction": 1.0
+    },
+    {
+      "id": "p071",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 10000.0,
+      "target": "scaled",
+      "fraction": 0.5
+    },
+    {
+      "id": "p072",
+      "kind": "ridge",
+      "window": 252,
+      "alpha": 10000.0,
+      "target": "scaled",
+      "fraction": 1.0
+    }
+  ],
+  "candidate_start": "2025-03-01",
+  "outer_start": "2025-09-01",
+  "selector_window": 126,
+  "min_selection": 40,
+  "selector_min_mse_gain": 0.01,
+  "last63_max_mse_ratio": 1.02,
+  "point_gate": {
+    "max_rmse_ratio": 0.995,
+    "max_mae_ratio": 1.02,
+    "min_improved_quarters": 2
+  },
+  "risk": {
+    "start": "2026-06-01",
+    "window": 126,
+    "target": 0.95,
+    "price_width_cap": 1.5,
+    "min_calibration": 40,
+    "min_evaluation": 60,
+    "min_coverage_gap_gain": 0.02,
+    "max_crps_ratio": 1.05,
+    "max_mean_width_ratio": 1.4
+  },
+  "policy": "Optimize only h1/h5; retain h20/h60. Monthly historical refits; nested selection uses released errors only. Per-horizon promotion gates are specified before results.",
+  "calibration_policy": "One predeclared conservative asymmetric 95% tail-score target, no risk candidate search. Only v5 forward-issued risk forecasts from March 2026 feed calibration; evaluate from June 2026.",
+  "october": "Previously observed October is retrospective evaluation only, never tuning or promotion selection. All models and calibration are frozen using September 30 available information.",
+  "limitation": "Inherited base specifications and repeated historical research remain conditional; unchanged vintage and publication assumptions. No theoretical coverage guarantee for dependent observations."
+}

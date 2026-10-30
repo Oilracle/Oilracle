@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "point_passed": true,
+  "risk_passed": true,
+  "risk_stable": true,
+  "mean_coverage_gap_improvement": 0.05006245003996798,
+  "mean_crps_vs_v4": 0.9828699183114284,
+  "thresholds": {
+    "min_mean_coverage_gap_improvement": 0.02,
+    "max_horizon_gap_degradation": 0.02,
+    "max_mean_crps_ratio": 1.05,
+    "max_horizon_crps_ratio": 1.1,
+    "max_horizon_width_ratio": 1.75
+  },
+  "interval_safety": {
+    "development_amendment": true,
+    "reason": "Raw coverage-constrained selection still undercovered short horizons after a regime change and doubled h60 width.",
+    "policy": "Take an outward quantile envelope with the causally issued incumbent shape at the new center. Interpolate back toward the incumbent if the 90% price interval exceeds 1.5 times incumbent width.",
+    "price_width_cap": 1.5,
+    "cap_selection": "Fixed research safeguard, not selected using October or a grid of caps.",
+    "promotion_thresholds": "Unchanged original v5 thresholds; all new results remain adaptive historical development.",
+    "october_used": false
+  },
+  "october_used": false
+}

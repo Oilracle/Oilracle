@@ -1,0 +1,452 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "fit_end": "2026-09-30",
+  "train_end": "2023-08-31",
+  "validation_start": "2023-09-01",
+  "validation_end": "2026-09-30",
+  "publication_policy": "dated_archive_else_assumed_weekly_release",
+  "selected": {
+    "elastic_net/h1": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.06801417118793147
+    },
+    "random_forest/h1": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.06806165145225392
+    },
+    "lightgbm/h1": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.06915915503686758
+    },
+    "elastic_net/h2": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.07293468974317917
+    },
+    "random_forest/h2": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.0730777985380225
+    },
+    "lightgbm/h2": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.07433431105615082
+    },
+    "elastic_net/h3": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.0763874478358985
+    },
+    "random_forest/h3": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.0766972289615714
+    },
+    "lightgbm/h3": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.07816837767020145
+    },
+    "elastic_net/h4": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.07919773094736897
+    },
+    "random_forest/h4": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.07959722712445494
+    },
+    "lightgbm/h4": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.08100798001965547
+    },
+    "elastic_net/h5": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.08185778841170507
+    },
+    "random_forest/h5": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.08232393744913141
+    },
+    "lightgbm/h5": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.08463010566426772
+    },
+    "elastic_net/h6": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.08461873034180957
+    },
+    "random_forest/h6": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.08566588570886502
+    },
+    "lightgbm/h6": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.0882666106592902
+    },
+    "elastic_net/h7": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.08713892952790195
+    },
+    "random_forest/h7": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.08826679186007058
+    },
+    "lightgbm/h7": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.09061181620637825
+    },
+    "elastic_net/h8": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.08917897286525993
+    },
+    "random_forest/h8": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.09088637151857194
+    },
+    "lightgbm/h8": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.09230095237067744
+    },
+    "elastic_net/h9": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.09153450492211782
+    },
+    "random_forest/h9": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.09301370735549541
+    },
+    "lightgbm/h9": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.09495762167724711
+    },
+    "elastic_net/h10": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.09371809210332013
+    },
+    "random_forest/h10": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.09565576292514583
+    },
+    "lightgbm/h10": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.096141284904493
+    },
+    "elastic_net/h11": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.09620692852584659
+    },
+    "random_forest/h11": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.09811720985978233
+    },
+    "lightgbm/h11": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.09946904833223683
+    },
+    "elastic_net/h12": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.09921580502162788
+    },
+    "random_forest/h12": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.1013054667316105
+    },
+    "lightgbm/h12": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.10235302582329786
+    },
+    "elastic_net/h13": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.10233302312644627
+    },
+    "random_forest/h13": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.10469228237295423
+    },
+    "lightgbm/h13": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.10582976164402007
+    },
+    "elastic_net/h14": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.10532586290993887
+    },
+    "random_forest/h14": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.10752313853620592
+    },
+    "lightgbm/h14": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.10936439561187225
+    },
+    "elastic_net/h15": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.10815007969737306
+    },
+    "random_forest/h15": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.11010006440564447
+    },
+    "lightgbm/h15": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.11180728586469306
+    },
+    "elastic_net/h16": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.11116026984204752
+    },
+    "random_forest/h16": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.1134877874903326
+    },
+    "lightgbm/h16": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.115223354863946
+    },
+    "elastic_net/h17": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.11420428178875056
+    },
+    "random_forest/h17": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "validation_rmse": 0.11699580324350838
+    },
+    "lightgbm/h17": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.11915019804634226
+    },
+    "elastic_net/h20": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.12108808164373548
+    },
+    "random_forest/h20": {
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.1271033680972313
+    },
+    "lightgbm/h20": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.1277597283118579
+    },
+    "elastic_net/h60": {
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_rmse": 0.19148239316955756
+    },
+    "random_forest/h60": {
+      "params": {
+        "max_depth": 6,
+        "min_samples_leaf": 100
+      },
+      "validation_rmse": 0.20836897989288117
+    },
+    "lightgbm/h60": {
+      "params": {
+        "num_leaves": 4,
+        "n_estimators": 100
+      },
+      "validation_rmse": 0.20841965058273268
+    }
+  },
+  "news": {
+    "news_policy_id": "news-release-calendar-v1",
+    "availability_status": "assumed_release_calendar_not_verified_historical_timestamps",
+    "ai_gpr": "previous_month_end_statistics_available_next_month_day_1",
+    "gpr_keyword": "previous_sunday_statistics_available_monday_federal_holidays_deferred",
+    "epu": "next_calendar_day_max_7_day_carry",
+    "vintage_status": "retrospective_current_vintage",
+    "sources": [
+      {
+        "file": "ai_gpr/ai_gpr_data_daily.csv",
+        "source": "Iacoviello & Tong AI-GPR",
+        "url": "https://www.matteoiacoviello.com/ai_gpr_files/ai_gpr_data_daily.csv",
+        "downloaded": "2026-10-17",
+        "coverage": "1960-01-01..2026-09-30",
+        "bytes": 2292539,
+        "sha256": "126826a6525410c49d179dc29ffc2a6797b8309a45cfd7f7f69cefe10422ae09",
+        "license": "cite Iacoviello & Tong (2026)",
+        "notes": "Daily geopolitical risk from NYT, Washington Post, Chicago Tribune articles scored by GPT-4o-mini; includes oil and regional oil sub-indexes. Backfilled with a current LLM and revised in 2026: not a real-time vintage."
+      },
+      {
+        "file": "gpr/data_gpr_daily_recent.xls",
+        "source": "Caldara & Iacoviello GPR",
+        "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+        "downloaded": "2026-10-29",
+        "coverage": "1985-01-01..2026-10-26",
+        "bytes": 3274752,
+        "sha256": "a4cecd9b807b1cbf3db92e7a8087aaa23dafeb76b92f10b882cbde015cbed9bb",
+        "license": "cite Caldara & Iacoviello (2022)",
+        "notes": "Keyword-based daily GPR from 10 newspapers. The 'event' column is a hindsight annotation for charts and must never be used as a feature; var_name/var_label rows are documentation."
+      },
+      {
+        "file": "epu/All_Daily_Policy_Data.csv",
+        "source": "Baker Bloom & Davis US daily EPU",
+        "url": "https://www.policyuncertainty.com/media/All_Daily_Policy_Data.csv",
+        "downloaded": "2026-10-29",
+        "coverage": "1985-01-01..2026-10-28",
+        "bytes": 250659,
+        "sha256": "0ce7c7167ef5b9d30af2a3eda198ddf910d74e03b028d2bfd2d833ddd6bf61f7",
+        "license": "CC BY 4.0",
+        "notes": "Daily US economic policy uncertainty from US newspapers (NewsBank). The previous 30 days are revised at every update: not a real-time vintage."
+      }
+    ]
+  }
+}

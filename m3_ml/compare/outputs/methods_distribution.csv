@@ -1,0 +1,15 @@
+method,label,family,source
+hs,Historical sim.,Benchmark,ml/distribution
+ewma,EWMA,Volatility models,ml/distribution
+garch,GARCH,Volatility models,ml/distribution
+garch_evt,GARCH-EVT,Volatility models,ml/distribution
+p1_arima,"ARIMA(0,1,1), Gaussian (part 1)",Part 1 time series,"m1_time_series/classical.R, re-run in Python"
+p1_arima_garch,ARIMA-GARCH (part 1),Part 1 time series,"m1_time_series/classical.R, re-run in Python (two-step)"
+a_ridge,A: Ridge vol,ML distribution,ml/distribution
+a_lightgbm,A: LightGBM vol,ML distribution,ml/distribution
+a_evt,A: EVT tails,ML distribution,ml/distribution
+b_linear,B: linear QR,ML distribution,ml/distribution
+b_lightgbm,B: LightGBM QR,ML distribution,ml/distribution
+b_forest,B: quantile forest,ML distribution,ml/distribution
+ensemble,Ensemble,ML distribution,ml/distribution
+c_mixture,C: variance mixture (non-blind),ML distribution,"m3_ml/distribution, proposed after the test"

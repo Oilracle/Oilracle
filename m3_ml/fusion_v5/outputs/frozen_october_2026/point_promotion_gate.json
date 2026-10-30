@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "aggregate_rmse_vs_v4": 0.9864383812949058,
+  "worst_horizon_ratio": 1.0051779757512243,
+  "thresholds": {
+    "max_aggregate_ratio": 0.995,
+    "max_horizon_ratio": 1.02
+  },
+  "october_used": false,
+  "action": "adopt_nested_point_policy"
+}

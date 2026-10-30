@@ -1,0 +1,122 @@
+[
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l11",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l11",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c02"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c02"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  },
+  {
+    "cutoff": "2026-09-30",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-09-24",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  }
+]

@@ -1,0 +1,475 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "fit_end": "2026-09-30",
+  "m1_method": "WTI_Brent_Gasoline_K3_R2",
+  "m2_method": "stl_monthly_daily_bridge",
+  "ml": {
+    "1": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.06801417118793147,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "2": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.07293468974317917,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "3": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.0763874478358985,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "4": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.07919773094736897,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "5": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08185778841170507,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "6": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08461873034180957,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "7": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08713892952790195,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "8": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.08917897286525993,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "9": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09153450492211782,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "10": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09371809210332013,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "11": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09620692852584659,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "12": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.09921580502162788,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "13": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10233302312644627,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "14": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10532586290993887,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "15": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.10815007969737306,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "16": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.11116026984204752,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "17": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.11420428178875056,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "20": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.12108808164373548,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    },
+    "60": {
+      "variant": "direct",
+      "method": "elastic_net",
+      "score": 0.19148239316955756,
+      "params": {
+        "alpha_ratio": 1.0,
+        "l1_ratio": 0.1
+      }
+    }
+  },
+  "lstm": {
+    "config": {
+      "lookback": 60,
+      "hidden": 32,
+      "dropout": 0.2,
+      "lr": 0.001
+    },
+    "epochs": 15,
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "base_selection_limitation": "Base specifications use the full historical development window. Meta forecasts are coefficient-cross-fitted conditional on these specifications, not a fully nested unbiased historical test.",
+  "october_status": "Retrospective held-out evaluation; October was inspected in prior module work. No October observations or scores select fusion parameters.",
+  "name": "Integrated WTI Forecast",
+  "version": "market_residual_v3",
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    60
+  ],
+  "candidates": [
+    {
+      "id": "c00",
+      "kind": "carry",
+      "base": "rw",
+      "window": 0
+    },
+    {
+      "id": "c01",
+      "kind": "carry",
+      "base": "futures",
+      "window": 0
+    },
+    {
+      "id": "c02",
+      "kind": "carry",
+      "base": "basis",
+      "window": 0
+    },
+    {
+      "id": "c03",
+      "kind": "carry",
+      "base": "m1",
+      "window": 0
+    },
+    {
+      "id": "c04",
+      "kind": "carry",
+      "base": "m2",
+      "window": 0
+    },
+    {
+      "id": "c05",
+      "kind": "carry",
+      "base": "lstm",
+      "window": 0
+    },
+    {
+      "id": "c06",
+      "kind": "carry",
+      "base": "ml",
+      "window": 0
+    },
+    {
+      "id": "c07",
+      "kind": "convex",
+      "penalty": 0.0,
+      "window": 0
+    },
+    {
+      "id": "c08",
+      "kind": "convex",
+      "penalty": 0.1,
+      "window": 0
+    },
+    {
+      "id": "c09",
+      "kind": "convex",
+      "penalty": 1.0,
+      "window": 0
+    },
+    {
+      "id": "c10",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "members",
+      "alpha": 10.0,
+      "window": 0
+    },
+    {
+      "id": "c11",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "members",
+      "alpha": 100.0,
+      "window": 0
+    },
+    {
+      "id": "c12",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "full",
+      "alpha": 100.0,
+      "window": 0
+    },
+    {
+      "id": "c13",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "full",
+      "alpha": 1000.0,
+      "window": 0
+    },
+    {
+      "id": "c14",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "members",
+      "alpha": 10.0,
+      "window": 252
+    },
+    {
+      "id": "c15",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "members",
+      "alpha": 100.0,
+      "window": 252
+    },
+    {
+      "id": "c16",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "full",
+      "alpha": 100.0,
+      "window": 252
+    },
+    {
+      "id": "c17",
+      "kind": "ridge",
+      "base": "futures",
+      "feature": "full",
+      "alpha": 1000.0,
+      "window": 252
+    },
+    {
+      "id": "c18",
+      "kind": "elastic_net",
+      "base": "futures",
+      "feature": "full",
+      "alpha_ratio": 0.3,
+      "window": 0
+    },
+    {
+      "id": "c19",
+      "kind": "elastic_net",
+      "base": "futures",
+      "feature": "full",
+      "alpha_ratio": 0.1,
+      "window": 0
+    },
+    {
+      "id": "c20",
+      "kind": "lightgbm",
+      "base": "futures",
+      "feature": "full",
+      "num_leaves": 4,
+      "window": 0
+    },
+    {
+      "id": "c21",
+      "kind": "lightgbm",
+      "base": "futures",
+      "feature": "full",
+      "num_leaves": 8,
+      "window": 0
+    },
+    {
+      "id": "c22",
+      "kind": "elastic_net",
+      "base": "m1",
+      "feature": "full",
+      "alpha_ratio": 0.3,
+      "window": 0
+    },
+    {
+      "id": "c23",
+      "kind": "elastic_net",
+      "base": "m1",
+      "feature": "full",
+      "alpha_ratio": 0.1,
+      "window": 0
+    },
+    {
+      "id": "c24",
+      "kind": "elastic_net",
+      "base": "m2",
+      "feature": "full",
+      "alpha_ratio": 0.3,
+      "window": 0
+    }
+  ],
+  "rules": [
+    {
+      "mode": "best",
+      "window": 0
+    },
+    {
+      "mode": "top3",
+      "window": 0
+    },
+    {
+      "mode": "soft8",
+      "window": 0
+    },
+    {
+      "mode": "soft32",
+      "window": 0
+    },
+    {
+      "mode": "best",
+      "window": 252
+    },
+    {
+      "mode": "top3",
+      "window": 252
+    },
+    {
+      "mode": "soft8",
+      "window": 252
+    },
+    {
+      "mode": "soft32",
+      "window": 252
+    }
+  ],
+  "candidate_start": "2024-03-01",
+  "point_start": "2024-09-01",
+  "rule_lock_date": "2025-09-01",
+  "primary_evaluation": "2025-09-01 onward; equal-horizon normalized USD MSE across h=1..17, common complete origins.",
+  "reference_benchmarks": [
+    "published_spot_RW",
+    "lagged_futures_carry",
+    "v2"
+  ],
+  "risk_start": "2025-09-01",
+  "risk_outer_start": "2026-03-01",
+  "risk_windows": [
+    0,
+    126,
+    252
+  ],
+  "risk_timing_note": "Risk candidate evaluation starts only after the point rule lock; forward risk selection starts after enough h=60 labels mature.",
+  "risk_methods": [
+    "hs",
+    "a_ridge",
+    "a_lightgbm",
+    "b_linear",
+    "b_lightgbm",
+    "b_forest",
+    "futures_vol"
+  ],
+  "risk_mixtures": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "risk_widths": [
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "point_meaning": "Median of the constructed log-return distribution; risk calibration preserves the selected price center.",
+  "no_october_selection": true,
+  "market_availability": "2 US federal business days after the futures quote; same convention as existing market inputs.",
+  "inference": "Paired moving-block bootstrap of origin-level losses, blocks 20 and 60; exploratory conditional historical evidence, not a fresh prospective test."
+}

@@ -1,0 +1,138 @@
+{
+  "climatology/h1/down": {
+    "params": {},
+    "score": 0.09164
+  },
+  "climatology/h1/up": {
+    "params": {},
+    "score": 0.077037
+  },
+  "climatology/h20/down": {
+    "params": {},
+    "score": 0.068468
+  },
+  "climatology/h20/up": {
+    "params": {},
+    "score": 0.059016
+  },
+  "climatology/h5/down": {
+    "params": {},
+    "score": 0.081417
+  },
+  "climatology/h5/up": {
+    "params": {},
+    "score": 0.073892
+  },
+  "climatology/h60/down": {
+    "params": {},
+    "score": 0.067092
+  },
+  "climatology/h60/up": {
+    "params": {},
+    "score": 0.100015
+  },
+  "lightgbm_clf/h1/down": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.089646
+  },
+  "lightgbm_clf/h1/up": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.070786
+  },
+  "lightgbm_clf/h20/down": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 8
+    },
+    "score": 0.070052
+  },
+  "lightgbm_clf/h20/up": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.057085
+  },
+  "lightgbm_clf/h5/down": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.083978
+  },
+  "lightgbm_clf/h5/up": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.069442
+  },
+  "lightgbm_clf/h60/down": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.080589
+  },
+  "lightgbm_clf/h60/up": {
+    "params": {
+      "n_estimators": 100,
+      "num_leaves": 8
+    },
+    "score": 0.097272
+  },
+  "logistic/h1/down": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.09048
+  },
+  "logistic/h1/up": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.072036
+  },
+  "logistic/h20/down": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.070339
+  },
+  "logistic/h20/up": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.056397
+  },
+  "logistic/h5/down": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.079779
+  },
+  "logistic/h5/up": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.0659
+  },
+  "logistic/h60/down": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.076098
+  },
+  "logistic/h60/up": {
+    "params": {
+      "C": 0.01
+    },
+    "score": 0.088073
+  }
+}

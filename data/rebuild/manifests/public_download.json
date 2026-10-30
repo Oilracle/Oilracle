@@ -1,0 +1,266 @@
+{
+  "retrieved_at_utc": "2026-10-29T07:23:18.755374+00:00",
+  "records": [
+    {
+      "source": "FRED",
+      "series": "DCOILWTICO",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO",
+      "file": "data\\raw\\fred\\wti_spot_daily.csv",
+      "sha256": "d85c38f6f6e9078151ec4232b3c3653e8953bbd3b0506f72375e9912503d8295",
+      "bytes": 176046,
+      "rows": 9532,
+      "first_observation": "1986-01-02",
+      "last_observation": "2026-10-27"
+    },
+    {
+      "source": "FRED",
+      "series": "DCOILBRENTEU",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU",
+      "file": "data\\raw\\fred\\brent_spot_daily.csv",
+      "sha256": "f3ad22ec3aa8800fc5edfa638d364ae388a5612ed895d233f0b2af67c807a393",
+      "bytes": 170273,
+      "rows": 9117,
+      "first_observation": "1987-05-20",
+      "last_observation": "2026-10-27"
+    },
+    {
+      "source": "FRED",
+      "series": "DTWEXBGS",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS",
+      "file": "data\\raw\\fred\\trade_weighted_dollar_daily.csv",
+      "sha256": "8080a7d962c8e8976e4394a5dbdb2e4a2ddb984c1c5aefc581aa42b715fd6932",
+      "bytes": 104829,
+      "rows": 5217,
+      "first_observation": "2006-01-02",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "FRED",
+      "series": "DGS2",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2",
+      "file": "data\\raw\\fred\\treasury_yield_2y_daily.csv",
+      "sha256": "fb3a00e281d83034e51028f0a04c56608ed5dc0692eaa6d0a824fe2dbe5415a4",
+      "bytes": 209376,
+      "rows": 12598,
+      "first_observation": "1976-06-01",
+      "last_observation": "2026-10-27"
+    },
+    {
+      "source": "FRED",
+      "series": "DGS10",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "file": "data\\raw\\fred\\treasury_yield_10y_daily.csv",
+      "sha256": "81f4e470d0d7cfdf9da602beff84b750118a79a8cb0d6f01f5238aa89fd77fd4",
+      "bytes": 269203,
+      "rows": 16190,
+      "first_observation": "1962-01-02",
+      "last_observation": "2026-10-27"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "CL=F",
+      "url": "https://finance.yahoo.com/quote/CL=F/history/",
+      "file": "data\\raw\\futures\\wti_nearby_futures_daily.csv",
+      "sha256": "ffcfcf8daba10a3538e084f25313ebd4cbacb457f9e4843e9de994667104b634",
+      "bytes": 696634,
+      "rows": 6574,
+      "first_observation": "2000-08-23",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "BZ=F",
+      "url": "https://finance.yahoo.com/quote/BZ=F/history/",
+      "file": "data\\raw\\futures\\brent_futures_daily.csv",
+      "sha256": "6419c18e48b5b20b8e2c6d103b095dd225dae01c3f6435d057f3b8e61213d5b9",
+      "bytes": 505768,
+      "rows": 4792,
+      "first_observation": "2007-07-30",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "^GSPC",
+      "url": "https://finance.yahoo.com/quote/^GSPC/history/",
+      "file": "data\\raw\\futures\\sp500_daily.csv",
+      "sha256": "cc0d7c29d8c15f63167665b2de86feeed4171466848abb09240fb188f79302ca",
+      "bytes": 2685960,
+      "rows": 24824,
+      "first_observation": "1927-12-30",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "^VIX",
+      "url": "https://finance.yahoo.com/quote/^VIX/history/",
+      "file": "data\\raw\\futures\\vix_daily.csv",
+      "sha256": "c227100823bb320e539dd5e74aad8049cc2cd01a8b54c6125d08e563e38af2b1",
+      "bytes": 970491,
+      "rows": 9276,
+      "first_observation": "1990-01-02",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "XLE",
+      "url": "https://finance.yahoo.com/quote/XLE/history/",
+      "file": "data\\raw\\futures\\energy_select_sector_etf_daily.csv",
+      "sha256": "1bd7c3b955334e51dcaa8a513f1443019948812d9d834f54b2519def49d2eb2d",
+      "bytes": 754997,
+      "rows": 7005,
+      "first_observation": "1998-12-22",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "GC=F",
+      "url": "https://finance.yahoo.com/quote/GC=F/history/",
+      "file": "data\\raw\\futures\\gold_futures_daily.csv",
+      "sha256": "dc93a94e37f80769540123a6044abce7ae466230e9756af4f71b4da80397ae4c",
+      "bytes": 607996,
+      "rows": 6566,
+      "first_observation": "2000-08-30",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "NG=F",
+      "url": "https://finance.yahoo.com/quote/NG=F/history/",
+      "file": "data\\raw\\futures\\natural_gas_futures_daily.csv",
+      "sha256": "9ed0960f9b3a2b77c8afb35aaa9ceabee005e20f15693781dbcb012aa4538b4e",
+      "bytes": 716977,
+      "rows": 6571,
+      "first_observation": "2000-08-30",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "yfinance/Yahoo Finance",
+      "series": "DX-Y.NYB",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+      "file": "data\\raw\\futures\\dollar_index_daily.csv",
+      "sha256": "cdd2621888efdceb60bdb72a1b2571ad1150f59b5ee2c097c06c42c4c32eff5a",
+      "bytes": 1451743,
+      "rows": 14174,
+      "first_observation": "1971-01-04",
+      "last_observation": "2026-10-28",
+      "request_end_exclusive": "2026-10-29"
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2006_2016",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_hist_2006_2016.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2006_2016.zip",
+      "sha256": "68c593209136ab7cfda2ec17ac5ed0bffb4b19a49f52c01308b4cedb315514c8",
+      "bytes": 12240715,
+      "rows": 70199
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2017",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2017.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2017.zip",
+      "sha256": "6fc467b989df527a4fbea4ba07185e8951f35cb72563f156488904a37c100e43",
+      "bytes": 1805242,
+      "rows": 10204
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2018",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2018.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2018.zip",
+      "sha256": "df4bf7d72e8984d6ea04087f793c9f2bf3503ea8c2149f4b01eedeef4fbe40a8",
+      "bytes": 1961740,
+      "rows": 10874
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2019",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2019.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2019.zip",
+      "sha256": "942a438bcc6f66e65aaf594a1a1fdb8c1505fe4a0feece77a1fd97270317e753",
+      "bytes": 1981332,
+      "rows": 10954
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2020",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2020.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2020.zip",
+      "sha256": "0aa03c0fd6360f56b6897b6eaff30e8dba774c826bf93cac61598312e19bd1cd",
+      "bytes": 1930322,
+      "rows": 10786
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2021",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2021.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2021.zip",
+      "sha256": "12d5d49a8963367fd3439050e3e20e6a5338757dfa083432795c5556827ff8ae",
+      "bytes": 1943806,
+      "rows": 10704
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2022",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2022.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2022.zip",
+      "sha256": "74205d75d4d7b75a9f4159ef2e6abed53eeb4771a74e5a4bf78bc0451410ab7f",
+      "bytes": 2049193,
+      "rows": 11526
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2023",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2023.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2023.zip",
+      "sha256": "9fe75dba0256819d476bb0d01f9e8e5ac6ec2c4390f609a7e3259e85796b79ce",
+      "bytes": 2202972,
+      "rows": 12534
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2024",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2024.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2024.zip",
+      "sha256": "5e40f60993120d26c116ab347beaf93702f5da60c7bdccbbee43cb3d0a91d01a",
+      "bytes": 2381296,
+      "rows": 13601
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2025",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2025.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2025.zip",
+      "sha256": "17ac2fef1b53303d01e486bbf5768a4e062308a3c34a2970871f3eab89829cbc",
+      "bytes": 2420076,
+      "rows": 13630
+    },
+    {
+      "source": "CFTC",
+      "series": "Disaggregated Futures Only 2026",
+      "url": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2026.zip",
+      "file": ".local\\rebuild\\source_support\\cftc\\fut_disagg_txt_2026.zip",
+      "sha256": "131a1a6d909481633425609b6563f0257a36a57427fec070910e23e8297551c3",
+      "bytes": 2028941,
+      "rows": 11447
+    },
+    {
+      "source": "CFTC",
+      "series": "NYMEX WTI disaggregated futures only (067651)",
+      "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm",
+      "file": "data\\raw\\cftc\\wti_positions_weekly.csv",
+      "sha256": "e0a3ca8d9f02671590fb70ccc15311dc5c877413101febf771282c59ee09a604",
+      "bytes": 1276235,
+      "rows": 1063,
+      "first_observation": "2006-06-13",
+      "last_observation": "2026-10-20"
+    }
+  ]
+}

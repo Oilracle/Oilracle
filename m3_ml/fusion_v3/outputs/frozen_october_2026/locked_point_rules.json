@@ -1,0 +1,154 @@
+{
+  "1": {
+    "horizon": 1,
+    "rule": 2,
+    "loss": 7.21856898196832,
+    "n": 241,
+    "mode": "soft8",
+    "window": 0
+  },
+  "2": {
+    "horizon": 2,
+    "rule": 2,
+    "loss": 9.5459565507529,
+    "n": 240,
+    "mode": "soft8",
+    "window": 0
+  },
+  "3": {
+    "horizon": 3,
+    "rule": 2,
+    "loss": 11.617718519099414,
+    "n": 239,
+    "mode": "soft8",
+    "window": 0
+  },
+  "4": {
+    "horizon": 4,
+    "rule": 1,
+    "loss": 12.844650277609155,
+    "n": 238,
+    "mode": "top3",
+    "window": 0
+  },
+  "5": {
+    "horizon": 5,
+    "rule": 3,
+    "loss": 14.170589534999701,
+    "n": 237,
+    "mode": "soft32",
+    "window": 0
+  },
+  "6": {
+    "horizon": 6,
+    "rule": 5,
+    "loss": 14.90826997741431,
+    "n": 236,
+    "mode": "top3",
+    "window": 252
+  },
+  "7": {
+    "horizon": 7,
+    "rule": 1,
+    "loss": 15.294249587138587,
+    "n": 235,
+    "mode": "top3",
+    "window": 0
+  },
+  "8": {
+    "horizon": 8,
+    "rule": 6,
+    "loss": 15.71566225124943,
+    "n": 234,
+    "mode": "soft8",
+    "window": 252
+  },
+  "9": {
+    "horizon": 9,
+    "rule": 6,
+    "loss": 16.000931095659357,
+    "n": 233,
+    "mode": "soft8",
+    "window": 252
+  },
+  "10": {
+    "horizon": 10,
+    "rule": 6,
+    "loss": 16.065107444081736,
+    "n": 232,
+    "mode": "soft8",
+    "window": 252
+  },
+  "11": {
+    "horizon": 11,
+    "rule": 6,
+    "loss": 16.687538245572895,
+    "n": 231,
+    "mode": "soft8",
+    "window": 252
+  },
+  "12": {
+    "horizon": 12,
+    "rule": 6,
+    "loss": 17.543865318476737,
+    "n": 230,
+    "mode": "soft8",
+    "window": 252
+  },
+  "13": {
+    "horizon": 13,
+    "rule": 6,
+    "loss": 17.861569340605918,
+    "n": 229,
+    "mode": "soft8",
+    "window": 252
+  },
+  "14": {
+    "horizon": 14,
+    "rule": 2,
+    "loss": 18.369444797562505,
+    "n": 228,
+    "mode": "soft8",
+    "window": 0
+  },
+  "15": {
+    "horizon": 15,
+    "rule": 2,
+    "loss": 18.94043623719302,
+    "n": 227,
+    "mode": "soft8",
+    "window": 0
+  },
+  "16": {
+    "horizon": 16,
+    "rule": 1,
+    "loss": 19.372716561033975,
+    "n": 226,
+    "mode": "top3",
+    "window": 0
+  },
+  "17": {
+    "horizon": 17,
+    "rule": 1,
+    "loss": 19.908918962472292,
+    "n": 225,
+    "mode": "top3",
+    "window": 0
+  },
+  "20": {
+    "horizon": 20,
+    "rule": 2,
+    "loss": 22.09589867995366,
+    "n": 222,
+    "mode": "soft8",
+    "window": 0
+  },
+  "60": {
+    "horizon": 60,
+    "rule": 0,
+    "loss": 32.96162531692811,
+    "n": 182,
+    "mode": "best",
+    "window": 0
+  }
+}

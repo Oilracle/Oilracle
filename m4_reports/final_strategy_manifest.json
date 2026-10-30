@@ -1,0 +1,27 @@
+{
+  "active_version": "short_bias_v6",
+  "name": "Integrated WTI Forecast",
+  "output": "m3_ml/fusion_v6/outputs/frozen_october_2026/rolling",
+  "model_output": "m3_ml/fusion_v6/outputs/frozen_october_2026",
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "delivery_profile": "daily_rolling",
+  "selected_sha256": "5ddaa794e5b640689bfbd9b7e9842ab43e35d7c5cea798f5afac9b95d88f8fde",
+  "presentation_data": "m3_ml/fusion_v6/outputs/frozen_october_2026/rolling/presentation_data.json",
+  "forecasts": "m3_ml/fusion_v6/outputs/frozen_october_2026/rolling/forecasts.csv",
+  "metrics": "m3_ml/fusion_v6/outputs/frozen_october_2026/rolling/metrics.csv",
+  "delivery_scope": "m3_ml/fusion_v6/outputs/frozen_october_2026/rolling/delivery_scope.json",
+  "selection_reason": "Pre-October gate accepts only h5 tail recalibration: matched-history coverage 65.28% to 79.17%, CRPS -0.87%, width +35%; all point corrections rejected.",
+  "superseded": [
+    "m3_ml/fusion/outputs/frozen_october_2026 (audit only)",
+    "m3_ml/fusion_v2/outputs/frozen_october_2026 (audit only)",
+    "m3_ml/fusion_v3/outputs/frozen_october_2026 (audit only)",
+    "m3_ml/fusion_v4/outputs/frozen_october_2026 (audit only)",
+    "m3_ml/fusion_v5/outputs/frozen_october_2026 (audit only)"
+  ]
+}

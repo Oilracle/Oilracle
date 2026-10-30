@@ -1,0 +1,38 @@
+{
+  "1": {
+    "basis": "l02",
+    "long_ridge": "l11",
+    "long_en": "l14",
+    "long_tree": "l18",
+    "long_huber": "l25",
+    "long_mean": "l03",
+    "v3": "c10"
+  },
+  "5": {
+    "basis": "l02",
+    "long_ridge": "l07",
+    "long_en": "l14",
+    "long_tree": "l23",
+    "long_huber": "l24",
+    "long_mean": "l03",
+    "v3": "c10"
+  },
+  "20": {
+    "basis": "l02",
+    "long_ridge": "l07",
+    "long_en": "l14",
+    "long_tree": "l17",
+    "long_huber": "l24",
+    "long_mean": "l04",
+    "v3": "c02"
+  },
+  "60": {
+    "basis": "l01",
+    "long_ridge": "l06",
+    "long_en": "l14",
+    "long_tree": "l17",
+    "long_huber": "l24",
+    "long_mean": "l04",
+    "v3": "c23"
+  }
+}

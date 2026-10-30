@@ -1,0 +1,14 @@
+{
+  "1": {
+    "passed": false,
+    "coverage_gap_gain": -0.03947368421052633,
+    "crps_ratio": 1.0948554675593178,
+    "width_ratio": 1.4999999999992726
+  },
+  "5": {
+    "passed": false,
+    "coverage_gap_gain": 0.1527777777777778,
+    "crps_ratio": 0.9990280403214289,
+    "width_ratio": 1.4999999999987426
+  }
+}

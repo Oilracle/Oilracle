@@ -1,0 +1,57 @@
+protocol_id,mode,horizon,role,rule,n,breach_rate,mean_hedge_ratio,es_97_5_hedged_loss,hedge_adjustments,method,inference
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),no hedge,0,,,,0,no hedge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),full hedge,0,,,,0,full hedge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),a_evt,0,,,,0,a_evt,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),a_lightgbm,0,,,,0,a_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),a_ridge,0,,,,0,a_ridge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),b_forest,0,,,,0,b_forest,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),b_lightgbm,0,,,,0,b_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),b_linear,0,,,,0,b_linear,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),c_mixture,0,,,,0,c_mixture,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),ensemble,0,,,,0,ensemble,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),ewma,0,,,,0,ewma,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),garch,0,,,,0,garch,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),garch_evt,0,,,,0,garch_evt,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,producer (long),hs,0,,,,0,hs,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),no hedge,0,,,,0,no hedge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),full hedge,0,,,,0,full hedge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),a_evt,0,,,,0,a_evt,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),a_lightgbm,0,,,,0,a_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),a_ridge,0,,,,0,a_ridge,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),b_forest,0,,,,0,b_forest,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),b_lightgbm,0,,,,0,b_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),b_linear,0,,,,0,b_linear,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),c_mixture,0,,,,0,c_mixture,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),ensemble,0,,,,0,ensemble,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),ewma,0,,,,0,ewma,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),garch,0,,,,0,garch,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),garch_evt,0,,,,0,garch_evt,descriptive_short_window
+qf5210-frozen-october-2026,fixed_origin,20,consumer (short),hs,0,,,,0,hs,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),no hedge,0,,,,0,no hedge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),full hedge,0,,,,0,full hedge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),a_evt,0,,,,0,a_evt,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),a_lightgbm,0,,,,0,a_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),a_ridge,0,,,,0,a_ridge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),b_forest,0,,,,0,b_forest,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),b_lightgbm,0,,,,0,b_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),b_linear,0,,,,0,b_linear,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),c_mixture,0,,,,0,c_mixture,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),ensemble,0,,,,0,ensemble,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),ewma,0,,,,0,ewma,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),garch,0,,,,0,garch,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),garch_evt,0,,,,0,garch_evt,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,producer (long),hs,0,,,,0,hs,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),no hedge,0,,,,0,no hedge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),full hedge,0,,,,0,full hedge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),a_evt,0,,,,0,a_evt,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),a_lightgbm,0,,,,0,a_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),a_ridge,0,,,,0,a_ridge,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),b_forest,0,,,,0,b_forest,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),b_lightgbm,0,,,,0,b_lightgbm,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),b_linear,0,,,,0,b_linear,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),c_mixture,0,,,,0,c_mixture,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),ensemble,0,,,,0,ensemble,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),ewma,0,,,,0,ewma,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),garch,0,,,,0,garch,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),garch_evt,0,,,,0,garch_evt,descriptive_short_window
+qf5210-frozen-october-2026,daily_update,20,consumer (short),hs,0,,,,0,hs,descriptive_short_window

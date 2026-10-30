@@ -1,0 +1,13 @@
+h,model,val_rmse_change_pct,test_original,test_news,dm_p_news_vs_original
+1,elastic_net,0.0,1.0001,1.0001,
+5,elastic_net,0.0,1.0007,1.0007,
+20,elastic_net,0.0,1.0037,1.0037,
+60,elastic_net,-8.9408,1.0388,1.0319,0.9159
+1,lightgbm,-0.4644,1.0059,1.0092,0.2802
+5,lightgbm,0.1169,1.024,1.0282,0.5084
+20,lightgbm,0.8752,1.0441,1.0525,0.2781
+60,lightgbm,-2.6603,1.1627,1.1707,0.8019
+1,random_forest,-0.0056,1.0033,1.0032,0.908
+5,random_forest,-0.0655,1.0234,1.0154,0.0419
+20,random_forest,0.0649,1.0798,1.054,0.0428
+60,random_forest,-0.9137,1.121,1.1136,0.7456

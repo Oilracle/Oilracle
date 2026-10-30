@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "selected_sha256": "ff2f527014bea685cede195ba71f765a2204ad8c0ac84fca0d245114f12bb031",
+  "forecast_sha256": "cda853bc829813befa842b9244680752185c3fdc7268f88481265a1f057e8291",
+  "forecast_mode": "daily_update",
+  "rows": 68,
+  "historical_and_october_metrics_recomputed": true,
+  "source_timing_verified": true,
+  "conditional_weights_verified": true,
+  "risk_envelope_and_width_cap_verified": true,
+  "member_inputs_verified": true,
+  "video_data_verified": true,
+  "previous_v4_preserved": true,
+  "no_october_parameter_changes": true,
+  "conditional_historical_evidence": true
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "aggregate_rmse_vs_v3": 0.9753497741745039,
+  "worst_horizon_rmse_vs_v3": 1.0045765369719561,
+  "rule": "Later-history aggregate must improve over v3, and no horizon may degrade by more than 2%; no October ranking.",
+  "october_used": false
+}

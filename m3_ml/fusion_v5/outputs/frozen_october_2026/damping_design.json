@@ -1,0 +1,9 @@
+{
+  "development_amendment": true,
+  "reason": "Support-only protection did not satisfy the original h1 degradation gate; reduce the impact of the new meta policy.",
+  "update_fraction": 0.5,
+  "policy": "Apply a fixed half-step to the same causally selected policy at every horizon and every historical origin. No re-ranking on October.",
+  "coefficient_selection": "One conservative half-step, registered before its evaluation; no coefficient grid or adjusted promotion thresholds.",
+  "undamped_proposal_sha256": "2fb1adea52e613f3fe5c2fe3bc8e286d05e1932155396b829537c700aabc5c41",
+  "october_used": false
+}

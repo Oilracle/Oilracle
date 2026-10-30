@@ -1,0 +1,615 @@
+{
+  "version": "state_reliability_v5",
+  "name": "Integrated WTI Forecast",
+  "fit_end": "2026-09-30",
+  "forecast_mode": "daily_update",
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "experts": [
+    "incumbent",
+    "futures",
+    "basis",
+    "m1",
+    "m2",
+    "lstm",
+    "ml",
+    "long_ridge",
+    "long_en",
+    "long_tree",
+    "long_huber",
+    "long_mean",
+    "v3"
+  ],
+  "state_features": [
+    "state_vol",
+    "state_basis",
+    "state_age",
+    "state_trend",
+    "state_dispersion",
+    "state_season"
+  ],
+  "point_candidates": [
+    {
+      "id": "p000",
+      "kind": "incumbent",
+      "window": 0
+    },
+    {
+      "id": "p001",
+      "kind": "static",
+      "window": 126,
+      "penalty": 0.03,
+      "n_state": 0
+    },
+    {
+      "id": "p002",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 0.03,
+      "n_state": 3
+    },
+    {
+      "id": "p003",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 0.03,
+      "n_state": 6
+    },
+    {
+      "id": "p004",
+      "kind": "static",
+      "window": 126,
+      "penalty": 0.3,
+      "n_state": 0
+    },
+    {
+      "id": "p005",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 0.3,
+      "n_state": 3
+    },
+    {
+      "id": "p006",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 0.3,
+      "n_state": 6
+    },
+    {
+      "id": "p007",
+      "kind": "static",
+      "window": 126,
+      "penalty": 3.0,
+      "n_state": 0
+    },
+    {
+      "id": "p008",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 3.0,
+      "n_state": 3
+    },
+    {
+      "id": "p009",
+      "kind": "regime",
+      "window": 126,
+      "penalty": 3.0,
+      "n_state": 6
+    },
+    {
+      "id": "p010",
+      "kind": "static",
+      "window": 252,
+      "penalty": 0.03,
+      "n_state": 0
+    },
+    {
+      "id": "p011",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 0.03,
+      "n_state": 3
+    },
+    {
+      "id": "p012",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 0.03,
+      "n_state": 6
+    },
+    {
+      "id": "p013",
+      "kind": "static",
+      "window": 252,
+      "penalty": 0.3,
+      "n_state": 0
+    },
+    {
+      "id": "p014",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 0.3,
+      "n_state": 3
+    },
+    {
+      "id": "p015",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 0.3,
+      "n_state": 6
+    },
+    {
+      "id": "p016",
+      "kind": "static",
+      "window": 252,
+      "penalty": 3.0,
+      "n_state": 0
+    },
+    {
+      "id": "p017",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 3.0,
+      "n_state": 3
+    },
+    {
+      "id": "p018",
+      "kind": "regime",
+      "window": 252,
+      "penalty": 3.0,
+      "n_state": 6
+    },
+    {
+      "id": "p019",
+      "kind": "static",
+      "window": 0,
+      "penalty": 0.03,
+      "n_state": 0
+    },
+    {
+      "id": "p020",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 0.03,
+      "n_state": 3
+    },
+    {
+      "id": "p021",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 0.03,
+      "n_state": 6
+    },
+    {
+      "id": "p022",
+      "kind": "static",
+      "window": 0,
+      "penalty": 0.3,
+      "n_state": 0
+    },
+    {
+      "id": "p023",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 0.3,
+      "n_state": 3
+    },
+    {
+      "id": "p024",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 0.3,
+      "n_state": 6
+    },
+    {
+      "id": "p025",
+      "kind": "static",
+      "window": 0,
+      "penalty": 3.0,
+      "n_state": 0
+    },
+    {
+      "id": "p026",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 3.0,
+      "n_state": 3
+    },
+    {
+      "id": "p027",
+      "kind": "regime",
+      "window": 0,
+      "penalty": 3.0,
+      "n_state": 6
+    },
+    {
+      "id": "p028",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p029",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p030",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p031",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p032",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p033",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p034",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p035",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p036",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p037",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p038",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p039",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p040",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p041",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p042",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p043",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p044",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p045",
+      "kind": "reliability",
+      "window": 252,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p046",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p047",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p048",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p049",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p050",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p051",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 100.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p052",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p053",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p054",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p055",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p056",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p057",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "ridge",
+      "alpha": 1000.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p058",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 0.25,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p059",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 0.25,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p060",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 1.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p061",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 1.0,
+      "anchor_prior": 16.0
+    },
+    {
+      "id": "p062",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 4.0,
+      "anchor_prior": 4.0
+    },
+    {
+      "id": "p063",
+      "kind": "reliability",
+      "window": 0,
+      "learner": "tree",
+      "alpha": 0.0,
+      "temperature": 4.0,
+      "anchor_prior": 16.0
+    }
+  ],
+  "candidate_start": "2025-03-01",
+  "outer_start": "2025-09-01",
+  "min_mature_train": 40,
+  "selector_window": 252,
+  "selector_min_relative_gain": 0.01,
+  "point_promotion": {
+    "max_aggregate_ratio": 0.995,
+    "max_horizon_ratio": 1.02
+  },
+  "risk_start": "2025-09-01",
+  "risk_outer_start": "2026-03-01",
+  "risk_sources": [
+    "hs",
+    "a_ridge",
+    "a_lightgbm",
+    "b_linear",
+    "b_lightgbm",
+    "b_forest",
+    "futures_vol",
+    "implied_vol",
+    "hybrid_vol"
+  ],
+  "risk_windows": [
+    63,
+    126,
+    252,
+    0
+  ],
+  "risk_targets": [
+    0.9,
+    0.95,
+    0.975
+  ],
+  "risk_sides": [
+    "symmetric",
+    "asymmetric"
+  ],
+  "risk_constraint": {
+    "min_coverage": 0.9,
+    "max_tail_miss": 0.075,
+    "max_width_vs_hs": 2.0,
+    "selection_window": 252
+  },
+  "risk_promotion": {
+    "min_mean_coverage_gap_improvement": 0.02,
+    "max_horizon_gap_degradation": 0.02,
+    "max_mean_crps_ratio": 1.05,
+    "max_horizon_crps_ratio": 1.1,
+    "max_horizon_width_ratio": 1.75
+  },
+  "risk_policy": "Fit standardized tail scores only on mature previously issued errors; select minimum CRPS among candidates satisfying empirical coverage and width limits. Report infeasibility explicitly.",
+  "promotion": "If the point gate fails, retain v4 points before fitting risk. Promote only if the risk gate passes, or point gate passes and risk does not materially regress. Otherwise keep v4 canonical.",
+  "timing": "Quarterly refits within history; selection at each outer cutoff uses only earlier candidate forecasts with released labels. Freeze all functions and calibration at September 30; daily inputs may change.",
+  "limitations": "This adds nested time selection for the new layer. Inherited base specifications and repeated historical research remain conditional; source vintages and publication assumptions are unchanged.",
+  "october": "Previously inspected October outcomes are retrospective evaluation only; no candidate, parameter or promotion selection from October.",
+  "references": [
+    "https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html",
+    "https://proceedings.neurips.cc/paper_files/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html"
+  ],
+  "coverage_caveat": "Serial dependence, changing distributions and frozen October calibration mean no distribution-free 90% coverage guarantee is claimed."
+}

@@ -1,0 +1,17 @@
+mode,model,method,horizon,protocol_id,fit_end,n,mae,rmse,mape_positive_only_pct,mape_n,direction_vs_published_pct,directional_n,neutral_forecast_pct,up_precision,up_recall,up_f1
+fixed_origin,LSTM,LSTM,1,qf5210-frozen-october-2026,2026-09-30,1,2.9019481930178443,2.9019481930178443,2.908638060557126,1.0,100.0,1.0,0.0,0.0,0.0,0.0
+fixed_origin,LSTM,LSTM,5,qf5210-frozen-october-2026,2026-09-30,1,0.2943029971775104,0.2943029971775104,0.30972742283467736,1.0,100.0,1.0,0.0,0.0,0.0,0.0
+fixed_origin,LSTM,LSTM,20,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+fixed_origin,LSTM,LSTM,60,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+fixed_origin,Persistence,Persistence,1,qf5210-frozen-october-2026,2026-09-30,1,1.6700000000000017,1.6700000000000017,1.6738498546657328,1.0,0.0,1.0,100.0,0.0,0.0,0.0
+fixed_origin,Persistence,Persistence,5,qf5210-frozen-october-2026,2026-09-30,1,6.420000000000002,6.420000000000002,6.756472321616504,1.0,0.0,1.0,100.0,0.0,0.0,0.0
+fixed_origin,Persistence,Persistence,20,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+fixed_origin,Persistence,Persistence,60,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+daily_update,LSTM,LSTM,1,qf5210-frozen-october-2026,2026-09-30,17,11.651354526067674,12.93987830997173,11.473872822323878,17.0,23.52941176470588,17.0,0.0,0.0,0.0,0.0
+daily_update,LSTM,LSTM,5,qf5210-frozen-october-2026,2026-09-30,13,16.331814107152738,17.273679710160298,15.949280634519639,13.0,7.6923076923076925,13.0,0.0,0.0,0.0,0.0
+daily_update,LSTM,LSTM,20,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+daily_update,LSTM,LSTM,60,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+daily_update,Persistence,Persistence,1,qf5210-frozen-october-2026,2026-09-30,17,8.167058823529409,9.110146250521026,8.061823525217553,17.0,0.0,17.0,100.0,0.0,0.0,0.0
+daily_update,Persistence,Persistence,5,qf5210-frozen-october-2026,2026-09-30,13,10.717692307692307,11.253163315947411,10.503094716554179,13.0,0.0,13.0,100.0,0.0,0.0,0.0
+daily_update,Persistence,Persistence,20,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,
+daily_update,Persistence,Persistence,60,qf5210-frozen-october-2026,2026-09-30,0,,,,,,,,,,

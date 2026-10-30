@@ -1,0 +1,10 @@
+{
+  "forecast_rows": 197850,
+  "models": 5,
+  "horizons": 60,
+  "unique_keys": true,
+  "horizon_alignment": true,
+  "actuals_match_input": true,
+  "all_300_metric_rows_recomputed": 300,
+  "executed_notebook_code_cells": 9
+}

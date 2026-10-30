@@ -1,0 +1,12 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "stage": 2,
+  "train_end": "2026-09-30",
+  "val_end": "2026-09-30",
+  "corpus_cutoff": "2026-09-30",
+  "selected_steps": {
+    "tokenizer": 10000,
+    "predictor": 2000
+  },
+  "normalization": "frozen training ticker statistics"
+}

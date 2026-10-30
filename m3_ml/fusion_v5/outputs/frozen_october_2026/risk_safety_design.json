@@ -1,0 +1,9 @@
+{
+  "development_amendment": true,
+  "reason": "Raw coverage-constrained selection still undercovered short horizons after a regime change and doubled h60 width.",
+  "policy": "Take an outward quantile envelope with the causally issued incumbent shape at the new center. Interpolate back toward the incumbent if the 90% price interval exceeds 1.5 times incumbent width.",
+  "price_width_cap": 1.5,
+  "cap_selection": "Fixed research safeguard, not selected using October or a grid of caps.",
+  "promotion_thresholds": "Unchanged original v5 thresholds; all new results remain adaptive historical development.",
+  "october_used": false
+}

@@ -1,0 +1,43 @@
+{
+  "status": "diagnosis_completed_no_retuning",
+  "checks": {
+    "raw_fred_csv_parquet_publication_values_match": true,
+    "independent_asof_anchor_matches": true,
+    "fusion_origin_plus_horizon_and_actual_match_raw_grid": true,
+    "m1_dates_rows_actuals_anchors_and_units": true,
+    "m2_dates_rows_actuals_anchors_and_units": true,
+    "lstm_dates_rows_actuals_anchors_and_units": true,
+    "ml_dates_rows_actuals_anchors_and_units": true,
+    "distribution_dates_rows_actuals_anchors_and_units": true,
+    "historical_distribution_and_fusion_targets_match": true,
+    "native_lstm_checkpoint_reproduces_all_60_steps": true,
+    "lstm_fixed_path_invariant_to_october_predictor_mutation": true,
+    "native_ml_final_refit_reproduces_all_19_horizons": true
+  },
+  "protected_files_unchanged": true,
+  "fixed_path_excess_mse": 23.79425542538233,
+  "exact_excess_mse_attribution": {
+    "m1": -5.390845518329311,
+    "m2": -0.021079147878221263,
+    "lstm": 23.50164437992017,
+    "ml": 0.02559688966425595,
+    "calibration": 5.678938822005441
+  },
+  "historical_key_horizon_crps_control": {
+    "preserve_center_crps_ratio": 0.9299771070355548,
+    "calibrated_crps_ratio": 0.9618194678878976
+  },
+  "note": "Attribution uses the original frozen October forecasts. Historical checks use only pre-October outcomes. No parameter/weight or publication-policy changes.",
+  "protected_sha256": {
+    "m3_ml\\fusion\\outputs\\frozen_october_2026\\selected.json": "72f7cf8302ed1b9afbe22c72bb8f7b8729cf274c7e8e8581bc9b3620236b97de",
+    "m3_ml\\fusion\\outputs\\frozen_october_2026\\test_forecasts.csv": "bbbe159d959ae300ac77724e10fa81d2687f7d198ac4e77863956334662ad290",
+    "data\\processed\\wti_daily.csv": "b30c0e9eb4b58393d6e953b1f8c425c528ce14512b0c9862a8f059aec46ed348",
+    "data\\processed\\wti_daily.parquet": "756f57d3808195f7acf5e833bcf4a607e42ba7d4b1aef3f4bfe7b8fcd712f4a3",
+    "data\\processed\\wti_publication.csv": "6794fad0a758c47db505d3bf5ba2c29ab5ee36fa5620e4bcda679f03faf081c4",
+    "m3_ml\\lstm\\outputs\\frozen_october_2026\\models\\lstm_seed_42.pt": "04418709ea6b1bceb6cd69a39b339e5f4394e0ecc188696ebc9f18c1d3c9456c",
+    "m3_ml\\lstm\\outputs\\frozen_october_2026\\models\\lstm_seed_43.pt": "48980a0ecf1b22dda1f0a3db614dbd8eb21241074e5e70796ffcc87a1361395f",
+    "m3_ml\\lstm\\outputs\\frozen_october_2026\\models\\lstm_seed_44.pt": "da530dd165ededbb4f97304628dc0765287974b7a96c208c2aae941be9594565",
+    "m3_ml\\lstm\\outputs\\frozen_october_2026\\models\\metadata.json": "dde248c86e8c0413f7895770d4c0968d70f2376b0d2189aa0662a31562fb0e1d",
+    "m3_ml\\lstm\\outputs\\frozen_october_2026\\models\\scalers.npz": "0793242d801040db7e73f40f8b074f2427a8d1f424b0b59f38f47ab81ec3e34b"
+  }
+}

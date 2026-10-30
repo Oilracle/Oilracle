@@ -1,0 +1,453 @@
+{
+  "audit": {
+    "october_rows": 30,
+    "same_forecast_max_error": 2.842170943040401e-14,
+    "same_actual_max_error": 1.4210854715202004e-14,
+    "same_anchor_max_error": 0.0,
+    "historical_native_max_error": 2.842170943040401e-14,
+    "historical_base_refit_policy": "63-origin refits inherited from fusion_v2",
+    "historical_base_cutoffs": [
+      "2025-06-12",
+      "2025-09-12",
+      "2025-12-15",
+      "2026-03-18",
+      "2026-06-17",
+      "2026-09-17"
+    ],
+    "publication_policy": "Existing portable release schedule, including assumed dates; not an independent real-time vintage audit.",
+    "production_parameters_changed": false,
+    "october_used_for_fitting": false,
+    "protected_hashes_unchanged": {
+      "m4_reports\\final_strategy_manifest.json": "a730afa390671b0827cbc6a99b202db740dab9822014b43f35503f28b6be9081",
+      "m3_ml\\fusion_v4\\outputs\\frozen_october_2026\\selected.json": "4499a098f93ab7a727ce6c6b33f2302d22ac2b5ae2b5f943e0faa310a37e4272",
+      "m3_ml\\fusion_v4\\outputs\\frozen_october_2026\\test_forecasts.csv": "03543f9db2d7255c62d40c7f5459b9c68758ba3ac97792b64be5386a80faf053",
+      "m3_ml\\fusion_v4\\outputs\\frozen_october_2026\\point_crossfit.csv": "dbc1a6283202ebd9e66acd76c3f1c7e2d4b27f491d7d37575ba226195d7de220",
+      "m3_ml\\fusion_v4\\outputs\\frozen_october_2026\\models\\upgrade.joblib": "851c48390c5dc1c1d5fa90175e30d709cbba2767d8e72ab9151b216e50d61222",
+      "m3_ml\\fusion_v5\\outputs\\frozen_october_2026\\selected.json": "ff2f527014bea685cede195ba71f765a2204ad8c0ac84fca0d245114f12bb031",
+      "m3_ml\\fusion_v5\\outputs\\frozen_october_2026\\test_forecasts.csv": "cda853bc829813befa842b9244680752185c3fdc7268f88481265a1f057e8291",
+      "m3_ml\\fusion_v5\\outputs\\frozen_october_2026\\point_crossfit.csv": "3bab1ce8d5782a2580daebddc61fe4b75666d24dbc661fb402f36b9f4aa415e9",
+      "m3_ml\\fusion_v5\\outputs\\frozen_october_2026\\models\\upgrade.joblib": "fa4628af3b5c5c3d06f8f63d28e157af045212c2a2213d0b62a322581f90c7b6",
+      "m3_ml\\fusion_v6\\outputs\\frozen_october_2026\\selected.json": "5ddaa794e5b640689bfbd9b7e9842ab43e35d7c5cea798f5afac9b95d88f8fde",
+      "m3_ml\\fusion_v6\\outputs\\frozen_october_2026\\test_forecasts.csv": "b0c71e3cd31112bf30a490738e86fae95488e6bb1817084f99507a0cd6a4dc1c",
+      "m3_ml\\fusion_v6\\outputs\\frozen_october_2026\\point_crossfit.csv": "d4167586f7ac63eb164dffdc1eeb7e3656c8cb51236f134402cd6382d915a149"
+    }
+  },
+  "metrics": [
+    {
+      "period": "history",
+      "horizon": 1,
+      "method": "forecast",
+      "n": 261,
+      "rmse": 5.119564365449704,
+      "mae": 3.643877664501979,
+      "bias": -1.1609975851598733,
+      "mse": 26.209939291982426
+    },
+    {
+      "period": "history",
+      "horizon": 1,
+      "method": "m1_price",
+      "n": 261,
+      "rmse": 7.728198764775667,
+      "mae": 5.203839084099557,
+      "bias": -0.28374073498638525,
+      "mse": 59.72505614788014
+    },
+    {
+      "period": "history",
+      "horizon": 1,
+      "method": "rw_price",
+      "n": 261,
+      "rmse": 7.991802289309816,
+      "mae": 5.398352490421455,
+      "bias": -0.9103831417624542,
+      "mse": 63.86890383141762
+    },
+    {
+      "period": "history",
+      "horizon": 1,
+      "method": "futures_price",
+      "n": 261,
+      "rmse": 5.178839971264868,
+      "mae": 3.645248835771933,
+      "bias": -1.5245594202969739,
+      "mse": 26.82038344797069
+    },
+    {
+      "period": "history",
+      "horizon": 1,
+      "method": "v4_forecast",
+      "n": 261,
+      "rmse": 5.0931919410824475,
+      "mae": 3.6154936858473907,
+      "bias": -1.2018512611372647,
+      "mse": 25.94060414870719
+    },
+    {
+      "period": "history",
+      "horizon": 5,
+      "method": "forecast",
+      "n": 257,
+      "rmse": 7.8417757428926524,
+      "mae": 5.360263491950787,
+      "bias": -1.885560932334231,
+      "mse": 61.493446801819616
+    },
+    {
+      "period": "history",
+      "horizon": 5,
+      "method": "m1_price",
+      "n": 257,
+      "rmse": 9.36115729850487,
+      "mae": 6.320205364431447,
+      "bias": -0.4870979649922981,
+      "mse": 87.63126596735097
+    },
+    {
+      "period": "history",
+      "horizon": 5,
+      "method": "rw_price",
+      "n": 257,
+      "rmse": 9.737534663504784,
+      "mae": 6.634396887159532,
+      "bias": -1.4161867704280178,
+      "mse": 94.8195813229572
+    },
+    {
+      "period": "history",
+      "horizon": 5,
+      "method": "futures_price",
+      "n": 257,
+      "rmse": 7.861873137278541,
+      "mae": 5.371789890986936,
+      "bias": -2.1582490907661662,
+      "mse": 61.80904922666192
+    },
+    {
+      "period": "history",
+      "horizon": 5,
+      "method": "v4_forecast",
+      "n": 257,
+      "rmse": 7.84533136996454,
+      "mae": 5.376852260809321,
+      "bias": -2.143176262206906,
+      "mse": 61.549224304549675
+    },
+    {
+      "period": "October",
+      "horizon": 1,
+      "method": "forecast",
+      "n": 17,
+      "rmse": 6.627212738895322,
+      "mae": 5.5493361070151765,
+      "bias": -5.541476908334197,
+      "mse": 43.91994868657643
+    },
+    {
+      "period": "October",
+      "horizon": 1,
+      "method": "m1_price",
+      "n": 17,
+      "rmse": 6.330858225038565,
+      "mae": 5.818301499155164,
+      "bias": -2.4586655477961052,
+      "mse": 40.07976586553845
+    },
+    {
+      "period": "October",
+      "horizon": 1,
+      "method": "rw_price",
+      "n": 17,
+      "rmse": 9.110146250521023,
+      "mae": 8.167058823529407,
+      "bias": -7.152941176470582,
+      "mse": 82.99476470588225
+    },
+    {
+      "period": "October",
+      "horizon": 1,
+      "method": "futures_price",
+      "n": 17,
+      "rmse": 8.315390343057057,
+      "mae": 7.436470677992873,
+      "bias": -7.436470677992873,
+      "mse": 69.14571655740656
+    },
+    {
+      "period": "October",
+      "horizon": 1,
+      "method": "v4_forecast",
+      "n": 17,
+      "rmse": 6.627212738895322,
+      "mae": 5.5493361070151765,
+      "bias": -5.541476908334197,
+      "mse": 43.91994868657643
+    },
+    {
+      "period": "October",
+      "horizon": 5,
+      "method": "forecast",
+      "n": 13,
+      "rmse": 10.065766290861164,
+      "mae": 8.5516482660972,
+      "bias": -8.418047593089236,
+      "mse": 101.31965102223694
+    },
+    {
+      "period": "October",
+      "horizon": 5,
+      "method": "m1_price",
+      "n": 13,
+      "rmse": 5.574176629488112,
+      "mae": 4.595592276321776,
+      "bias": -2.587949924311314,
+      "mse": 31.071445096731445
+    },
+    {
+      "period": "October",
+      "horizon": 5,
+      "method": "rw_price",
+      "n": 13,
+      "rmse": 11.253163315947408,
+      "mae": 10.717692307692301,
+      "bias": -9.729999999999993,
+      "mse": 126.63368461538447
+    },
+    {
+      "period": "October",
+      "horizon": 5,
+      "method": "futures_price",
+      "n": 13,
+      "rmse": 12.455325477842031,
+      "mae": 10.863077768179084,
+      "bias": -10.863077768179084,
+      "mse": 155.13513275898083
+    },
+    {
+      "period": "October",
+      "horizon": 5,
+      "method": "v4_forecast",
+      "n": 13,
+      "rmse": 10.590626480964497,
+      "mae": 8.94775945455962,
+      "bias": -8.929612432232425,
+      "mse": 112.16136925930644
+    }
+  ],
+  "window_summary": [
+    {
+      "horizon": 1,
+      "window": 17,
+      "n_windows": 245,
+      "vecm_wins": 26,
+      "vecm_win_fraction": 0.10612244897959183,
+      "october_ratio": 1.0468111120676615,
+      "windows_at_least_october_ratio": 21,
+      "fraction_at_least_october_ratio": 0.08571428571428572,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    },
+    {
+      "horizon": 1,
+      "window": 20,
+      "n_windows": 242,
+      "vecm_wins": 22,
+      "vecm_win_fraction": 0.09090909090909091,
+      "october_ratio": 1.0468111120676615,
+      "windows_at_least_october_ratio": 15,
+      "fraction_at_least_october_ratio": 0.06198347107438017,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    },
+    {
+      "horizon": 1,
+      "window": 60,
+      "n_windows": 202,
+      "vecm_wins": 0,
+      "vecm_win_fraction": 0.0,
+      "october_ratio": 1.0468111120676615,
+      "windows_at_least_october_ratio": 0,
+      "fraction_at_least_october_ratio": 0.0,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    },
+    {
+      "horizon": 5,
+      "window": 13,
+      "n_windows": 245,
+      "vecm_wins": 67,
+      "vecm_win_fraction": 0.27346938775510204,
+      "october_ratio": 1.8057853132267043,
+      "windows_at_least_october_ratio": 3,
+      "fraction_at_least_october_ratio": 0.012244897959183673,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    },
+    {
+      "horizon": 5,
+      "window": 20,
+      "n_windows": 238,
+      "vecm_wins": 55,
+      "vecm_win_fraction": 0.23109243697478993,
+      "october_ratio": 1.8057853132267043,
+      "windows_at_least_october_ratio": 0,
+      "fraction_at_least_october_ratio": 0.0,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    },
+    {
+      "horizon": 5,
+      "window": 60,
+      "n_windows": 198,
+      "vecm_wins": 7,
+      "vecm_win_fraction": 0.03535353535353535,
+      "october_ratio": 1.8057853132267043,
+      "windows_at_least_october_ratio": 0,
+      "fraction_at_least_october_ratio": 0.0,
+      "interpretation": "Overlapping historical windows; descriptive, NOT an independent-event probability or p-value."
+    }
+  ],
+  "mechanism": {
+    "h5_outer_weights": {
+      "incumbent": 0.8607464719537057,
+      "m1": 0.0778744339360738,
+      "long_mean": 0.0613790941102204
+    },
+    "h5_explicit_direct_and_v4_vecm_weight": 0.13668239974540336,
+    "weight_caveat": "This is not total sensitivity: inherited ML corrections also use VECM as an input.",
+    "h5_static_definition": {
+      "id": "p001",
+      "kind": "static",
+      "window": 126,
+      "penalty": 0.03,
+      "n_state": 0,
+      "update_fraction": 0.5
+    },
+    "h5_layers": {
+      "incumbent_forecast": {
+        "n": 13,
+        "rmse": 10.78546029674451,
+        "mae": 9.08019040388987,
+        "bias": -9.08019040388987,
+        "mse": 116.32615381265217
+      },
+      "proposal_forecast": {
+        "n": 13,
+        "rmse": 10.079528137968175,
+        "mae": 8.708654390430485,
+        "bias": -8.519943617898974,
+        "mse": 101.59688748409218
+      },
+      "v4_forecast": {
+        "n": 13,
+        "rmse": 10.590626480964497,
+        "mae": 8.94775945455962,
+        "bias": -8.929612432232425,
+        "mse": 112.16136925930644
+      },
+      "undamped_v5_proposal": {
+        "n": 13,
+        "rmse": 9.550071798969778,
+        "mae": 8.155537077634778,
+        "bias": -7.9064827539460465,
+        "mse": 91.20387136547785
+      },
+      "forecast": {
+        "n": 13,
+        "rmse": 10.065766290861164,
+        "mae": 8.5516482660972,
+        "bias": -8.418047593089236,
+        "mse": 101.31965102223694
+      },
+      "m1_price": {
+        "n": 13,
+        "rmse": 5.574176629488112,
+        "mae": 4.595592276321776,
+        "bias": -2.587949924311314,
+        "mse": 31.071445096731445
+      }
+    },
+    "h5_top3_excess_loss_share": 0.7480890513073002,
+    "h5_top3_targets": [
+      "2026-10-19",
+      "2026-10-16",
+      "2026-10-20"
+    ],
+    "h5_vecm_winning_origins": 11
+  },
+  "historical_refit_robustness": [
+    {
+      "horizon": 1,
+      "method": "forecast",
+      "n": 261,
+      "rmse": 5.119564365449704,
+      "mae": 3.643877664501979,
+      "bias": -1.1609975851598733,
+      "mse": 26.209939291982426
+    },
+    {
+      "horizon": 1,
+      "method": "m1_price",
+      "n": 261,
+      "rmse": 7.728198764775667,
+      "mae": 5.203839084099557,
+      "bias": -0.28374073498638525,
+      "mse": 59.72505614788014
+    },
+    {
+      "horizon": 1,
+      "method": "forecast_refit",
+      "n": 261,
+      "rmse": 7.733349763274612,
+      "mae": 5.206334353466932,
+      "bias": -0.27757565730814143,
+      "mse": 59.8046985611395
+    },
+    {
+      "horizon": 1,
+      "method": "forecast_original",
+      "n": 261,
+      "rmse": 7.739226468487195,
+      "mae": 5.214269021939843,
+      "bias": -0.549647109721549,
+      "mse": 59.895626330532785
+    },
+    {
+      "horizon": 5,
+      "method": "forecast",
+      "n": 257,
+      "rmse": 7.8417757428926524,
+      "mae": 5.360263491950787,
+      "bias": -1.885560932334231,
+      "mse": 61.493446801819616
+    },
+    {
+      "horizon": 5,
+      "method": "m1_price",
+      "n": 257,
+      "rmse": 9.36115729850487,
+      "mae": 6.320205364431447,
+      "bias": -0.4870979649922981,
+      "mse": 87.63126596735097
+    },
+    {
+      "horizon": 5,
+      "method": "forecast_refit",
+      "n": 257,
+      "rmse": 9.375959591797564,
+      "mae": 6.3304570314300666,
+      "bias": -0.4698201118539239,
+      "mse": 87.90861826702073
+    },
+    {
+      "horizon": 5,
+      "method": "forecast_original",
+      "n": 257,
+      "rmse": 9.400128170235364,
+      "mae": 6.350691495031856,
+      "bias": -0.8666882945077132,
+      "mse": 88.36240961685245
+    }
+  ],
+  "caveats": [
+    "Conditional historical development evidence; inherited specifications were already selected using this history.",
+    "October was previously inspected and remains retrospective evaluation.",
+    "No new strategy, weights, calibration or model was selected from this diagnostic.",
+    "Quarterly VECM check is historical-only and post-hoc; production forecasts are unchanged."
+  ]
+}

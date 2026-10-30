@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "selected_sha256": "12d803737e1804b2e69312aede92113535b38f9f7fee743c9b903ecc409c209a",
+  "rolling_forecast_sha256": "db4454892cf7e3ea775ff131f7378760bfc4ec708f973d5639b46796b84f4c9d",
+  "source_forecast_sha256": "9706ddb057d11a345bb6c554fa535ed7cbdcc3da768ca5f9554e4b173d41940b",
+  "canonical_manifest": true,
+  "forecast_mode": "daily_update",
+  "rows": 68,
+  "archived_rows": 87,
+  "original_predictions_unchanged": true,
+  "metrics_recomputed": true,
+  "all_consumed_futures_quotes_verified": true,
+  "point_training_cutoff": "2026-09-30",
+  "v2_preserved": true,
+  "no_october_parameter_changes": true
+}

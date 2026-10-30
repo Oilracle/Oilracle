@@ -1,0 +1,353 @@
+{
+  "a_evt/h1": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1
+    },
+    "score": -0.7634
+  },
+  "a_evt/h20": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1
+    },
+    "score": -0.84236
+  },
+  "a_evt/h5": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.05
+    },
+    "score": -1.02758
+  },
+  "a_evt/h60": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1
+    },
+    "score": -0.84801
+  },
+  "a_lightgbm/h1": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 0.9721
+  },
+  "a_lightgbm/h20": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 1.01295
+  },
+  "a_lightgbm/h5": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol",
+      "n_estimators": 500,
+      "num_leaves": 4
+    },
+    "score": 0.9752
+  },
+  "a_lightgbm/h60": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 1.05631
+  },
+  "a_ridge/h1": {
+    "metric": "crps",
+    "params": {
+      "alpha": 10,
+      "features": "vol"
+    },
+    "score": 0.95923
+  },
+  "a_ridge/h20": {
+    "metric": "crps",
+    "params": {
+      "alpha": 100,
+      "features": "vol"
+    },
+    "score": 0.99718
+  },
+  "a_ridge/h5": {
+    "metric": "crps",
+    "params": {
+      "alpha": 0.1,
+      "features": "vol"
+    },
+    "score": 0.96082
+  },
+  "a_ridge/h60": {
+    "metric": "crps",
+    "params": {
+      "alpha": 100,
+      "features": "vol"
+    },
+    "score": 1.01701
+  },
+  "b_forest/h1": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 20
+    },
+    "score": 0.98455
+  },
+  "b_forest/h20": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 50
+    },
+    "score": 1.04221
+  },
+  "b_forest/h5": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 50
+    },
+    "score": 1.00415
+  },
+  "b_forest/h60": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 100
+    },
+    "score": 1.12482
+  },
+  "b_lightgbm/h1": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.97755
+  },
+  "b_lightgbm/h20": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.03722
+  },
+  "b_lightgbm/h5": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.00306
+  },
+  "b_lightgbm/h60": {
+    "metric": "crps",
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.12412
+  },
+  "b_linear/h1": {
+    "metric": "crps",
+    "params": {
+      "alpha": 0.001,
+      "features": "vol"
+    },
+    "score": 0.96828
+  },
+  "b_linear/h20": {
+    "metric": "crps",
+    "params": {
+      "alpha": 0.01,
+      "features": "vol"
+    },
+    "score": 0.997
+  },
+  "b_linear/h5": {
+    "metric": "crps",
+    "params": {
+      "alpha": 0.01,
+      "features": "vol"
+    },
+    "score": 0.9785
+  },
+  "b_linear/h60": {
+    "metric": "crps",
+    "params": {
+      "alpha": 0.1,
+      "features": "vol"
+    },
+    "score": 1.00523
+  },
+  "c_mixture/h20": {
+    "metric": "crps",
+    "params": {
+      "alpha": 100,
+      "core": "combo",
+      "mixing": "empirical"
+    },
+    "score": 0.97182
+  },
+  "c_mixture/h5": {
+    "metric": "crps",
+    "params": {
+      "alpha": 1,
+      "core": "combo",
+      "mixing": "conditional"
+    },
+    "score": 0.95582
+  },
+  "c_mixture/h60": {
+    "metric": "crps",
+    "params": {
+      "alpha": 100,
+      "core": "combo",
+      "mixing": "empirical"
+    },
+    "score": 0.95343
+  },
+  "ewma/h1": {
+    "metric": "crps",
+    "params": {
+      "lam": 0.94,
+      "shape": "empirical"
+    },
+    "score": 0.9705
+  },
+  "ewma/h20": {
+    "metric": "crps",
+    "params": {
+      "lam": 0.97,
+      "shape": "normal"
+    },
+    "score": 0.99539
+  },
+  "ewma/h5": {
+    "metric": "crps",
+    "params": {
+      "lam": 0.94,
+      "shape": "normal"
+    },
+    "score": 0.97642
+  },
+  "ewma/h60": {
+    "metric": "crps",
+    "params": {
+      "lam": 0.94,
+      "shape": "normal"
+    },
+    "score": 0.96674
+  },
+  "garch/h1": {
+    "metric": "crps",
+    "params": {
+      "method": "bootstrap",
+      "vol": "garch"
+    },
+    "score": 0.96464
+  },
+  "garch/h20": {
+    "metric": "crps",
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.97808
+  },
+  "garch/h5": {
+    "metric": "crps",
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.96484
+  },
+  "garch/h60": {
+    "metric": "crps",
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.9383
+  },
+  "garch_evt/h1": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1,
+      "vol": "gjr"
+    },
+    "score": -0.7387
+  },
+  "garch_evt/h20": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1,
+      "vol": "gjr"
+    },
+    "score": -0.78541
+  },
+  "garch_evt/h5": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.05,
+      "vol": "gjr"
+    },
+    "score": -0.93399
+  },
+  "garch_evt/h60": {
+    "metric": "fz0",
+    "params": {
+      "tail": 0.1,
+      "vol": "gjr"
+    },
+    "score": -0.74533
+  },
+  "hs/h1": {
+    "metric": "crps",
+    "params": {
+      "window": 1500
+    },
+    "score": 0.99777
+  },
+  "hs/h20": {
+    "metric": "crps",
+    "params": {
+      "window": "expanding"
+    },
+    "score": 1.0
+  },
+  "hs/h5": {
+    "metric": "crps",
+    "params": {
+      "window": 1500
+    },
+    "score": 0.99926
+  },
+  "hs/h60": {
+    "metric": "crps",
+    "params": {
+      "window": "expanding"
+    },
+    "score": 1.0
+  }
+}

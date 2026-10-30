@@ -1,0 +1,65 @@
+{
+  "protocol_id": "qf5210-frozen-october-2026",
+  "train_end": "2023-08-31",
+  "validation_start": "2023-09-01",
+  "validation_end": "2026-09-30",
+  "fit_end": "2026-09-30",
+  "test_start": "2026-10-01",
+  "test_end": "2026-10-23",
+  "modes": [
+    "fixed_origin",
+    "daily_update"
+  ],
+  "horizons": [
+    1,
+    5,
+    20,
+    60
+  ],
+  "publication_policy": "dated_archive_else_assumed_weekly_release",
+  "vintage_status": "retrospective_current_vintage",
+  "fit_policy": "one_fit_per_method_horizon_before_test",
+  "news": {
+    "news_policy_id": "news-release-calendar-v1",
+    "availability_status": "assumed_release_calendar_not_verified_historical_timestamps",
+    "ai_gpr": "previous_month_end_statistics_available_next_month_day_1",
+    "gpr_keyword": "previous_sunday_statistics_available_monday_federal_holidays_deferred",
+    "epu": "next_calendar_day_max_7_day_carry",
+    "vintage_status": "retrospective_current_vintage",
+    "sources": [
+      {
+        "file": "ai_gpr/ai_gpr_data_daily.csv",
+        "source": "Iacoviello & Tong AI-GPR",
+        "url": "https://www.matteoiacoviello.com/ai_gpr_files/ai_gpr_data_daily.csv",
+        "downloaded": "2026-10-17",
+        "coverage": "1960-01-01..2026-09-30",
+        "bytes": 2292539,
+        "sha256": "126826a6525410c49d179dc29ffc2a6797b8309a45cfd7f7f69cefe10422ae09",
+        "license": "cite Iacoviello & Tong (2026)",
+        "notes": "Daily geopolitical risk from NYT, Washington Post, Chicago Tribune articles scored by GPT-4o-mini; includes oil and regional oil sub-indexes. Backfilled with a current LLM and revised in 2026: not a real-time vintage."
+      },
+      {
+        "file": "gpr/data_gpr_daily_recent.xls",
+        "source": "Caldara & Iacoviello GPR",
+        "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+        "downloaded": "2026-10-29",
+        "coverage": "1985-01-01..2026-10-26",
+        "bytes": 3274752,
+        "sha256": "a4cecd9b807b1cbf3db92e7a8087aaa23dafeb76b92f10b882cbde015cbed9bb",
+        "license": "cite Caldara & Iacoviello (2022)",
+        "notes": "Keyword-based daily GPR from 10 newspapers. The 'event' column is a hindsight annotation for charts and must never be used as a feature; var_name/var_label rows are documentation."
+      },
+      {
+        "file": "epu/All_Daily_Policy_Data.csv",
+        "source": "Baker Bloom & Davis US daily EPU",
+        "url": "https://www.policyuncertainty.com/media/All_Daily_Policy_Data.csv",
+        "downloaded": "2026-10-29",
+        "coverage": "1985-01-01..2026-10-28",
+        "bytes": 250659,
+        "sha256": "0ce7c7167ef5b9d30af2a3eda198ddf910d74e03b028d2bfd2d833ddd6bf61f7",
+        "license": "CC BY 4.0",
+        "notes": "Daily US economic policy uncertainty from US newspapers (NewsBank). The previous 30 days are revised at every update: not a real-time vintage."
+      }
+    ]
+  }
+}

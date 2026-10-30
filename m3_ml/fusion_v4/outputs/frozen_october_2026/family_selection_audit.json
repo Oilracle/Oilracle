@@ -1,0 +1,1322 @@
+[
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2024-02-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l20",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": null,
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l20",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2024-02-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l21",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": null,
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l21",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2024-02-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l06",
+      "long_en": "l20",
+      "long_tree": "l23",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": null,
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l06",
+      "long_en": "l20",
+      "long_tree": "l23",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2024-02-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l08",
+      "long_en": "l16",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-03-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": null,
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l08",
+      "long_en": "l16",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l04",
+      "v3": "c18"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l04",
+      "v3": "c18"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l15",
+      "long_tree": "l22",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c24"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l10",
+      "long_en": "l15",
+      "long_tree": "l22",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c24"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2024-05-31",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l13",
+      "long_en": "l16",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-06-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": null,
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l13",
+      "long_en": "l16",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c24"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c24"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-09-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-08-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c03"
+    }
+  },
+  {
+    "cutoff": "2024-12-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2024-11-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c03"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2025-03-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-02-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c01"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c07"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c07"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l19",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l19",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c17"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c03"
+    }
+  },
+  {
+    "cutoff": "2025-06-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-05-30",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c03"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l22",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l22",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2025-09-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-08-28",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l05",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c11"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l15",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c11"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c08"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c18"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c18"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2025-12-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2025-11-28",
+    "choices": {
+      "basis": "l01",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l09",
+      "long_en": "l15",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l19",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l19",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c22"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2026-03-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-02-26",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l03",
+      "v3": "c13"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c14"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c14"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c14"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l00",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c14"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c04"
+    }
+  },
+  {
+    "cutoff": "2026-06-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-05-29",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c04"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 1,
+    "source": "long",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 1,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l18",
+      "long_huber": "l25",
+      "long_mean": "l03",
+      "v3": "c10"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 5,
+    "source": "long",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 5,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l23",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 20,
+    "source": "long",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 20,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l07",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c09"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 60,
+    "source": "long",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  },
+  {
+    "cutoff": "2026-09-01",
+    "horizon": 60,
+    "source": "v3_candidates",
+    "latest_label_release": "2026-08-27",
+    "choices": {
+      "basis": "l02",
+      "long_ridge": "l06",
+      "long_en": "l14",
+      "long_tree": "l17",
+      "long_huber": "l24",
+      "long_mean": "l04",
+      "v3": "c23"
+    }
+  }
+]

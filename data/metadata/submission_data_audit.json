@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "main_rows": 3803,
+  "main_features": 32,
+  "main_start": "2011-08-04",
+  "main_end": "2026-10-23",
+  "negative_price_preserved": true,
+  "csv_parquet_pairs": 2,
+  "long_rows": 8268,
+  "time_series_rows": 3803,
+  "publication_evidence_counts": {
+    "matching_dated_archive": 3726,
+    "assumed_weekly_release": 77
+  },
+  "news_policy_id": "news-release-calendar-v1",
+  "news_sources_verified": 3,
+  "news_availability_rows": 30424,
+  "complete_news_origins": {
+    "fixed_origin": 1,
+    "daily_update": 17
+  },
+  "raw_inputs_verified": 3232,
+  "portable_corpus_files": 588,
+  "corpus_rows": 3574348,
+  "checkpoint_stages": 2,
+  "raw_source_archives_verified": 11,
+  "file_count_by_category": {
+    "kronos": 588,
+    "long": 23,
+    "processed": 4,
+    "raw": 2410,
+    "documentation": 1,
+    "rebuild": 830,
+    "time_series": 4,
+    "video": 5
+  },
+  "bytes_by_category": {
+    "kronos": 131854403,
+    "long": 19624645,
+    "processed": 1786251,
+    "raw": 28278280,
+    "documentation": 3253,
+    "rebuild": 95937270,
+    "time_series": 4966803,
+    "video": 194541
+  },
+  "network_used": false,
+  "model_fitting_performed": false,
+  "scope": "Snapshot integrity and portable dependencies; not a real-time-vintage guarantee.",
+  "independent_rebuild": {
+    "status": "passed",
+    "temporal_unit_tests": 10,
+    "raw_input_hashes_verified": 3232,
+    "output_hashes_verified": 31,
+    "csv_parquet_pairs_verified": 11,
+    "independent_asof_samples": 512,
+    "deterministic_rerun_verified": true,
+    "as_of_date": "2026-10-29",
+    "scope": "Data integrity and temporal alignment; not a guarantee against provider archive corrections."
+  },
+  "reproduced_main_table_and_publication_schedule": true
+}

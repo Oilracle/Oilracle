@@ -1,0 +1,26 @@
+# Frozen input hashes cover exact bytes, including original line endings.
+# Disable checkout normalization so Windows and Unix reproduce the same artifacts.
+* -text
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.parquet binary
+*.rds binary
+*.RDS binary
+*.pt binary
+*.npz binary
+*.joblib binary
+*.zip binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+
+# Large research tables remain available through Git LFS without altering contents.
+m3_ml/distribution/outputs/frozen_october_2026/validation_selected_quantiles.csv filter=lfs diff=lfs merge=lfs -text
+m3_ml/fusion_v3/outputs/frozen_october_2026/point_candidate_forecasts.csv filter=lfs diff=lfs merge=lfs -text
+m3_ml/distribution/outputs/test_quantiles.csv filter=lfs diff=lfs merge=lfs -text

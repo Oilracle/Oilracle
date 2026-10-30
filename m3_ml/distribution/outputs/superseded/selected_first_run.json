@@ -1,0 +1,234 @@
+{
+  "a_lightgbm/h1": {
+    "params": {
+      "features": "base_vol",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 0.98343
+  },
+  "a_lightgbm/h20": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 1.02309
+  },
+  "a_lightgbm/h5": {
+    "params": {
+      "features": "base_vol",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 0.98915
+  },
+  "a_lightgbm/h60": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 200,
+      "num_leaves": 4
+    },
+    "score": 1.06569
+  },
+  "a_ridge/h1": {
+    "params": {
+      "alpha": 100,
+      "features": "vol"
+    },
+    "score": 0.97752
+  },
+  "a_ridge/h20": {
+    "params": {
+      "alpha": 100,
+      "features": "vol"
+    },
+    "score": 1.01402
+  },
+  "a_ridge/h5": {
+    "params": {
+      "alpha": 0.1,
+      "features": "vol"
+    },
+    "score": 0.98536
+  },
+  "a_ridge/h60": {
+    "params": {
+      "alpha": 100,
+      "features": "vol"
+    },
+    "score": 1.03215
+  },
+  "b_forest/h1": {
+    "params": {
+      "features": "base_vol",
+      "max_features": 1.0,
+      "min_samples_leaf": 50
+    },
+    "score": 0.98962
+  },
+  "b_forest/h20": {
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 20
+    },
+    "score": 1.03544
+  },
+  "b_forest/h5": {
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 50
+    },
+    "score": 1.00342
+  },
+  "b_forest/h60": {
+    "params": {
+      "features": "base_vol_news",
+      "max_features": 0.33,
+      "min_samples_leaf": 100
+    },
+    "score": 1.15557
+  },
+  "b_lightgbm/h1": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 0.98531
+  },
+  "b_lightgbm/h20": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.0433
+  },
+  "b_lightgbm/h5": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.01083
+  },
+  "b_lightgbm/h60": {
+    "params": {
+      "features": "base_vol_news",
+      "n_estimators": 100,
+      "num_leaves": 4
+    },
+    "score": 1.1596
+  },
+  "b_linear/h1": {
+    "params": {
+      "alpha": 0.01,
+      "features": "vol"
+    },
+    "score": 0.97804
+  },
+  "b_linear/h20": {
+    "params": {
+      "alpha": 0.01,
+      "features": "vol"
+    },
+    "score": 1.00402
+  },
+  "b_linear/h5": {
+    "params": {
+      "alpha": 0.01,
+      "features": "vol"
+    },
+    "score": 0.98879
+  },
+  "b_linear/h60": {
+    "params": {
+      "alpha": 0.1,
+      "features": "vol"
+    },
+    "score": 1.01159
+  },
+  "ewma/h1": {
+    "params": {
+      "lam": 0.94,
+      "shape": "empirical"
+    },
+    "score": 0.98146
+  },
+  "ewma/h20": {
+    "params": {
+      "lam": 0.97,
+      "shape": "normal"
+    },
+    "score": 0.99575
+  },
+  "ewma/h5": {
+    "params": {
+      "lam": 0.94,
+      "shape": "normal"
+    },
+    "score": 0.99264
+  },
+  "ewma/h60": {
+    "params": {
+      "lam": 0.97,
+      "shape": "normal"
+    },
+    "score": 0.96342
+  },
+  "garch/h1": {
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.9788
+  },
+  "garch/h20": {
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.99063
+  },
+  "garch/h5": {
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.98229
+  },
+  "garch/h60": {
+    "params": {
+      "method": "simulation",
+      "vol": "gjr"
+    },
+    "score": 0.94147
+  },
+  "hs/h1": {
+    "params": {
+      "window": 1500
+    },
+    "score": 0.99902
+  },
+  "hs/h20": {
+    "params": {
+      "window": "expanding"
+    },
+    "score": 1.0
+  },
+  "hs/h5": {
+    "params": {
+      "window": "expanding"
+    },
+    "score": 1.0
+  },
+  "hs/h60": {
+    "params": {
+      "window": "expanding"
+    },
+    "score": 1.0
+  }
+}

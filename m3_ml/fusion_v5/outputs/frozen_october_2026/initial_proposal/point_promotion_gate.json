@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "aggregate_rmse_vs_v4": 0.9785411407709718,
+  "worst_horizon_ratio": 1.023431880985828,
+  "thresholds": {
+    "max_aggregate_ratio": 0.995,
+    "max_horizon_ratio": 1.02
+  },
+  "october_used": false,
+  "action": "retain_v4_point_policy"
+}

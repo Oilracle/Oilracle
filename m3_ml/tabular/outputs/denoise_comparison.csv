@@ -1,0 +1,13 @@
+h,model,val_rmse_change_pct,test_rmse_vs_rw_original,test_rmse_vs_rw_denoised
+1,elastic_net,0.0,1.0001,1.0001
+5,elastic_net,0.0,1.0007,1.0007
+20,elastic_net,0.0,1.0037,1.0037
+60,elastic_net,0.0,1.0388,1.0388
+1,lightgbm,-0.2808,1.0059,1.0089
+5,lightgbm,-0.0116,1.024,1.0223
+20,lightgbm,0.6251,1.0441,1.0494
+60,lightgbm,0.1451,1.1627,1.1683
+1,random_forest,-0.0907,1.0033,1.0039
+5,random_forest,-0.0165,1.0234,1.0168
+20,random_forest,0.0542,1.0798,1.0786
+60,random_forest,-0.0963,1.121,1.1207

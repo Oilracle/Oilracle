@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "rows": 87,
+  "selected_sha256": "72f7cf8302ed1b9afbe22c72bb8f7b8729cf274c7e8e8581bc9b3620236b97de",
+  "finite_predictions": true,
+  "quantiles_monotone": true,
+  "first_origins_equal": true,
+  "actual_counts": [
+    {
+      "mode": "daily_update",
+      "horizon": 1,
+      "n": 17
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 5,
+      "n": 13
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "daily_update",
+      "horizon": 60,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 1,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 2,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 3,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 4,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 5,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 6,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 7,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 8,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 9,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 10,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 11,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 12,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 13,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 14,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 15,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 16,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 17,
+      "n": 1
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 20,
+      "n": 0
+    },
+    {
+      "mode": "fixed_origin",
+      "horizon": 60,
+      "n": 0
+    }
+  ]
+}

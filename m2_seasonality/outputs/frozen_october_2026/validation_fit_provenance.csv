@@ -1,0 +1,2 @@
+"protocol_id","phase","availability_policy","fit_end","effective_fit_end","n_quote_labels","n_changes","n_verified_labels","n_assumed_labels","monthly_complete_periods","weekly_complete_periods"
+"qf5210-frozen-october-2026","validation","WTI publication evidence; unmatched weekly-release dates are explicit assumptions; latest contiguous available quoted-row prefix; current-vintage retrospective evaluation",2023-08-31,2023-08-25,3016,3015,2979,37,143,628

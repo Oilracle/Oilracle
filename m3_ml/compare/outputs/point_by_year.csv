@@ -1,0 +1,145 @@
+method,label,horizon,year,n,rel_rmse
+dist_a_ridge,A: Ridge vol (median),5,2023,248,1.00554
+dist_a_ridge,A: Ridge vol (median),5,2024,250,1.00318
+dist_a_ridge,A: Ridge vol (median),5,2025,248,1.00939
+dist_a_ridge,A: Ridge vol (median),5,2026,186,0.99898
+dist_a_ridge,A: Ridge vol (median),20,2023,248,1.02206
+dist_a_ridge,A: Ridge vol (median),20,2024,250,1.01488
+dist_a_ridge,A: Ridge vol (median),20,2025,248,1.03745
+dist_a_ridge,A: Ridge vol (median),20,2026,171,0.99822
+dist_b_forest,B: quantile forest (median),5,2023,248,1.00835
+dist_b_forest,B: quantile forest (median),5,2024,250,1.049
+dist_b_forest,B: quantile forest (median),5,2025,248,1.01568
+dist_b_forest,B: quantile forest (median),5,2026,186,1.0447
+dist_b_forest,B: quantile forest (median),20,2023,248,0.96674
+dist_b_forest,B: quantile forest (median),20,2024,250,1.14571
+dist_b_forest,B: quantile forest (median),20,2025,248,0.96712
+dist_b_forest,B: quantile forest (median),20,2026,171,1.09648
+dist_b_lightgbm,B: LightGBM QR (median),5,2023,248,0.97012
+dist_b_lightgbm,B: LightGBM QR (median),5,2024,250,1.01262
+dist_b_lightgbm,B: LightGBM QR (median),5,2025,248,1.01248
+dist_b_lightgbm,B: LightGBM QR (median),5,2026,186,1.01637
+dist_b_lightgbm,B: LightGBM QR (median),20,2023,248,1.06104
+dist_b_lightgbm,B: LightGBM QR (median),20,2024,250,1.14941
+dist_b_lightgbm,B: LightGBM QR (median),20,2025,248,0.99003
+dist_b_lightgbm,B: LightGBM QR (median),20,2026,171,1.04125
+dist_b_linear,B: linear QR (median),5,2023,248,1.00189
+dist_b_linear,B: linear QR (median),5,2024,250,0.99875
+dist_b_linear,B: linear QR (median),5,2025,248,1.00425
+dist_b_linear,B: linear QR (median),5,2026,186,1.0104
+dist_b_linear,B: linear QR (median),20,2023,248,1.01566
+dist_b_linear,B: linear QR (median),20,2024,250,0.99543
+dist_b_linear,B: linear QR (median),20,2025,248,1.00781
+dist_b_linear,B: linear QR (median),20,2026,171,1.032
+dist_ensemble,Ensemble (median),5,2023,248,0.99355
+dist_ensemble,Ensemble (median),5,2024,250,1.00575
+dist_ensemble,Ensemble (median),5,2025,248,1.00823
+dist_ensemble,Ensemble (median),5,2026,186,1.01187
+dist_ensemble,Ensemble (median),20,2023,248,0.99485
+dist_ensemble,Ensemble (median),20,2024,250,1.04745
+dist_ensemble,Ensemble (median),20,2025,248,0.99674
+dist_ensemble,Ensemble (median),20,2026,171,1.02787
+dist_garch,GARCH (median),5,2023,248,1.00031
+dist_garch,GARCH (median),5,2024,250,1.00095
+dist_garch,GARCH (median),5,2025,248,1.00202
+dist_garch,GARCH (median),5,2026,186,0.99879
+dist_garch,GARCH (median),20,2023,248,1.00648
+dist_garch,GARCH (median),20,2024,250,1.00337
+dist_garch,GARCH (median),20,2025,248,1.01916
+dist_garch,GARCH (median),20,2026,171,0.99759
+dist_hs,Historical sim. (median),5,2023,248,1.01428
+dist_hs,Historical sim. (median),5,2024,250,1.0107
+dist_hs,Historical sim. (median),5,2025,248,1.02392
+dist_hs,Historical sim. (median),5,2026,186,0.99851
+dist_hs,Historical sim. (median),20,2023,248,1.02009
+dist_hs,Historical sim. (median),20,2024,250,1.01634
+dist_hs,Historical sim. (median),20,2025,248,1.0448
+dist_hs,Historical sim. (median),20,2026,171,0.99649
+lstm,LSTM,5,2023,248,1.04795
+lstm,LSTM,5,2024,250,1.10048
+lstm,LSTM,5,2025,248,1.0196
+lstm,LSTM,5,2026,186,1.04196
+lstm,LSTM,20,2023,248,1.14979
+lstm,LSTM,20,2024,250,1.42533
+lstm,LSTM,20,2025,248,0.99603
+lstm,LSTM,20,2026,171,1.11186
+lstm_ridge,Ridge (LSTM study),5,2023,248,1.05373
+lstm_ridge,Ridge (LSTM study),5,2024,250,1.0655
+lstm_ridge,Ridge (LSTM study),5,2025,248,1.01682
+lstm_ridge,Ridge (LSTM study),5,2026,186,1.02283
+lstm_ridge,Ridge (LSTM study),20,2023,248,1.10064
+lstm_ridge,Ridge (LSTM study),20,2024,250,1.11813
+lstm_ridge,Ridge (LSTM study),20,2025,248,0.95868
+lstm_ridge,Ridge (LSTM study),20,2026,171,1.03316
+lstm_wti_only,LSTM (WTI only),5,2023,248,0.99503
+lstm_wti_only,LSTM (WTI only),5,2024,250,0.99682
+lstm_wti_only,LSTM (WTI only),5,2025,248,0.99443
+lstm_wti_only,LSTM (WTI only),5,2026,186,0.99761
+lstm_wti_only,LSTM (WTI only),20,2023,248,0.98505
+lstm_wti_only,LSTM (WTI only),20,2024,250,0.99613
+lstm_wti_only,LSTM (WTI only),20,2025,248,0.96332
+lstm_wti_only,LSTM (WTI only),20,2026,171,0.99775
+p1_arima,"ARIMA(0,1,1)",5,2023,248,1.006
+p1_arima,"ARIMA(0,1,1)",5,2024,250,0.98884
+p1_arima,"ARIMA(0,1,1)",5,2025,248,0.99946
+p1_arima,"ARIMA(0,1,1)",5,2026,186,1.00606
+p1_arima,"ARIMA(0,1,1)",20,2023,248,0.99655
+p1_arima,"ARIMA(0,1,1)",20,2024,250,0.99515
+p1_arima,"ARIMA(0,1,1)",20,2025,248,0.99625
+p1_arima,"ARIMA(0,1,1)",20,2026,171,1.00277
+p1_arimax,ARIMAX (S&P 500),5,2023,248,1.00481
+p1_arimax,ARIMAX (S&P 500),5,2024,250,0.98905
+p1_arimax,ARIMAX (S&P 500),5,2025,248,0.9988
+p1_arimax,ARIMAX (S&P 500),5,2026,186,1.00596
+p1_arimax,ARIMAX (S&P 500),20,2023,248,0.99644
+p1_arimax,ARIMAX (S&P 500),20,2024,250,0.9952
+p1_arimax,ARIMAX (S&P 500),20,2025,248,0.99551
+p1_arimax,ARIMAX (S&P 500),20,2026,171,1.00286
+p1_vecm,VECM,5,2023,248,1.00152
+p1_vecm,VECM,5,2024,250,0.98511
+p1_vecm,VECM,5,2025,248,0.99709
+p1_vecm,VECM,5,2026,186,1.00726
+p1_vecm,VECM,20,2023,248,0.98487
+p1_vecm,VECM,20,2024,250,0.98906
+p1_vecm,VECM,20,2025,248,0.96558
+p1_vecm,VECM,20,2026,171,0.98744
+rw,Random walk,5,2023,248,1.0
+rw,Random walk,5,2024,250,1.0
+rw,Random walk,5,2025,248,1.0
+rw,Random walk,5,2026,186,1.0
+rw,Random walk,20,2023,248,1.0
+rw,Random walk,20,2024,250,1.0
+rw,Random walk,20,2025,248,1.0
+rw,Random walk,20,2026,171,1.0
+tab_elastic_net,Elastic Net,5,2023,248,1.00042
+tab_elastic_net,Elastic Net,5,2024,250,1.00061
+tab_elastic_net,Elastic Net,5,2025,248,0.99935
+tab_elastic_net,Elastic Net,5,2026,186,1.00089
+tab_elastic_net,Elastic Net,20,2023,248,1.00104
+tab_elastic_net,Elastic Net,20,2024,250,1.00307
+tab_elastic_net,Elastic Net,20,2025,248,0.98981
+tab_elastic_net,Elastic Net,20,2026,171,1.00503
+tab_hist_mean,Historical mean,5,2023,248,1.00042
+tab_hist_mean,Historical mean,5,2024,250,1.00061
+tab_hist_mean,Historical mean,5,2025,248,0.99935
+tab_hist_mean,Historical mean,5,2026,186,1.00089
+tab_hist_mean,Historical mean,20,2023,248,1.00104
+tab_hist_mean,Historical mean,20,2024,250,1.00307
+tab_hist_mean,Historical mean,20,2025,248,0.98981
+tab_hist_mean,Historical mean,20,2026,171,1.00503
+tab_lightgbm,LightGBM,5,2023,248,1.0172
+tab_lightgbm,LightGBM,5,2024,250,1.0203
+tab_lightgbm,LightGBM,5,2025,248,1.02438
+tab_lightgbm,LightGBM,5,2026,186,1.02616
+tab_lightgbm,LightGBM,20,2023,248,1.00643
+tab_lightgbm,LightGBM,20,2024,250,1.09844
+tab_lightgbm,LightGBM,20,2025,248,1.04906
+tab_lightgbm,LightGBM,20,2026,171,1.04635
+tab_random_forest,Random Forest,5,2023,248,1.01935
+tab_random_forest,Random Forest,5,2024,250,1.03666
+tab_random_forest,Random Forest,5,2025,248,1.00721
+tab_random_forest,Random Forest,5,2026,186,1.02559
+tab_random_forest,Random Forest,20,2023,248,1.03471
+tab_random_forest,Random Forest,20,2024,250,1.19475
+tab_random_forest,Random Forest,20,2025,248,1.00161
+tab_random_forest,Random Forest,20,2026,171,1.08882

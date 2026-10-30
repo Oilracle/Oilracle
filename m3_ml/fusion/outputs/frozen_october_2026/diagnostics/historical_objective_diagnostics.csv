@@ -1,0 +1,134 @@
+stage,horizon,component,n,relative_rmse,unit
+point_crossfit,1,m1,508,0.9785579747651684,log return
+point_crossfit,1,m2,508,1.0193320653978084,log return
+point_crossfit,1,lstm,508,1.0192000670720736,log return
+point_crossfit,1,ml,508,1.00150054422376,log return
+point_crossfit,1,center,508,0.9972640584272454,log return
+point_crossfit,2,m1,507,0.9759680504549247,log return
+point_crossfit,2,m2,507,1.0195148047370635,log return
+point_crossfit,2,lstm,507,1.0216014384083913,log return
+point_crossfit,2,ml,507,1.0016164502852496,log return
+point_crossfit,2,center,507,0.997339931424387,log return
+point_crossfit,3,m1,506,0.9735256111983006,log return
+point_crossfit,3,m2,506,1.0216019110838042,log return
+point_crossfit,3,lstm,506,1.020480823847102,log return
+point_crossfit,3,ml,506,1.0016809600815626,log return
+point_crossfit,3,center,506,0.9966406457408791,log return
+point_crossfit,4,m1,505,0.9731698300788374,log return
+point_crossfit,4,m2,505,1.022996164340405,log return
+point_crossfit,4,lstm,505,1.0166215031165182,log return
+point_crossfit,4,ml,505,1.0018093515469224,log return
+point_crossfit,4,center,505,0.994100253103525,log return
+point_crossfit,5,m1,504,0.9725326099269983,log return
+point_crossfit,5,m2,504,1.0248287448523674,log return
+point_crossfit,5,lstm,504,1.0186738098166508,log return
+point_crossfit,5,ml,504,1.00192243179483,log return
+point_crossfit,5,center,504,0.9947957457858949,log return
+point_crossfit,6,m1,503,0.9731240045035202,log return
+point_crossfit,6,m2,503,1.0258211173251934,log return
+point_crossfit,6,lstm,503,1.017919544333139,log return
+point_crossfit,6,ml,503,1.0020411139898595,log return
+point_crossfit,6,center,503,0.9930220960981054,log return
+point_crossfit,7,m1,502,0.9756777062917764,log return
+point_crossfit,7,m2,502,1.0264074794839648,log return
+point_crossfit,7,lstm,502,1.0071343251831302,log return
+point_crossfit,7,ml,502,1.0022889349217712,log return
+point_crossfit,7,center,502,0.9874723687693399,log return
+point_crossfit,8,m1,501,0.9780677632833454,log return
+point_crossfit,8,m2,501,1.026528486503278,log return
+point_crossfit,8,lstm,501,1.0136323801198472,log return
+point_crossfit,8,ml,501,1.0023798621985753,log return
+point_crossfit,8,center,501,0.9875963441010497,log return
+point_crossfit,9,m1,500,0.9785369920099444,log return
+point_crossfit,9,m2,500,1.0264047270999666,log return
+point_crossfit,9,lstm,500,1.0148949977490727,log return
+point_crossfit,9,ml,500,1.0024443413005668,log return
+point_crossfit,9,center,500,0.9854652520383472,log return
+point_crossfit,10,m1,499,0.9790830593261265,log return
+point_crossfit,10,m2,499,1.025927345885434,log return
+point_crossfit,10,lstm,499,1.0181858990230863,log return
+point_crossfit,10,ml,499,1.0024994287636844,log return
+point_crossfit,10,center,499,0.9841609070115169,log return
+point_crossfit,11,m1,498,0.9794133900146815,log return
+point_crossfit,11,m2,498,1.0250558221178465,log return
+point_crossfit,11,lstm,498,1.0041995397593753,log return
+point_crossfit,11,ml,498,1.00252360896321,log return
+point_crossfit,11,center,498,0.9802155501199661,log return
+point_crossfit,12,m1,497,0.9796210604587932,log return
+point_crossfit,12,m2,497,1.0233681942105521,log return
+point_crossfit,12,lstm,497,1.0127356694319902,log return
+point_crossfit,12,ml,497,1.0024868317699074,log return
+point_crossfit,12,center,497,0.97998467936701,log return
+point_crossfit,13,m1,496,0.9800631639180407,log return
+point_crossfit,13,m2,496,1.0221944184056926,log return
+point_crossfit,13,lstm,496,1.0163782858993962,log return
+point_crossfit,13,ml,496,1.0025059147470108,log return
+point_crossfit,13,center,496,0.9788239731598328,log return
+point_crossfit,14,m1,495,0.9792104680526001,log return
+point_crossfit,14,m2,495,1.0209761296635025,log return
+point_crossfit,14,lstm,495,1.011511083329353,log return
+point_crossfit,14,ml,495,1.00254455126193,log return
+point_crossfit,14,center,495,0.97456435000727,log return
+point_crossfit,15,m1,494,0.977984016194925,log return
+point_crossfit,15,m2,494,1.017137761577989,log return
+point_crossfit,15,lstm,494,0.991297971311592,log return
+point_crossfit,15,ml,494,1.0025718786003703,log return
+point_crossfit,15,center,494,0.9676849846119685,log return
+point_crossfit,16,m1,493,0.9752089870452543,log return
+point_crossfit,16,m2,493,1.0141526235240232,log return
+point_crossfit,16,lstm,493,0.9932940843679358,log return
+point_crossfit,16,ml,493,1.0025705437898629,log return
+point_crossfit,16,center,493,0.9699449642365564,log return
+point_crossfit,17,m1,492,0.9731965079950817,log return
+point_crossfit,17,m2,492,1.011084573283258,log return
+point_crossfit,17,lstm,492,0.994404165773431,log return
+point_crossfit,17,ml,492,1.0024612608576506,log return
+point_crossfit,17,center,492,0.9670361824506358,log return
+point_crossfit,20,m1,489,0.9691164279252057,log return
+point_crossfit,20,m2,489,1.0061099190250462,log return
+point_crossfit,20,lstm,489,0.9771829248840239,log return
+point_crossfit,20,ml,489,1.0026322241380115,log return
+point_crossfit,20,center,489,0.9577288067178895,log return
+point_crossfit,60,m1,449,0.9818806539633503,log return
+point_crossfit,60,m2,449,0.9362621931680983,log return
+point_crossfit,60,lstm,449,0.8512564737589657,log return
+point_crossfit,60,ml,449,1.005056223946926,log return
+point_crossfit,60,center,449,0.9026476753544721,log return
+same_risk_crossfit_period,1,center,261,0.9929064525545881,USD
+same_risk_crossfit_period,1,calibrated,261,1.00487062585555,USD
+same_risk_crossfit_period,2,center,260,0.9934517927141131,USD
+same_risk_crossfit_period,2,calibrated,260,1.0071484374792687,USD
+same_risk_crossfit_period,3,center,259,0.9921663647357929,USD
+same_risk_crossfit_period,3,calibrated,259,1.0055511579141752,USD
+same_risk_crossfit_period,4,center,258,0.9897476581780434,USD
+same_risk_crossfit_period,4,calibrated,258,1.0096605748789458,USD
+same_risk_crossfit_period,5,center,257,0.991812610497803,USD
+same_risk_crossfit_period,5,calibrated,257,1.0069358006139708,USD
+same_risk_crossfit_period,6,center,256,0.9897184925798104,USD
+same_risk_crossfit_period,6,calibrated,256,1.0115146196177367,USD
+same_risk_crossfit_period,7,center,255,0.985173483142223,USD
+same_risk_crossfit_period,7,calibrated,255,1.0100328063243533,USD
+same_risk_crossfit_period,8,center,254,0.9849425352584164,USD
+same_risk_crossfit_period,8,calibrated,254,1.0139326669608646,USD
+same_risk_crossfit_period,9,center,253,0.9835598812369113,USD
+same_risk_crossfit_period,9,calibrated,253,1.0179077631194309,USD
+same_risk_crossfit_period,10,center,252,0.9812196605758347,USD
+same_risk_crossfit_period,10,calibrated,252,1.0215527919475187,USD
+same_risk_crossfit_period,11,center,251,0.9790578762079286,USD
+same_risk_crossfit_period,11,calibrated,251,1.0154989975194724,USD
+same_risk_crossfit_period,12,center,250,0.9790127375322308,USD
+same_risk_crossfit_period,12,calibrated,250,1.0158124177516326,USD
+same_risk_crossfit_period,13,center,249,0.9778916051347618,USD
+same_risk_crossfit_period,13,calibrated,249,1.0107540346077168,USD
+same_risk_crossfit_period,14,center,248,0.9731438489835725,USD
+same_risk_crossfit_period,14,calibrated,248,1.0104362649772982,USD
+same_risk_crossfit_period,15,center,247,0.9683163357987753,USD
+same_risk_crossfit_period,15,calibrated,247,0.9968766735239099,USD
+same_risk_crossfit_period,16,center,246,0.9696201552373739,USD
+same_risk_crossfit_period,16,calibrated,246,0.9918981992130256,USD
+same_risk_crossfit_period,17,center,245,0.9661082661622459,USD
+same_risk_crossfit_period,17,calibrated,245,0.9903901266014843,USD
+same_risk_crossfit_period,20,center,242,0.9575505072154931,USD
+same_risk_crossfit_period,20,calibrated,242,0.9913351153545379,USD
+same_risk_crossfit_period,60,center,202,0.9069993425985474,USD
+same_risk_crossfit_period,60,calibrated,202,0.9323069740223624,USD

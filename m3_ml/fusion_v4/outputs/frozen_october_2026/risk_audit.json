@@ -1,0 +1,2780 @@
+{
+  "fits": [
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hs",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hs",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hs",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_ridge",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "a_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_linear",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_lightgbm",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "b_forest",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "futures_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "implied_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-09-01",
+      "latest_label_release": "2025-08-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2025-12-01",
+      "latest_label_release": "2025-11-28"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-03-01",
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-06-01",
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 126,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 252,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "centered",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    },
+    {
+      "method": "hybrid_vol",
+      "window": 0,
+      "calibration_mode": "asymmetric",
+      "cutoff": "2026-09-01",
+      "latest_label_release": "2026-08-27"
+    }
+  ],
+  "selections": [
+    {
+      "cutoff": "2026-03-01",
+      "choices": {
+        "1": {
+          "horizon": 1,
+          "candidate": "r490",
+          "loss": 0.014299415755719837,
+          "baseline": 0.01900047366907106,
+          "n": 116,
+          "relative": 0.7525820674142668
+        },
+        "5": {
+          "horizon": 5,
+          "candidate": "r540",
+          "loss": 0.01750490067560285,
+          "baseline": 0.023502355581457184,
+          "n": 112,
+          "relative": 0.7448147320779118
+        },
+        "20": {
+          "horizon": 20,
+          "candidate": "r373",
+          "loss": 0.026597994933994566,
+          "baseline": 0.03489935053354067,
+          "n": 97,
+          "relative": 0.762134381510397
+        },
+        "60": {
+          "horizon": 60,
+          "candidate": "r741",
+          "loss": 0.036679742578382225,
+          "baseline": 0.04888815470300764,
+          "n": 57,
+          "relative": 0.7502787290952027
+        }
+      },
+      "latest_label_release": "2026-02-26"
+    },
+    {
+      "cutoff": "2026-06-01",
+      "choices": {
+        "1": {
+          "horizon": 1,
+          "candidate": "r234",
+          "loss": 0.025165990487178682,
+          "baseline": 0.037287957912961245,
+          "n": 180,
+          "relative": 0.674909324504226
+        },
+        "5": {
+          "horizon": 5,
+          "candidate": "r803",
+          "loss": 0.03743152894365861,
+          "baseline": 0.04672763364436925,
+          "n": 176,
+          "relative": 0.8010576616941347
+        },
+        "20": {
+          "horizon": 20,
+          "candidate": "r656",
+          "loss": 0.07314768140270478,
+          "baseline": 0.08331849880295095,
+          "n": 161,
+          "relative": 0.8779284607095449
+        },
+        "60": {
+          "horizon": 60,
+          "candidate": "r648",
+          "loss": 0.16183766446056372,
+          "baseline": 0.19851070589413172,
+          "n": 121,
+          "relative": 0.8152591253535404
+        }
+      },
+      "latest_label_release": "2026-05-29"
+    },
+    {
+      "cutoff": "2026-09-01",
+      "choices": {
+        "1": {
+          "horizon": 1,
+          "candidate": "r234",
+          "loss": 0.026718239596307036,
+          "baseline": 0.045212375283708216,
+          "n": 242,
+          "relative": 0.5909496996928331
+        },
+        "5": {
+          "horizon": 5,
+          "candidate": "r703",
+          "loss": 0.041625713381435114,
+          "baseline": 0.05603748315103275,
+          "n": 238,
+          "relative": 0.7428191103666291
+        },
+        "20": {
+          "horizon": 20,
+          "candidate": "r644",
+          "loss": 0.07981670864235907,
+          "baseline": 0.08965544994391497,
+          "n": 223,
+          "relative": 0.8902605328765776
+        },
+        "60": {
+          "horizon": 60,
+          "candidate": "r018",
+          "loss": 0.15474942784291243,
+          "baseline": 0.1820456825428153,
+          "n": 183,
+          "relative": 0.8500582144073476
+        }
+      },
+      "latest_label_release": "2026-08-27"
+    }
+  ],
+  "calibration": [
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 1,
+      "candidate": "r490",
+      "calibration": {
+        "n": 252,
+        "quantiles": [
+          -3.1319645852179834,
+          -2.6010800482659264,
+          -2.2222304552229493,
+          -1.9652042737137154,
+          -1.9532865732441376,
+          -1.94136887277456,
+          -1.8792160516196845,
+          -1.769154085538033,
+          -1.4295365030065852,
+          -1.2378334481789948,
+          -1.176317337210605,
+          -1.1705177383368222,
+          -1.1682350128945065,
+          -1.1645721554138408,
+          -1.1626257905915842,
+          -1.134344762534185,
+          -1.1024739732905195,
+          -1.0981350818551046,
+          -1.091048578057436,
+          -1.081835830064242,
+          -1.0477465154210663,
+          -1.00353581492782,
+          -0.9736839902828696,
+          -0.6393632619128701,
+          -0.535422507701213,
+          -0.4303517251289606,
+          -0.30595928171490366,
+          -0.2206338191298357,
+          -0.1593306357831581,
+          -0.10259667115375419,
+          -0.05335654580644123,
+          0.0,
+          0.05329808462108729,
+          0.13867446568347985,
+          0.2597176648122214,
+          0.33603296665412613,
+          0.4302386744199205,
+          0.49023725981452654,
+          0.7015594457359461,
+          0.8747657936157293,
+          1.1057438800414359,
+          1.1160364423129294,
+          1.1344718318527878,
+          1.1514796422037257,
+          1.1642831363770578,
+          1.1851355618044224,
+          1.2163891175737553,
+          1.246443562350911,
+          1.2751133039334255,
+          1.3002822061689414,
+          1.3332381946976988,
+          1.3517635535954067,
+          1.3690071396478523,
+          1.3853014068522396,
+          1.4263075733354496,
+          1.495390663680136,
+          1.564114392501298,
+          1.6174953215728638,
+          1.624610844652502,
+          1.6317263677321396,
+          1.751844501543538,
+          1.9334506378107217,
+          2.243828595173681
+        ],
+        "residual_median_diagnostic": -0.013251363652352363,
+        "latest_label_release": "2026-02-26"
+      }
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 5,
+      "candidate": "r540",
+      "calibration": {
+        "n": 126,
+        "quantiles": [
+          -1.94766270510042,
+          -1.9217180950809143,
+          -1.8957734850614085,
+          -1.8662046629506228,
+          -1.8471920044554033,
+          -1.8281793459601836,
+          -1.7901540289697446,
+          -1.7495887269693384,
+          -1.6861635598792288,
+          -1.6227383927891192,
+          -1.5593132256990097,
+          -1.5287311848928784,
+          -1.498431779771478,
+          -1.4378329695286771,
+          -1.3772341592858763,
+          -1.351662215944235,
+          -1.341101786988805,
+          -1.330541358033375,
+          -1.324729268959871,
+          -1.3236655197682938,
+          -1.3226017705767166,
+          -1.3211709570120183,
+          -1.3200273084610277,
+          -1.0320966814621004,
+          -0.7790700248745284,
+          -0.6171650373888515,
+          -0.4531786739531019,
+          -0.3611306285708448,
+          -0.253865115503089,
+          -0.12815972312604018,
+          -0.051843977872234354,
+          0.0,
+          0.0893834900165569,
+          0.14248569103593722,
+          0.1993905671828315,
+          0.3550940046788259,
+          0.48280976928648095,
+          0.5837976769383695,
+          0.730409692635005,
+          0.9604218587609736,
+          1.0984784024676681,
+          1.1064764355999965,
+          1.1201325064994399,
+          1.1327857222423632,
+          1.1454389379852865,
+          1.154127940042078,
+          1.1588527284127381,
+          1.163577516783398,
+          1.1735101713201535,
+          1.1955945135777992,
+          1.2176788558354446,
+          1.2287210269642674,
+          1.238770638342187,
+          1.2509293830908015,
+          1.263088127839416,
+          1.2752468725880304,
+          1.2935007208681193,
+          1.3124318028739277,
+          1.3218973438768318,
+          1.3313628848797359,
+          1.355070467656864,
+          1.380825122193129,
+          1.406579776729394
+        ],
+        "residual_median_diagnostic": 0.1305240403034938,
+        "latest_label_release": "2026-02-26"
+      }
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 20,
+      "candidate": "r373",
+      "calibration": {
+        "n": 126,
+        "quantiles": [
+          -1.432755693567447,
+          -1.3909547372105187,
+          -1.3491537808535903,
+          -1.319264673523875,
+          -1.3182172770574327,
+          -1.3171698805909902,
+          -1.3150750876581054,
+          -1.3085881353049724,
+          -1.2625717481696055,
+          -1.2165553610342381,
+          -1.1705389738988712,
+          -1.1429962102612135,
+          -1.1143198041060622,
+          -1.0569669917957598,
+          -0.9996141794854575,
+          -0.9758038388680518,
+          -0.9663688432618874,
+          -0.9569338476557234,
+          -0.9414880725307266,
+          -0.9200315178868973,
+          -0.8985749632430678,
+          -0.8795032232499916,
+          -0.8727496370126653,
+          -0.6946946194823378,
+          -0.5304839708074234,
+          -0.4096890316346268,
+          -0.2866363231667869,
+          -0.18609688966915733,
+          -0.1414672072744507,
+          -0.11122369598775018,
+          -0.039410194848872045,
+          0.0,
+          0.08451897759643034,
+          0.11245424314571559,
+          0.23276497191655393,
+          0.32643954474688286,
+          0.5466968448525262,
+          0.7481995522975533,
+          1.0277016232262353,
+          1.1940751753271315,
+          1.643315172984921,
+          1.6533933226652353,
+          1.6612492943811035,
+          1.6638336971063599,
+          1.6664180998316163,
+          1.6813158805383008,
+          1.7085270392264136,
+          1.7357381979145265,
+          1.7600729238291446,
+          1.7776959732722741,
+          1.795319022715404,
+          1.8041305474369687,
+          1.8133182013842304,
+          1.8347025430843267,
+          1.8560868847844232,
+          1.8774712264845193,
+          1.891391045032547,
+          1.9044814721192338,
+          1.911026685662577,
+          1.9175718992059205,
+          1.9567742880222347,
+          2.0071675175798194,
+          2.057560747137403
+        ],
+        "residual_median_diagnostic": -0.0774014913175724,
+        "latest_label_release": "2026-02-26",
+        "tail_factors": [
+          1.0973177491347863,
+          0.9550178754449689
+        ]
+      }
+    },
+    {
+      "cutoff": "2026-03-01",
+      "horizon": 60,
+      "candidate": "r741",
+      "calibration": {
+        "n": 126,
+        "quantiles": [
+          -1.205298703987241,
+          -1.1831857835831177,
+          -1.1610728631789948,
+          -1.1322604746345135,
+          -1.1100382341985218,
+          -1.08781599376253,
+          -1.0433715128905465,
+          -1.001144926425539,
+          -0.9788793896233202,
+          -0.956613852821101,
+          -0.9343483160188818,
+          -0.9185216629881943,
+          -0.9015215388001124,
+          -0.8675212904239485,
+          -0.8335210420477848,
+          -0.8220368630487614,
+          -0.8202024280685122,
+          -0.818367993088263,
+          -0.814693342985686,
+          -0.8091784777607811,
+          -0.8036636125358761,
+          -0.7991743475134157,
+          -0.798126248571704,
+          -0.6585293905160051,
+          -0.49563599486941373,
+          -0.44207786733575233,
+          -0.36537220889781263,
+          -0.27338020874929336,
+          -0.21840244672148523,
+          -0.1439641030984572,
+          -0.10060223824614274,
+          0.0,
+          0.01730542922742954,
+          0.05364950430333973,
+          0.1324501612345173,
+          0.1649908080579672,
+          0.19741042421020114,
+          0.22797645024145888,
+          0.25201161687240053,
+          0.2746019504747251,
+          0.29943321665771266,
+          0.2999175454583848,
+          0.3045189255729396,
+          0.31067718676458467,
+          0.31683544795622975,
+          0.32098722581443123,
+          0.3231325203391891,
+          0.32527781486394697,
+          0.32899612036751763,
+          0.33638478482165135,
+          0.34377344927578507,
+          0.3474677815028519,
+          0.3506492335589984,
+          0.3529090963039281,
+          0.3551689590488577,
+          0.3574288217937874,
+          0.3599873296158138,
+          0.36257902022418437,
+          0.3638748655283696,
+          0.36517071083255487,
+          0.36604616411486973,
+          0.36618608711458933,
+          0.3663260101143089
+        ],
+        "residual_median_diagnostic": -0.3278930003594048,
+        "latest_label_release": "2026-02-26",
+        "tail_factors": [
+          1.6972986312770653,
+          0.4773165994583998
+        ]
+      }
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 1,
+      "candidate": "r234",
+      "calibration": {
+        "n": 252,
+        "quantiles": [
+          -1.562645845323156,
+          -1.5316928721835357,
+          -1.4011823234984795,
+          -1.2907869652218718,
+          -1.2689896367648545,
+          -1.2471923083078371,
+          -1.2020330229120986,
+          -1.1582737871568818,
+          -1.128528859336823,
+          -1.0997085373025035,
+          -1.0717020068773553,
+          -1.063066848574842,
+          -1.0551881053369283,
+          -1.0350863165995159,
+          -1.0067228200929619,
+          -0.9906575381574327,
+          -0.9769107100248963,
+          -0.9537443489700246,
+          -0.9279336769160524,
+          -0.9000767005906917,
+          -0.8921352588932802,
+          -0.8833388022348212,
+          -0.877724651887591,
+          -0.6298798031009799,
+          -0.5440875733108147,
+          -0.4142084298288134,
+          -0.3043866280214502,
+          -0.22796476483437894,
+          -0.17472536863093568,
+          -0.12515638418366243,
+          -0.060722245293804086,
+          0.0,
+          0.1744876145115375,
+          0.25961642627527043,
+          0.3472236182668165,
+          0.43119639776141633,
+          0.5261255772549194,
+          0.6675268895745777,
+          0.7753719675571248,
+          0.9596508643294329,
+          1.1641886966458468,
+          1.171143627871962,
+          1.1847715652316817,
+          1.198776056765206,
+          1.2305329999615298,
+          1.2600729852899222,
+          1.2867481346519924,
+          1.3042049523121884,
+          1.327675298412368,
+          1.3744748732015226,
+          1.4495598035345536,
+          1.4945389959185322,
+          1.5352626577683763,
+          1.5563089029190464,
+          1.595861042126226,
+          1.656439026921019,
+          1.7110937073338508,
+          1.8006504399280279,
+          1.8911965572324414,
+          1.9817426745368467,
+          2.1647842599340033,
+          2.3529061730122796,
+          2.581622138769017
+        ],
+        "residual_median_diagnostic": 0.03208966268963585,
+        "latest_label_release": "2026-05-29"
+      }
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 5,
+      "candidate": "r803",
+      "calibration": {
+        "n": 423,
+        "quantiles": [
+          -3.0875426927984995,
+          -2.956925076487478,
+          -2.8826987450250363,
+          -2.605184639468161,
+          -2.460822492931974,
+          -2.40110001432193,
+          -2.1397449894654246,
+          -1.6582843262192355,
+          -1.4185503067458392,
+          -1.3682105602995942,
+          -1.3546714149065875,
+          -1.3441677826206386,
+          -1.3337486398767922,
+          -1.3161766777663904,
+          -1.3014719551063283,
+          -1.240140459308394,
+          -1.2242028938334486,
+          -1.1944068935289716,
+          -1.136150420170045,
+          -1.0540198912202803,
+          -1.0002914064662116,
+          -0.9883926764153542,
+          -0.9778161066290727,
+          -0.7884559249013451,
+          -0.6556404555455025,
+          -0.5485734218574406,
+          -0.43288427077054525,
+          -0.2972054019788659,
+          -0.21151638971021033,
+          -0.13555305482831415,
+          -0.07559302860270233,
+          0.0,
+          0.09549345726385096,
+          0.19856560449604332,
+          0.2845061655402459,
+          0.4036700023265753,
+          0.5309968193085836,
+          0.6562667121456742,
+          0.8473500144095627,
+          1.0231307729571888,
+          1.3779494262824532,
+          1.3956056080144934,
+          1.4316124949828553,
+          1.4802583113675818,
+          1.532267177768426,
+          1.5767653145055878,
+          1.6003497808832778,
+          1.7229969452107536,
+          1.8293064161503745,
+          1.8803122170297553,
+          2.0380725490392666,
+          2.0758635837951087,
+          2.105157248549728,
+          2.2704212440156155,
+          2.324502211271717,
+          2.4881369127715103,
+          2.5993280601083306,
+          2.7778137409069488,
+          2.8144237142949393,
+          2.8765003348353617,
+          2.9868611221835293,
+          3.2270335693292522,
+          3.677819779296095
+        ],
+        "residual_median_diagnostic": 0.08475058978885192,
+        "latest_label_release": "2026-05-29",
+        "tail_factors": [
+          0.9202397458206067,
+          1.0655356217444842
+        ]
+      }
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 20,
+      "candidate": "r656",
+      "calibration": {
+        "n": 126,
+        "quantiles": [
+          -1.0923825555495408,
+          -1.075936089742128,
+          -1.0594896239347154,
+          -1.0471879621586528,
+          -1.045872735973863,
+          -1.0445575097890734,
+          -1.0419270574194943,
+          -1.0390288739475668,
+          -1.033721110554504,
+          -1.0284133471614414,
+          -1.023105583768379,
+          -1.0124633223374717,
+          -0.9998239659729705,
+          -0.9745452532439682,
+          -0.9492665405149658,
+          -0.92607167446231,
+          -0.9037698855566597,
+          -0.8814680966510094,
+          -0.8596404095712114,
+          -0.8382868243172653,
+          -0.8169332390633193,
+          -0.8017342638692284,
+          -0.8013151546753474,
+          -0.7369367952935829,
+          -0.5807209346564677,
+          -0.5138374769352185,
+          -0.4477208501380157,
+          -0.38325128153366567,
+          -0.2874996478013223,
+          -0.20914068360460122,
+          -0.07541046486066255,
+          0.0,
+          0.07685231135345483,
+          0.1756210475358283,
+          0.2916855055860532,
+          0.45842746690182945,
+          0.5561557023488389,
+          0.867186166808218,
+          1.500216156585115,
+          1.8527227174148657,
+          2.3303240608054243,
+          2.3357046076348107,
+          2.366257040785982,
+          2.4052914765767537,
+          2.444325912367525,
+          2.4761617138248018,
+          2.5007988809485835,
+          2.5254360480723648,
+          2.562715381909571,
+          2.6294931047447663,
+          2.696270827579962,
+          2.7296596889975597,
+          2.7667040961235925,
+          2.8700372760431327,
+          2.973370455962673,
+          3.0767036358822133,
+          3.087296052135903,
+          3.0875839390933866,
+          3.0877278825721284,
+          3.08787182605087,
+          3.0888311323430315,
+          3.0900781897786262,
+          3.091325247214221
+        ],
+        "residual_median_diagnostic": 0.4435384518309734,
+        "latest_label_release": "2026-05-29"
+      }
+    },
+    {
+      "cutoff": "2026-06-01",
+      "horizon": 60,
+      "candidate": "r648",
+      "calibration": {
+        "n": 126,
+        "quantiles": [
+          -1.4024593301347175,
+          -1.342042913635601,
+          -1.2816264971364844,
+          -1.2383602451430749,
+          -1.2367356444030284,
+          -1.235111043662982,
+          -1.2318618421828893,
+          -1.2288140588432748,
+          -1.2275790387679648,
+          -1.2263440186926546,
+          -1.2251089986173447,
+          -1.2246596828323666,
+          -1.2242524156105574,
+          -1.2234378811669393,
+          -1.2226233467233212,
+          -1.2189558267716498,
+          -1.2140655987450983,
+          -1.209175370718547,
+          -1.203051688577889,
+          -1.1956945523231242,
+          -1.1883374160683595,
+          -1.1798916494106633,
+          -1.1743986972783955,
+          -1.031759242796514,
+          -0.9679883004208603,
+          -0.8710306462125526,
+          -0.7410544131521035,
+          -0.4546075872020038,
+          -0.3119517416546801,
+          -0.20886387783343008,
+          -0.12598085865201863,
+          0.0,
+          0.8013292110194838,
+          1.0694532483737234,
+          1.337750873256383,
+          1.4055485433638546,
+          1.6051519450120035,
+          1.86034922658739,
+          2.343386981248439,
+          2.4643277102615206,
+          3.051298832556693,
+          3.1080906652611984,
+          3.171472856884323,
+          3.2133401311706393,
+          3.255207405456956,
+          3.2785965577759466,
+          3.283507588127612,
+          3.288418618479277,
+          3.2964620504537305,
+          3.3118144195480226,
+          3.3271667886423146,
+          3.3348429731894607,
+          3.364360088056108,
+          3.598121760345413,
+          3.8318834326347178,
+          4.065645104924023,
+          4.1071431279217245,
+          4.127278523220359,
+          4.137346220869676,
+          4.1474139185189935,
+          4.1805268946133385,
+          4.219201691048703,
+          4.257876487484066
+        ],
+        "residual_median_diagnostic": 0.4298232962188537,
+        "latest_label_release": "2026-05-29"
+      }
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 1,
+      "candidate": "r234",
+      "calibration": {
+        "n": 252,
+        "quantiles": [
+          -1.445427425188974,
+          -1.3079490002262917,
+          -1.264762994015098,
+          -1.2386032484878817,
+          -1.2335288751350109,
+          -1.2284545017821402,
+          -1.2123511761726578,
+          -1.195736178727281,
+          -1.1917621362430761,
+          -1.1774733622884683,
+          -1.1541060793617828,
+          -1.139627454080627,
+          -1.1247549901705975,
+          -1.0956091514926096,
+          -1.0676026210674614,
+          -1.048795073847281,
+          -1.0346927711695728,
+          -1.029453034904578,
+          -1.018691287961035,
+          -1.0036563242733152,
+          -0.9953599729246387,
+          -0.9889195935875076,
+          -0.9870643631486499,
+          -0.6703869523755379,
+          -0.5679508387082128,
+          -0.4704543889633462,
+          -0.3584772454289839,
+          -0.2861725725545677,
+          -0.20274894065027046,
+          -0.14608490345591324,
+          -0.08358822299566195,
+          0.0,
+          0.16217558535434168,
+          0.24909247118570113,
+          0.32299963371081203,
+          0.459309022135973,
+          0.5549107789521768,
+          0.6698740906187323,
+          0.8001303601172103,
+          0.975582531225902,
+          1.160170732022858,
+          1.1621025198574813,
+          1.1806209726466113,
+          1.2071710750330131,
+          1.2071809271565939,
+          1.218090290853734,
+          1.243084411515793,
+          1.2527080011891436,
+          1.2614233684382976,
+          1.2760573245522762,
+          1.2993045451228313,
+          1.31319273709654,
+          1.3266283917897221,
+          1.3470765913879648,
+          1.3702882297596681,
+          1.3966396049505811,
+          1.4970204200328585,
+          1.593861390663719,
+          1.624150383061114,
+          1.6544393754585063,
+          1.834818190221669,
+          2.0649431414481763,
+          2.2488718227113145
+        ],
+        "residual_median_diagnostic": 0.022746026162682433,
+        "latest_label_release": "2026-08-27"
+      }
+    },
+    {
+      "cutoff": "2026-09-01",
+      "horizon": 5,
+      "candidate": "r703",
+      "calibration": {
+        "n": 485,
+        "quantiles": [
+          -3.1550905529115907,
+          -2.9948625946220395,
+          -2.9337365938469464,
+          -2.527964713629988,
+          -2.486316177492854,
+          -2.4541121900121103,
+          -2.2322479912008513,
+          -1.912303359408877,
+          -1.7278746914996417,
+          -1.5907822230957733,
+          -1.4782044495542377,
+          -1.438478596979087,
+          -1.432600468687991,
+          -1.4168478114985659,
+          -1.3804151100723179,
+          -1.3705490128864037,
+          -1.3611171248967047,
+          -1.346082771856565,
+          -1.3397756399816254,
+          -1.3324492376531798,
+          -1.3164633292675887,
+          -1.2802783186832614,
+          -1.2635499270665151,
+          -0.8989672846933988,
+          -0.7671136770126122,
+          -0.5987840540221409,
+          -0.4756508736331856,
+          -0.3352914692061857,
+          -0.21758365129677026,
+          -0.14452363902186727,
+          -0.07510140331706322,
+          0.0,
+          0.10953929858419081,
+          0.2170083267427469,
+          0.32894071057043484,
+          0.4307146169655263,
+          0.559032992380411,
+          0.7212680669359842,
+          0.8992482773984184,
+          1.143403746213361,
+          1.538085596970687,
+          1.5558505978457602,
+          1.5879482451383782,
+          1.6557290542210998,
+          1.7499094599898346,
+          1.8260396410451794,
+          1.8457516825670441,
+          1.8681571526323533,
+          2.007830394711837,
+          2.0352147137681067,
+          2.0718116198032064,
+          2.0848966024955957,
+          2.1585481318699475,
+          2.241879437523584,
+          2.2843584654273665,
+          2.459624098605612,
+          2.5210856654866203,
+          2.6427256774397208,
+          2.741493301533986,
+          2.7828156307770757,
+          2.9449267254023406,
+          3.063044328796835,
+          3.612899221775424
+        ],
+        "residual_median_diagnostic": 0.0713222041709696,
+        "latest_label_release": "2026-08-27",
+        "tail_factors": [
+          0.9465700103388549,
+          1.0486255687325492
+        ]
+      }
+    }
+  ],
+  "ovx_source": "https://www.cboe.com/us/indices/dashboard/ovx/",
+  "ovx_interpretation": "USO-option 30-day implied volatility proxy, not a direct WTI physical-distribution forecast; sqrt-time scaling and calibration are modeling assumptions."
+}

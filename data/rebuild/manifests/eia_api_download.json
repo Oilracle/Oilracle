@@ -1,0 +1,100 @@
+{
+  "retrieved_at_utc": "2026-10-29T07:22:58.795657+00:00",
+  "api_key_saved": false,
+  "records": [
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WCESTUS1.W",
+      "name": "commercial_crude_stocks_ex_spr",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WCESTUS1.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WCESTUS1.W_commercial_crude_stocks_ex_spr.json",
+      "csv_file": "data\\raw\\eia_api\\commercial_crude_stocks_weekly.csv",
+      "raw_json_sha256": "3d6d2284676340226a07d7416d2c70228eb5a7618670a75b49e0bbcd9f59ddb8",
+      "csv_sha256": "e8f4363bc246d70287705788121617dd0687dd1aead41f5e81f7bbe1436ef916",
+      "rows": 2300,
+      "first_observation": "1982-08-20",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.W_EPC0_SAX_YCUOK_MBBL.W",
+      "name": "cushing_crude_stocks",
+      "url": "https://api.eia.gov/v2/seriesid/PET.W_EPC0_SAX_YCUOK_MBBL.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.W_EPC0_SAX_YCUOK_MBBL.W_cushing_crude_stocks.json",
+      "csv_file": "data\\raw\\eia_api\\cushing_crude_stocks_weekly.csv",
+      "raw_json_sha256": "a023bdca7b7464cbdc657846e8312b54ae77e66e836cd35e2434d97f9f6370d5",
+      "csv_sha256": "d91f3b8d3ce78f525cff3e0538ae9b257d1f3f8caca5cb44272a8d342e30bf84",
+      "rows": 1177,
+      "first_observation": "2004-04-09",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WCRFPUS2.W",
+      "name": "us_crude_field_production",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WCRFPUS2.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WCRFPUS2.W_us_crude_field_production.json",
+      "csv_file": "data\\raw\\eia_api\\crude_production_weekly.csv",
+      "raw_json_sha256": "ac56eba9250e46a36388557b163e0df4cae507b913a991d1e58f25eef4504345",
+      "csv_sha256": "d09b434df139ee0dfdf2e4897f1a3f262742e4ae8948ce73e59121025ecd7ad6",
+      "rows": 2283,
+      "first_observation": "1983-01-07",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WCRRIUS2.W",
+      "name": "us_refinery_crude_inputs",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WCRRIUS2.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WCRRIUS2.W_us_refinery_crude_inputs.json",
+      "csv_file": "data\\raw\\eia_api\\refinery_crude_inputs_weekly.csv",
+      "raw_json_sha256": "3d316840acadcecbd38810afd0c779bc1175276deceb7f8de08c37e639e3c61e",
+      "csv_sha256": "c5ae6fdfbbd36297520ad4c02a44618e99f1ff43fbcde5178b5ed4e69ef7e2a3",
+      "rows": 2300,
+      "first_observation": "1982-08-20",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WPULEUS3.W",
+      "name": "us_refinery_utilization",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WPULEUS3.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WPULEUS3.W_us_refinery_utilization.json",
+      "csv_file": "data\\raw\\eia_api\\refinery_utilization_weekly.csv",
+      "raw_json_sha256": "65be31a824de029204f57144c6aa129a384e11416f01582ec375c52c6084b4e9",
+      "csv_sha256": "d5df7b4ceb543130a9a55d8e237eb52bf2f2b5fd3d9fec9e1cd0b3ae93a3aa92",
+      "rows": 1878,
+      "first_observation": "1990-11-02",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WCRIMUS2.W",
+      "name": "us_crude_imports",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WCRIMUS2.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WCRIMUS2.W_us_crude_imports.json",
+      "csv_file": "data\\raw\\eia_api\\crude_imports_weekly.csv",
+      "raw_json_sha256": "6e613bc1387c756c22f13f70d0dcdbe7f426813a77e2e3440f081428a383d8f5",
+      "csv_sha256": "6e5d7ff7823257c1d7c182029ec6c45b41d297ffd311dc7a97357861dac65012",
+      "rows": 1921,
+      "first_observation": "1990-01-05",
+      "last_observation": "2026-10-23"
+    },
+    {
+      "source": "U.S. Energy Information Administration",
+      "series_id": "PET.WCREXUS2.W",
+      "name": "us_crude_exports",
+      "url": "https://api.eia.gov/v2/seriesid/PET.WCREXUS2.W",
+      "raw_json_file": ".local\\rebuild\\source_support\\eia\\PET.WCREXUS2.W_us_crude_exports.json",
+      "csv_file": "data\\raw\\eia_api\\crude_exports_weekly.csv",
+      "raw_json_sha256": "2ed0c5f0b351e578a71dd0f19b5892e3e1fc5f2a1e30698bf0b135cd34906373",
+      "csv_sha256": "83747ca01a786e459e3f2e0fea2eace2423f58868950a721c569cc1a73cfa6f0",
+      "rows": 1864,
+      "first_observation": "1991-02-08",
+      "last_observation": "2026-10-23"
+    }
+  ],
+  "combined_file": ".local\\rebuild\\download_tables\\eia_weekly_petroleum_fundamentals.csv",
+  "combined_sha256": "84b06d1ca51fef4ac66286c9c32112b9b1fab8b0581c9434fb164653e18b54dc",
+  "availability_note": "observation_date is the week-ending date, not the public release date; apply a publication lag before daily model alignment"
+}

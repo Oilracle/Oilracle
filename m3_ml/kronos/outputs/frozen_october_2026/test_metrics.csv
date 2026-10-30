@@ -1,0 +1,9 @@
+mode,horizon,method,n,protocol_id,fit_end,mae,rmse
+daily_update,1,kronos,17,qf5210-frozen-october-2026,2026-09-30,7.8167493216781,8.729923787628493
+daily_update,5,kronos,13,qf5210-frozen-october-2026,2026-09-30,10.090834332223121,10.556222203778939
+daily_update,20,kronos,0,qf5210-frozen-october-2026,2026-09-30,,
+daily_update,60,kronos,0,qf5210-frozen-october-2026,2026-09-30,,
+fixed_origin,1,kronos,1,qf5210-frozen-october-2026,2026-09-30,1.339926700592045,1.339926700592045
+fixed_origin,5,kronos,1,qf5210-frozen-october-2026,2026-09-30,8.162741794586182,8.162741794586182
+fixed_origin,20,kronos,0,qf5210-frozen-october-2026,2026-09-30,,
+fixed_origin,60,kronos,0,qf5210-frozen-october-2026,2026-09-30,,
