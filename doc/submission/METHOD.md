@@ -8,7 +8,7 @@ Oilracle combines the following modules into price, distribution and risk foreca
 | --- | --- |
 | Time-series regression | A three-price WTI/Brent/gasoline VECM with level-VAR lag order 3 and cointegration rank 2 |
 | Seasonality | Robust monthly STL; the daily bridge adds the change in seasonal components to the observable spot anchor |
-| LSTM | 60-day input and 60-day output sequences; 32 hidden units, 20% dropout, 15 epochs and three seeds |
+| LSTM | A single LSTM layer reads 60 quoted days. Its final 32-unit hidden state feeds a linear head with 60 anchor-relative price differences. Training uses 20% dropout and 15 epochs, and forecasts average three seeds. |
 | ML point models | Feature-based residual forecasts using market, fundamental and member-model information |
 | Distribution and risk models | Conditional uncertainty, calibrated quantiles, interval bounds and tail-risk measures |
 
@@ -38,6 +38,8 @@ RMSE is in USD per barrel. The random-walk benchmark holds the latest spot quote
 | October evaluation | 5 | 13 | 10.0658 | 11.2532 |
 
 Historical gains over the stronger futures-price-hold baseline are 1.14% and 0.26% at one and five days. Twenty-day RMSE is 2.49% worse than futures hold; 60-day RMSE is 3.50% better. Spot-RW improvements do not imply dominance over every benchmark or standalone module.
+
+The standalone monthly STL charts use a longer first-stage validation window, September 2023 through 18 September 2026, with the August-2023 fit held fixed. Against the same published-spot RW anchor, RMSE falls by 0.26%, 0.14%, 2.21% and 6.71% at 1, 5, 20 and 60 quoted days, on 758, 754, 739 and 699 targets. All pointwise 95% paired moving-block bootstrap intervals include zero. The calculation uses 5,000 draws with blocks of 20, 20, 20 and 60 chronological origins and does not account for method-selection uncertainty. These are standalone development-validation results, distinct from the common fusion sample above.
 
 Risk calibration uses a separate matched June–September sample. Five-day nominal 90% interval coverage improves from 65.28% to 79.17% across 72 targets, with 35% wider intervals and 0.87% lower CRPS. One-day coverage remains 93.42% across 76 targets. October coverage is 94.12% at one day and 100% at five days, based on only 17 and 13 targets respectively.
 

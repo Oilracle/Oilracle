@@ -46,6 +46,8 @@ m3_ml/fusion_v6/outputs/frozen_october_2026/rolling/
 | Other `m3_ml/` modules | ML point, distribution, risk and fusion models |
 | `m4_reports/` | Final forecast routing, evaluation and chart code |
 
+The standalone seasonality evidence on slides 9-10 can be recalculated with `uv run python -B m4_reports/prepare_seasonality_slide_evidence.py`. It reads the saved first-stage predictions and writes paired metrics, bootstrap intervals and chart inputs to `.local/seasonality_slides/evidence.json` without fitting models.
+
 Saved intermediate outputs and earlier model stages support the final model's dependencies and research traceability. Use the final manifest to select the delivered results. Model directory suffixes are internal identifiers.
 
 ## Optional data rebuild
