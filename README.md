@@ -56,3 +56,7 @@ Run expensive training in a separate copy or output directory to preserve the ap
 The research data, model checkpoints and final forecast outputs are retained. Personal presentation materials, member rosters, speaker assignments, registration links and document-production assets are omitted. Notebook execution output has been cleared and two local manifest paths are relative to the repository. Model parameters, forecast values and evaluation metrics are unchanged.
 
 See [Repository file policy](doc/REPOSITORY.md) and [the final forecast entry point](doc/m4_reports/README.md).
+
+## AI assistance acknowledgement
+
+AI agents were used for modelling discussions, code improvement and debugging, data-alignment checks, analysis of model results, and preparation of charts, documentation, slides and the video script. Microsoft text-to-speech was used to generate the video narration. The team takes responsibility for the methods, results, conclusions and accuracy of the submitted work.
