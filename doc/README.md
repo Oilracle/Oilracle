@@ -15,6 +15,6 @@ This directory describes the shared data, model implementations, evaluation prot
 | M4 | [Final forecast outputs](m4_reports/README.md) |
 | Submission checks | [Cleanup, data integrity and package verification](SUBMISSION_CHECKS.md) |
 | Repository files | [Public source files and Git LFS](REPOSITORY.md) |
-| Concise submission docs | [Setup](submission/README.md), [data](submission/DATA.md), [method](submission/METHOD.md) |
+| Reproduction guides | [Setup, saved forecasts and data rebuilding](submission/README.md), [data acquisition](submission/DATA.md#data-acquisition-and-refresh), [retraining and compute warnings](submission/RETRAINING.md), [method](submission/METHOD.md) |
 
 The [repository overview](../README.md) is the starting point. The final product is daily rolling forecasting with frozen September parameters. Earlier fixed-origin studies and model versions are explicitly historical research records, not competing final products.

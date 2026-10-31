@@ -32,6 +32,10 @@ Historical validation was used for development. October had already been inspect
 
 ## Reproduction
 
+Start with the [setup and reproduction guide](doc/submission/README.md). It explains how to verify saved forecasts, regenerate metrics and figures, reapply the frozen final fusion, and rebuild the processed data. [Data acquisition](doc/submission/DATA.md#data-acquisition-and-refresh) covers source downloads, EIA API-key setup, output locations and validation. The [retraining guide](doc/submission/RETRAINING.md) documents the two-stage dates, individual module commands, full fusion dependency order, caches and troubleshooting.
+
+> **WARNING — Full retraining is a long-running compute job.** Plan for extended CUDA/GPU training time for GPU-capable neural components. **CPU-only full retraining is strongly discouraged because it is extremely time-consuming.** Treat it as a separate code/resource adaptation and validation task, not a drop-in fallback. Several supplied modules, including the current standalone LSTM, are CPU-native; installing CUDA does not automatically move them to GPU. Read the retraining guide before launching training. Saved-result review, frozen final-fusion inference and data rebuilding do not require CUDA.
+
 Install Git LFS before cloning, then run the following from the repository root to retrieve the three large research tables and install the locked Python environment:
 
 ```powershell
@@ -43,13 +47,13 @@ uv sync --locked
 R modules document their package requirements separately. Saved data and model outputs are included, so evaluation does not require API credentials or retraining. File bytes and original line endings are preserved because the frozen-model manifests verify SHA-256 hashes.
 
 ```powershell
-uv run python -B -m pytest -q m3_ml/tests m3_ml/lstm/tests
-uv run python -B scripts/audit_submission_data.py
-uv run python -B -m m4_reports.plot_final_forecast
-uv run python -B -m m4_reports.plot_historical_forecast
+uv run --locked python -B -m pytest -q m3_ml/tests/test_fusion_v6.py
+uv run --locked python -B scripts/audit_submission_data.py
+uv run --locked python -B -m m4_reports.plot_final_forecast
+uv run --locked python -B -m m4_reports.plot_historical_forecast
 ```
 
-Run expensive training in a separate copy or output directory to preserve the approved results. [The documentation index](doc/README.md) links the data dictionary, publication assumptions, module methods, and reproduction instructions. Git metadata, credentials, virtual environments, caches, and temporary renders are excluded from the submission ZIP.
+Run expensive training in a separate clone or output directory to preserve the reference results. Use the saved snapshots to reproduce the reported scores; new provider downloads may revise history and require a deliberate new training run. [The documentation index](doc/README.md) links the data dictionary, publication assumptions, module methods and detailed workflows. Broader optional tests are listed in the reproduction guide.
 
 ## Public source release
 
