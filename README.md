@@ -2,6 +2,8 @@
 
 Oilracle forecasts the daily WTI Cushing spot price in USD per barrel, together with predictive distributions and tail risk. It combines time-series regression, seasonality, LSTM, tabular machine learning, and calibrated risk forecasts.
 
+Watch the [one-minute Oilracle pitch](https://youtu.be/HiKISuyWJno) for an introduction to the forecasting system.
+
 This public source release contains the forecasting code, datasets, saved models and research documentation. Course submission slides, registration information and rehearsal materials are distributed separately and are intentionally omitted here.
 
 ## Repository layout
